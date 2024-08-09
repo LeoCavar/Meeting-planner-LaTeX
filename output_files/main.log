@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.1)  9 AUG 2024 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.1)  9 AUG 2024 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -823,7 +823,7 @@ Poglavlje 2.
 
 ]
 Poglavlje 3.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 51.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 50.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -831,99 +831,99 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 64.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-<slike/lista_distribucija.png, id=208, 523.9575pt x 326.72063pt>
+) [3
+
+]
+<slike/lista_distribucija.png, id=223, 523.9575pt x 326.72063pt>
 File: slike/lista_distribucija.png Graphic file (type png)
 <use slike/lista_distribucija.png>
-Package pdftex.def Info: slike/lista_distribucija.png  used on input line 82.
+Package pdftex.def Info: slike/lista_distribucija.png  used on input line 92.
 (pdftex.def)             Requested size: 409.71692pt x 255.48915pt.
- [3
-
-] [4 <./slike/lista_distribucija.png>]
+ [4 <./slike/lista_distribucija.png>]
 Poglavlje 4.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 100.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 110.
 [5
 
 ]
-<slike/terminal.png, id=250, 488.57532pt x 98.61844pt>
+<slike/terminal.png, id=252, 488.57532pt x 98.61844pt>
 File: slike/terminal.png Graphic file (type png)
 <use slike/terminal.png>
-Package pdftex.def Info: slike/terminal.png  used on input line 117.
+Package pdftex.def Info: slike/terminal.png  used on input line 127.
 (pdftex.def)             Requested size: 409.71692pt x 82.70197pt.
  [6 <./slike/terminal.png>]
-<slike/pwd.png, id=262, 487.8225pt x 86.57344pt>
+<slike/pwd.png, id=264, 487.8225pt x 86.57344pt>
 File: slike/pwd.png Graphic file (type png)
 <use slike/pwd.png>
-Package pdftex.def Info: slike/pwd.png  used on input line 156.
+Package pdftex.def Info: slike/pwd.png  used on input line 166.
 (pdftex.def)             Requested size: 409.71692pt x 72.71324pt.
-<slike/cd.png, id=263, 489.32813pt x 85.06781pt>
+<slike/cd.png, id=265, 489.32813pt x 85.06781pt>
 File: slike/cd.png Graphic file (type png)
 <use slike/cd.png>
-Package pdftex.def Info: slike/cd.png  used on input line 162.
+Package pdftex.def Info: slike/cd.png  used on input line 172.
 (pdftex.def)             Requested size: 409.71692pt x 71.22931pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7 <./slike/pwd.png>]
-Overfull \hbox (2.6248pt too wide) in paragraph at lines 171--172
+Overfull \hbox (2.6248pt too wide) in paragraph at lines 181--182
 \T1/phv/m/n/10.95 gle-da-va-nje tek-s-tu-alne da-to-teke po stra-ni-cama i pre-tra-ºi-va-nje tek-sta unu-tar da-to-teke. Pred-
  []
 
-<slike/ls_file.png, id=276, 491.58656pt x 205.5178pt>
+<slike/ls_file.png, id=278, 491.58656pt x 205.5178pt>
 File: slike/ls_file.png Graphic file (type png)
 <use slike/ls_file.png>
-Package pdftex.def Info: slike/ls_file.png  used on input line 177.
+Package pdftex.def Info: slike/ls_file.png  used on input line 187.
 (pdftex.def)             Requested size: 409.71692pt x 171.29787pt.
 [8 <./slike/cd.png> <./slike/ls_file.png>]
-Overfull \hbox (33.64696pt too wide) in paragraph at lines 186--187
+Overfull \hbox (33.64696pt too wide) in paragraph at lines 196--197
 \T1/phv/m/n/10.95 di-rek-to-rija. Sin-taksa na-redbe je ista kao i kod pret-hodno na-redbe: [][]\T1/pcr/m/n/10.95 mv izvori²te odredi²te[]\T1/phv/m/n/10.95 ,
  []
 
 
-Overfull \hbox (48.70372pt too wide) in paragraph at lines 188--189
+Overfull \hbox (48.70372pt too wide) in paragraph at lines 198--199
 [][][]\T1/pcr/m/n/10.95 mkdir []\T1/phv/m/n/10.95 je na-redba koja sluºi za kre-ira-nje di-rek-to-rija. Njena sin-taksa je: [][]\T1/pcr/m/n/10.95 mkdir ime_direktorija[]\T1/phv/m/n/10.95 . 
  []
 
-<slike/rm.png, id=285, 490.08093pt x 178.41656pt>
+<slike/rm.png, id=287, 490.08093pt x 178.41656pt>
 File: slike/rm.png Graphic file (type png)
 <use slike/rm.png>
-Package pdftex.def Info: slike/rm.png  used on input line 193.
+Package pdftex.def Info: slike/rm.png  used on input line 203.
 (pdftex.def)             Requested size: 409.71692pt x 149.16376pt.
 
-Overfull \hbox (0.72548pt too wide) in paragraph at lines 207--210
-\T1/phv/m/n/10.95 (engl. \T1/phv/m/sl/10.95 pi-pe-line\T1/phv/m/n/10.95 ) gdje je iz-laz jedne na-redbe ulaz druge.[[]10[]] Pri-mjer cje-vo-voda je [][]\T1/pcr/m/n/10.95 ls -l | less
+Overfull \hbox (0.72548pt too wide) in paragraph at lines 217--220
+\T1/phv/m/n/10.95 (engl. \T1/phv/m/sl/10.95 pi-pe-line\T1/phv/m/n/10.95 ) gdje je iz-laz jedne na-redbe ulaz druge.[[]11[]] Pri-mjer cje-vo-voda je [][]\T1/pcr/m/n/10.95 ls -l | less
  []
 
 [9 <./slike/rm.png>]
-<slike/cjevovod.png, id=295, 612.78937pt x 262.73157pt>
+<slike/cjevovod.png, id=297, 612.78937pt x 262.73157pt>
 File: slike/cjevovod.png Graphic file (type png)
 <use slike/cjevovod.png>
-Package pdftex.def Info: slike/cjevovod.png  used on input line 221.
+Package pdftex.def Info: slike/cjevovod.png  used on input line 231.
 (pdftex.def)             Requested size: 409.71692pt x 175.66441pt.
  [10]
-<slike/echo.png, id=306, 431.36156pt x 146.79843pt>
+<slike/echo.png, id=308, 431.36156pt x 146.79843pt>
 File: slike/echo.png Graphic file (type png)
 <use slike/echo.png>
-Package pdftex.def Info: slike/echo.png  used on input line 232.
+Package pdftex.def Info: slike/echo.png  used on input line 242.
 (pdftex.def)             Requested size: 409.71692pt x 139.43755pt.
  [11 <./slike/cjevovod.png> <./slike/echo.png>]
-<slike/prosirenje.png, id=321, 436.63126pt x 204.765pt>
+<slike/prosirenje.png, id=323, 436.63126pt x 204.765pt>
 File: slike/prosirenje.png Graphic file (type png)
 <use slike/prosirenje.png>
-Package pdftex.def Info: slike/prosirenje.png  used on input line 248.
+Package pdftex.def Info: slike/prosirenje.png  used on input line 258.
 (pdftex.def)             Requested size: 409.71692pt x 192.14479pt.
-<slike/substitucija.png, id=323, 444.91219pt x 97.86563pt>
+<slike/substitucija.png, id=325, 444.91219pt x 97.86563pt>
 File: slike/substitucija.png Graphic file (type png)
 <use slike/substitucija.png>
-Package pdftex.def Info: slike/substitucija.png  used on input line 257.
+Package pdftex.def Info: slike/substitucija.png  used on input line 267.
 (pdftex.def)             Requested size: 409.71692pt x 90.12405pt.
  [12 <./slike/prosirenje.png> <./slike/substitucija.png>]
-Overfull \hbox (11.95604pt too wide) in paragraph at lines 269--270
+Overfull \hbox (11.95604pt too wide) in paragraph at lines 279--280
 [][][]\T1/pcr/m/n/10.95 chown []\T1/phv/m/n/10.95 je na-redba koja mi-je-nja vlas-nika neke da-to-teke. Njena sin-taksa je \T1/pcr/m/n/10.95 chown [opcije]
  []
 
@@ -932,51 +932,51 @@ Poglavlje 5.
 [14
 
 ] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
 []|\T1/phv/m/n/10.95 istina ako da-to-teka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
 []|\T1/phv/m/n/10.95 istina ako da-to-teka
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 359--359
+Underfull \hbox (badness 4084) in paragraph at lines 369--369
 \T1/phv/m/n/10.95 pos-toji i obi£-nog je
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 359--359
+Underfull \hbox (badness 2809) in paragraph at lines 369--369
 []|\T1/phv/m/n/10.95 istina ako tekst nije
  []
 
 [16]
-<slike/petlje.png, id=395, 433.62pt x 191.21437pt>
+<slike/petlje.png, id=397, 433.62pt x 191.21437pt>
 File: slike/petlje.png Graphic file (type png)
 <use slike/petlje.png>
-Package pdftex.def Info: slike/petlje.png  used on input line 402.
+Package pdftex.def Info: slike/petlje.png  used on input line 412.
 (pdftex.def)             Requested size: 409.71692pt x 180.68394pt.
  [17 <./slike/petlje.png>] [18] [19]
-<slike/PrimjerBash.png, id=471, 863.47594pt x 466.74374pt>
+<slike/PrimjerBash.png, id=473, 863.47594pt x 466.74374pt>
 File: slike/PrimjerBash.png Graphic file (type png)
 <use slike/PrimjerBash.png>
-Package pdftex.def Info: slike/PrimjerBash.png  used on input line 483.
+Package pdftex.def Info: slike/PrimjerBash.png  used on input line 493.
 (pdftex.def)             Requested size: 455.24411pt x 246.07681pt.
  [20 <./slike/PrimjerBash.png>]
 Poglavlje 6.
-<slike/KomponenteNET.png, id=507, 915.42pt x 740.7675pt>
+<slike/KomponenteNET.png, id=509, 915.42pt x 740.7675pt>
 File: slike/KomponenteNET.png Graphic file (type png)
 <use slike/KomponenteNET.png>
-Package pdftex.def Info: slike/KomponenteNET.png  used on input line 521.
+Package pdftex.def Info: slike/KomponenteNET.png  used on input line 531.
 (pdftex.def)             Requested size: 318.66948pt x 257.87091pt.
 [21
 
 ] [22 <./slike/KomponenteNET.png>]
-<slike/info.png, id=526, 633.86812pt x 475.02469pt>
+<slike/info.png, id=528, 633.86812pt x 475.02469pt>
 File: slike/info.png Graphic file (type png)
 <use slike/info.png>
-Package pdftex.def Info: slike/info.png  used on input line 558.
+Package pdftex.def Info: slike/info.png  used on input line 568.
 (pdftex.def)             Requested size: 409.71692pt x 307.05179pt.
  [23 <./slike/info.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
@@ -985,42 +985,42 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 ) [24] [25]
-<slike/netprimjer.png, id=602, 882.29625pt x 204.765pt>
+<slike/netprimjer.png, id=604, 882.29625pt x 204.765pt>
 File: slike/netprimjer.png Graphic file (type png)
 <use slike/netprimjer.png>
-Package pdftex.def Info: slike/netprimjer.png  used on input line 669.
+Package pdftex.def Info: slike/netprimjer.png  used on input line 679.
 (pdftex.def)             Requested size: 500.77129pt x 116.22046pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 669--670
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 679--680
  [][] 
  []
 
 [26] [27 <./slike/netprimjer.png>]
 Poglavlje 7.
-<slike/script-repl.png, id=657, 696.35156pt x 518.6878pt>
+<slike/script-repl.png, id=659, 696.35156pt x 518.6878pt>
 File: slike/script-repl.png Graphic file (type png)
 <use slike/script-repl.png>
-Package pdftex.def Info: slike/script-repl.png  used on input line 683.
+Package pdftex.def Info: slike/script-repl.png  used on input line 693.
 (pdftex.def)             Requested size: 409.71692pt x 305.1842pt.
 
-Overfull \hbox (9.0228pt too wide) in paragraph at lines 679--686
+Overfull \hbox (9.0228pt too wide) in paragraph at lines 689--696
 \T1/phv/m/n/10.95 Kako bi se olak-²alo po-kre-ta-nje skripte, u skriptu se moºe do-dati she-bang li-nija \T1/pcr/m/n/10.95 #!/usr/bin/env
  []
 
 [28
 
  <./slike/script-repl.png>] [29] [30]
-<slike/pdflinux.png, id=717, 515.67656pt x 194.22563pt>
+<slike/pdflinux.png, id=719, 515.67656pt x 194.22563pt>
 File: slike/pdflinux.png Graphic file (type png)
 <use slike/pdflinux.png>
-Package pdftex.def Info: slike/pdflinux.png  used on input line 749.
+Package pdftex.def Info: slike/pdflinux.png  used on input line 759.
 (pdftex.def)             Requested size: 409.71692pt x 154.31972pt.
  [31 <./slike/pdflinux.png>]
 Poglavlje 8.
-<slike/pdfwindows.png, id=737, 491.58656pt x 531.48563pt>
+<slike/pdfwindows.png, id=739, 491.58656pt x 531.48563pt>
 File: slike/pdfwindows.png Graphic file (type png)
 <use slike/pdfwindows.png>
-Package pdftex.def Info: slike/pdfwindows.png  used on input line 764.
+Package pdftex.def Info: slike/pdfwindows.png  used on input line 774.
 (pdftex.def)             Requested size: 409.71692pt x 442.9901pt.
 [32
 
@@ -1029,35 +1029,35 @@ Poglavlje 9.
 [33
 
 ] [34]
-<slike/bashunet.png, id=828, 1067.48813pt x 472.76625pt>
+<slike/bashunet.png, id=830, 1067.48813pt x 472.76625pt>
 File: slike/bashunet.png Graphic file (type png)
 <use slike/bashunet.png>
-Package pdftex.def Info: slike/bashunet.png  used on input line 862.
+Package pdftex.def Info: slike/bashunet.png  used on input line 872.
 (pdftex.def)             Requested size: 455.24411pt x 201.61913pt.
  [35] [36 <./slike/bashunet.png>]
-<slike/netubash.png, id=867, 836.3747pt x 182.18062pt>
+<slike/netubash.png, id=869, 836.3747pt x 182.18062pt>
 File: slike/netubash.png Graphic file (type png)
 <use slike/netubash.png>
-Package pdftex.def Info: slike/netubash.png  used on input line 927.
+Package pdftex.def Info: slike/netubash.png  used on input line 937.
 (pdftex.def)             Requested size: 455.24411pt x 99.16275pt.
  [37] [38 <./slike/netubash.png>]
 Poglavlje 10.
 [39
 
 ]
-Overfull \hbox (1.24867pt too wide) in paragraph at lines 938--938
+Overfull \hbox (1.24867pt too wide) in paragraph at lines 948--948
 \T1/phv/m/n/10.95 Plat-form, 2015., \T1/phv/m/sc/10.95 isbn\T1/phv/m/n/10.95 : 9781508676645. adresa: []$\T1/pcr/m/n/10.95 https : / / books . google . ba / books ?
  []
 
 
-Overfull \hbox (5.44179pt too wide) in paragraph at lines 938--938
+Overfull \hbox (5.44179pt too wide) in paragraph at lines 948--948
 []\T1/phv/m/n/10.95 W. Shotts, \T1/phv/m/sl/10.95 "Le-ar-ning the shell - Le-sson 1: What is the shell?". Li-nuxCom-mand.org\T1/phv/m/n/10.95 , []$\T1/pcr/m/n/10.95 https :
  []
 
 [40
 
 ]
-Overfull \hbox (9.06598pt too wide) in paragraph at lines 938--938
+Overfull \hbox (9.06598pt too wide) in paragraph at lines 948--948
 \T1/pcr/m/n/10.95 com / en -[] us / dotnet / core / install / windows ? tabs = net80$[] \T1/phv/m/n/10.95 (Pris-tu-pano: 26.5.2024.) 
  []
 
@@ -1085,18 +1085,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25572 strings out of 477022
- 437040 string characters out of 5812718
+ 25576 strings out of 477022
+ 437181 string characters out of 5812718
  2049759 words of memory out of 5000000
- 45229 multiletter control sequences out of 15000+600000
+ 45232 multiletter control sequences out of 15000+600000
  564188 words of font info for 85 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
  81i,12n,95p,2587b,2170s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on output_files/main.pdf (49 pages, 628140 bytes).
+Output written on output_files/main.pdf (49 pages, 629064 bytes).
 PDF statistics:
- 1145 PDF objects out of 1200 (max. 8388607)
- 1031 compressed objects within 11 object streams
- 535 named destinations out of 1000 (max. 500000)
+ 1149 PDF objects out of 1200 (max. 8388607)
+ 1035 compressed objects within 11 object streams
+ 536 named destinations out of 1000 (max. 500000)
  357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

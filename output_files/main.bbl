@@ -51,37 +51,58 @@
       \verb https://books.google.ba/books?id=6D64DwAAQBAJ
       \endverb
     \endentry
-    \entry{MS_howto}{misc}{}
+    \entry{altexsoft}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=baac6144e7d5fa2cbcc807689fd981f6}{%
+           family={AltexSoft},
+           familyi={A\bibinitperiod},
+           given={31.5.2024},
+           giveni={3\bibinitperiod}}}%
+      }
+      \strng{namehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{fullhash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{bibnamehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{authorbibnamehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{authornamehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{authorfullhash}{baac6144e7d5fa2cbcc807689fd981f6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.altexsoft.com/blog/what-is-api-definition-types-specifications-documentation/} (Pristupano: 31.7.2024.)}
+      \field{title}{"What is API: Definition, Types, Specifications, Documentation". altexsoft}
+    \endentry
+    \entry{MS_howto}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/linux/install} (Pristupano: 17.5.2024.)}
       \field{title}{"How to download and install Linux". Microsoft Learn}
     \endentry
     \entry{MS_whatis_wsl}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/about} (Pristupano: 17.5.2024.)}
       \field{title}{"What is the Windows Subsystem for Linux?". Microsoft Learn}
     \endentry
     \entry{hyperv}{misc}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/faq} (Pristupano: 17.5.2024.)}
       \field{title}{"Frequently Asked Questions about Windows Subsystem for Linux". Microsoft Learn}
     \endentry
     \entry{MS_install_wsl}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/install} (Pristupano: 17.5.2024.)}
       \field{title}{"How to install Linux on Windows with WSL". Microsoft Learn}
     \endentry
     \entry{AWSShell}{misc}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://aws.amazon.com/what-is/cli/} (Pristupano: 17.5.2024.)}
       \field{title}{"What is a CLI? - Command Line Interface Explained". Amazon Web Services, Inc.}
@@ -101,8 +122,8 @@
       \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
       \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://linuxcommand.org/lc3_lts0010.php} (Pristupano: 17.5.2024.)}

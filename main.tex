@@ -44,6 +44,16 @@ Za pisanje teksta i formatiranje ovog rada koristio se LaTeX unutar programa Vis
 
 \chapter{API}
 Kada korisnik koristi softver kao klijent, često koristi nekakvo softversko sučelje za interakciju s softverom, ali kada je potrebno da jedan softver koristi dijelove drugog softvera tada koristimo vrstu sučelja za programiranje aplikacija (engl. \textit{Application Programming Interface}) ili skraćeno API.\cite{biehl2015api}
+Ta interakcija se najčešće bazira na tome da klijent šalje HTTP zahtjev serveru na određenu lokaciju i dobivaju se nazad podaci.
+API zahtjev se sastoji od nekoliko dijelova \cite{altexsoft}
+\begin{itemize}
+    \item Operacija koja se izvršava (primjer. \textit{GET,POST})
+    \item Autentifikacijski parametri
+    \item Odredište - URL API završne točke (engl. \textit{endpoint})
+\end{itemize}
+Poziv može sadržavati i druge parametre ali ovo su tri osnovna koja će se uvijek koristiti.
+
+
 
 \section{Mogućnosti instalacije, WSL 2}
 GNU/Linux operacijski sustav se može koristiti na više načina\cite{MS_howto}:

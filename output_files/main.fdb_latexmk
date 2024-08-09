@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber output_files/main"] 1723206298 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1723206304 0
-  "./lib.bib" 1723205285 6660 00508f9875c68a7ef3474b825c9bbe3a ""
-  "output_files/main.bcf" 1723206304 109687 799ad8c27923ab08b04314a2f96a5dc0 "pdflatex"
+["biber output_files/main"] 1723209962 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1723210273 0
+  "./lib.bib" 1723209952 6763 6c389ffdedf6a6899282f9f20563eeaf ""
+  "output_files/main.bcf" 1723210273 109752 c4fdd960205d158a2e65fceba664fbf2 "pdflatex"
   (generated)
   "output_files/main.bbl"
   "output_files/main.blg"
   (rewritten before read)
-["pdflatex"] 1723206302 "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" "output_files/main.pdf" "main" 1723206304 0
+["pdflatex"] 1723210271 "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" "output_files/main.pdf" "main" 1723210273 0
   "/etc/texmf/web2c/texmf.cnf" 1712688412 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" 1723205285 74372 9e4cf457c79f047af5e6c1e76950c4df ""
+  "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" 1723210271 74872 7f0680923d656bb9538dce73ab070b08 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -169,14 +169,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1717200239 168054 c8928d7306e61dbf9bb950060320aa5b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1717200247 7146176 4ce070cd1528a7a5ed0adeb20144fa12 ""
   "foi.cls" 1723205285 8223 8246e196d5cd82dbd936822d61235306 ""
-  "main.tex" 1723205285 74372 9e4cf457c79f047af5e6c1e76950c4df ""
-  "output_files/main.aux" 1723206304 15153 34aa1465fd363eb9addde23ad72ba661 "pdflatex"
-  "output_files/main.bbl" 1723206299 17119 a426338de56425ed8ca504af98975aa0 "biber output_files/main"
-  "output_files/main.lof" 1723206304 2743 1478701197076a1a25b0cc5bbf7f8488 "pdflatex"
-  "output_files/main.lot" 1723206304 330 3d66772a756e20478110561fc4968d4d "pdflatex"
-  "output_files/main.out" 1723206304 5399 4717e0d0ae47017ad5c3de3420969bd2 "pdflatex"
-  "output_files/main.run.xml" 1723206304 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
-  "output_files/main.toc" 1723206304 2549 7cf9d465bcc4cf76d4c8f56de88cff7c "pdflatex"
+  "main.tex" 1723210271 74872 7f0680923d656bb9538dce73ab070b08 ""
+  "output_files/main.aux" 1723210273 15281 f79431c921937e8b298eb86f5f42734e "pdflatex"
+  "output_files/main.bbl" 1723209963 18153 574883a94c96b7aef7dba2a5ea0ba11a "biber output_files/main"
+  "output_files/main.lof" 1723210273 2743 1478701197076a1a25b0cc5bbf7f8488 "pdflatex"
+  "output_files/main.lot" 1723210273 330 3d66772a756e20478110561fc4968d4d "pdflatex"
+  "output_files/main.out" 1723210273 5399 4717e0d0ae47017ad5c3de3420969bd2 "pdflatex"
+  "output_files/main.run.xml" 1723210273 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
+  "output_files/main.toc" 1723210273 2549 7cf9d465bcc4cf76d4c8f56de88cff7c "pdflatex"
   "slike/KomponenteNET.png" 1723205285 63306 7661fb1ec4b6cc1a04c1e5f78c150898 ""
   "slike/PrimjerBash.png" 1723205285 63252 b480307675e449bb5fe0cf77e44942ff ""
   "slike/bashunet.png" 1723205285 129701 bbaef16bbec2c4f584df823923543457 ""

@@ -9,7 +9,7 @@
     "window.autoDetectColorScheme": true,
     "window.density.editorTabHeight": "compact",
     "window.menuBarVisibility": "visible",
-    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
     "latex-workshop.latex.outDir": "./output_files",
     "latex-workshop.latex.tools": [
         {
