@@ -72,37 +72,84 @@
       \field{note}{\url{https://www.altexsoft.com/blog/what-is-api-definition-types-specifications-documentation/} (Pristupano: 31.7.2024.)}
       \field{title}{"What is API: Definition, Types, Specifications, Documentation". altexsoft}
     \endentry
-    \entry{MS_howto}{misc}{}
+    \entry{Maurya2021}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=19844994620b44eb2d6029bacf4017b6}{%
+           family={Maurya},
+           familyi={M\bibinitperiod},
+           given={Richa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2f78fa3e8e3f653ab55e5b6344518858}{%
+           family={Nambiar},
+           familyi={N\bibinitperiod},
+           given={Keerthi\bibnamedelima Anil},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b8a1fd2a0d650203f4b227db1eb2f224}{%
+           family={Babbe},
+           familyi={B\bibinitperiod},
+           given={Poornima},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ce8c66d351f97d0f944ae01b0a8e198a}{%
+           family={Kalokhe},
+           familyi={K\bibinitperiod},
+           given={Jyoti\bibnamedelima Popat},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=da5ee81822a520fdb84729cdc970a822}{%
+           family={Ingle},
+           familyi={I\bibinitperiod},
+           given={Y.\bibnamedelimi S.},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e5ec36ca19e55ea480e6b4d0542d3c36}{%
+           family={Shaikh},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi F.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b9161a5e3974e287281bb54cf91a7dc}
+      \strng{fullhash}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{bibnamehash}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{authorbibnamehash}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{authornamehash}{1b9161a5e3974e287281bb54cf91a7dc}
+      \strng{authorfullhash}{208f85f28b6c45f99a6f03dafd9c767f}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.ijraset.com} (Pristupano: 9.8.2024.)}
+      \field{title}{Application of Restful APIs in IOT: A Review}
+      \field{year}{2021}
+    \endentry
+    \entry{MS_howto}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/linux/install} (Pristupano: 17.5.2024.)}
       \field{title}{"How to download and install Linux". Microsoft Learn}
     \endentry
     \entry{MS_whatis_wsl}{misc}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/about} (Pristupano: 17.5.2024.)}
       \field{title}{"What is the Windows Subsystem for Linux?". Microsoft Learn}
     \endentry
     \entry{hyperv}{misc}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/faq} (Pristupano: 17.5.2024.)}
       \field{title}{"Frequently Asked Questions about Windows Subsystem for Linux". Microsoft Learn}
     \endentry
     \entry{MS_install_wsl}{misc}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/install} (Pristupano: 17.5.2024.)}
       \field{title}{"How to install Linux on Windows with WSL". Microsoft Learn}
     \endentry
     \entry{AWSShell}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://aws.amazon.com/what-is/cli/} (Pristupano: 17.5.2024.)}
       \field{title}{"What is a CLI? - Command Line Interface Explained". Amazon Web Services, Inc.}
@@ -224,8 +271,8 @@
       \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
       \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
       \field{extraname}{5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://linuxcommand.org/lc3_lts0090.php} (Pristupano: 18.5.2024.)}
@@ -309,8 +356,8 @@
       \strng{authorbibnamehash}{08bd1a5b2920d4945961edaf62c9a7cd}
       \strng{authornamehash}{08bd1a5b2920d4945961edaf62c9a7cd}
       \strng{authorfullhash}{08bd1a5b2920d4945961edaf62c9a7cd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://medium.com/@benkaddourmed54/what-is-net-202790532234} (Pristupano: 20.5.2024.)}
@@ -385,8 +432,8 @@
       \field{title}{"dotnet-shell/Shell: The C\# script compatible shell". GitHub}
     \endentry
     \entry{windowsdotnet}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net80} (Pristupano: 26.5.2024.)}
       \field{title}{"Install .NET on Windows - .NET". Microsoft Learn}
