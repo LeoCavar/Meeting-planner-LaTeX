@@ -40,28 +40,10 @@
 U ovom radu ćemo se usredotočiti na izradu programa za dogovaranje sastanaka kroz upotrebu Google API-ja, koji nam omogućava interakciju s iznimno popularnim Google kalendarom. Realizirat ćemo program koristeći ASP.NET Core i Razor stranice za izradu front-end sučelja te upravljanje podacima, dok će ASP.NET Web API služiti za primanje HTTP zahtjeva i komuniciranje s Google servisima za manipuliranje događajima.
 
 \chapter{Metode i tehnike rada}
-Za pisanje teksta i formatiranje ovog rada koristio se LaTeX unutar programa Visual Studio Code. Za izradu praktičnog dijela korišten je Visual Studio 2022.
+Za pisanje teksta i formatiranje ovog rada koristio se LaTeX unutar programa Visual Studio Code. Za izradu praktičnog dijela korišten je Visual Studio 2022 i JetBrains Rider.
 
-\chapter{GNU/Linux}
-Linux je naziv jezgre (engl. \textit{kernel}) koju je razvio Linus Torvalds te čiji je izvorni kod 1991. godine objavio na internetu za slobodno korištenje sa zabranom komercijalne distribucije.\cite{GNU} Jezgra je osnovni dio računalnog operacijskog sustava koja služi kao sloj između računalnog sklopovlja (engl. \textit{hardware}) i korisničkih programa\cite{Carnet} (Slika \ref{fig:grada}). Linux jezgra je razvijena kao besplatna alternativa otvorenog koda (engl. \textit{open source}) za tada korištene Unix jezgre koje su bile zatvorenog koda i/ili pod komercijalnom licencom. \cite{GNU}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{slike/Grada_racunala.png}
-    \caption{Građa računala (Izvor: \citeauthor{Grada})}
-    \label{fig:grada}
-\end{figure}
-
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[width=0.9\textwidth]{slike/Arhitektura_linuxa.png}
-    \caption{Arhitektura linuxa (Izvor: \citeauthor{Arhitektura})}
-    \label{fig:arhitektura}
-\end{figure}
-
-GNU, punog imena GNU's Not Unix (hrv. \textit{GNU Nije Unix}) je besplatan operacijski sustav koji prati filozofiju slobodnog softvera (engl. \textit{free software}) koja se u određenoj mjeri razlikuje od filozofije otvorenog koda (engl. \textit{open source}). Projekt razvijanja GNU sustava naziva se GNU Project, a nastao je 1983. godine kada je većina softvera bila zatvorenog koda i/ili pod komercijalnom licencom. Do 1990. godine su razvijeni svi dijelovi operacijskog sustava osim jezgre te je 1992. godine u GNU sustav integrirana Linux jezgra čime je nastao GNU/Linux operacijski sustav koji je danas poznatiji samo pod imenom Linux. (Slika \ref{fig:arhitektura}) GNU Project je također razvio grafičko radno okruženje GNOME koje se uz grafičko okruženje KDE koristi u većini GNU/Linux distribucija (engl. \textit{"distros"}).\cite{GNU} GNU/Linux sustav ima puno različitih distribucija koje su se kroz povijest granale od nekoliko glavnih distribucija, no uglavnom sve za ljusku (engl. \textit{shell}) koriste Bash skriptni jezik te stoga nije važno koja se GNU/Linux distribucija promatra u kontekstu ovog rada.
-
-GNU/Linux operacijski sustav se koristi na 96.3\% od najkorištenijih milijun servera na svijetu.\cite{Statistika} To proizlazi iz njegove stabilnosti, sigurnosti i modela otvorenog koda. Linux jezgra je modularna, što znači da je prilikom nadogradnje nekog modula jezgre, primjerice drivera uređaja, potrebno samo ponovno pokrenuti taj modul, a ne cijeli sustav što serverima daje stabilnost i osigurava posluživanje.\cite{Modularnost} Sigurnost proizlazi iz same činjenice da su GNU/Linux distribucije najčešće otvorenog koda te je gotovo nemoguće implementirati tajni pristup (engl. \textit{back door}). Također koristi vrlo strog sustav dopuštenja korisnicima (engl. \textit{user privilege}) i sustavi za rad s paketima (engl. \textit{package management systems}) imaju implementirane provjere sigurnosti i česta provjerena ažuriranja.\cite{Sigurnost} Android operacijski sustav također koristi Linux za svoju jezgru, kao i mnogi drugi manji uređaji.
+\chapter{API}
+Kada korisnik koristi softver kao klijent, često koristi nekakvo softversko sučelje za interakciju s softverom, ali kada je potrebno da jedan softver koristi dijelove drugog softvera tada koristimo vrstu sučelja za programiranje aplikacija (engl. \textit{Application Programming Interface}) ili skraćeno API.\cite{biehl2015api}
 
 \section{Mogućnosti instalacije, WSL 2}
 GNU/Linux operacijski sustav se može koristiti na više načina\cite{MS_howto}:
