@@ -119,324 +119,114 @@
       \field{title}{Application of Restful APIs in IOT: A Review}
       \field{year}{2021}
     \endentry
-    \entry{MS_howto}{misc}{}
+    \entry{ibm_rest_api}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/linux/install} (Pristupano: 17.5.2024.)}
-      \field{title}{"How to download and install Linux". Microsoft Learn}
+      \field{note}{\url{https://www.ibm.com/topics/rest-apis} (Pristupano: (1.8.2024))}
+      \field{title}{What is a REST API?}
     \endentry
-    \entry{MS_whatis_wsl}{misc}{}
+    \entry{Microsoft2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/about} (Pristupano: 17.5.2024.)}
-      \field{title}{"What is the Windows Subsystem for Linux?". Microsoft Learn}
-    \endentry
-    \entry{hyperv}{misc}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/faq} (Pristupano: 17.5.2024.)}
-      \field{title}{"Frequently Asked Questions about Windows Subsystem for Linux". Microsoft Learn}
-    \endentry
-    \entry{MS_install_wsl}{misc}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/windows/wsl/install} (Pristupano: 17.5.2024.)}
-      \field{title}{"How to install Linux on Windows with WSL". Microsoft Learn}
-    \endentry
-    \entry{AWSShell}{misc}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://aws.amazon.com/what-is/cli/} (Pristupano: 17.5.2024.)}
-      \field{title}{"What is a CLI? - Command Line Interface Explained". Amazon Web Services, Inc.}
-    \endentry
-    \entry{LinuxCommand}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d80065906a00d93ef6bc2b9b1efebb34}{%
-           family={Shotts},
-           familyi={S\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{fullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{bibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorbibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://linuxcommand.org/lc3_lts0010.php} (Pristupano: 17.5.2024.)}
-      \field{title}{"Learning the shell - Lesson 1: What is the shell?". LinuxCommand.org}
+      \field{note}{\url{https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design} (Pristupano: 1.8.2024.)}
+      \field{title}{RESTful web API design}
+      \field{year}{2023}
     \endentry
-    \entry{UbuntuShell}{misc}{}
+    \entry{Tyler2024}{misc}{}
       \name{author}{1}{}{%
-        {{hash=d80065906a00d93ef6bc2b9b1efebb34}{%
-           family={Shotts},
-           familyi={S\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{fullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{bibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorbibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://ubuntu.com/tutorials/command-line-for-beginners\#2-a-brief-history-lesson} (Pristupano: 17.5.2024.)}
-      \field{title}{"The Linux command line for beginners - 2. A brief history lesson". Ubuntu}
-    \endentry
-    \entry{ShellHistory}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.linuxjournal.com/content/linux-command-line-interface-introduction-guide} (Pristupano: 17.5.2024.)}
-      \field{title}{"Linux Command Line Interface Introduction: A Guide to the Linux CLI". Linux Journal}
-    \endentry
-    \entry{LinuxCommandIO}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d80065906a00d93ef6bc2b9b1efebb34}{%
-           family={Shotts},
-           familyi={S\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{fullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{bibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorbibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://linuxcommand.org/lc3_lts0070.php} (Pristupano: 18.5.2024.)}
-      \field{title}{"Learning the shell - Lesson 7: I/O Redirection". LinuxCommand.org}
-    \endentry
-    \entry{UbuntuPipeline}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://ubuntu.com/tutorials/command-line-for-beginners\#6-a-bit-of-plumbing} (Pristupano: 18.5.2024.)}
-      \field{title}{"The Linux command line for beginners - 6. A bit of plumbing". Ubuntu}
-    \endentry
-    \entry{LinuxCommandExpansion}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d80065906a00d93ef6bc2b9b1efebb34}{%
-           family={Shotts},
-           familyi={S\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{fullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{bibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorbibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \field{extraname}{4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://linuxcommand.org/lc3_lts0080.php} (Pristupano: 18.5.2024.)}
-      \field{title}{"Learning the shell - Lesson 8: Expansion". LinuxCommand.org}
-    \endentry
-    \entry{LinuxCommandPermissions}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d80065906a00d93ef6bc2b9b1efebb34}{%
-           family={Shotts},
-           familyi={S\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{fullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{bibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorbibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \field{extraname}{5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://linuxcommand.org/lc3_lts0090.php} (Pristupano: 18.5.2024.)}
-      \field{title}{"Learning the shell - Lesson 9: Permissions". LinuxCommand.org}
-    \endentry
-    \entry{freecodecamp}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=96f88aab4ab40666f62eac8d920b82d2}{%
-           family={Hira},
-           familyi={H\bibinitperiod},
-           given={Zaira},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \strng{namehash}{96f88aab4ab40666f62eac8d920b82d2}
-      \strng{fullhash}{96f88aab4ab40666f62eac8d920b82d2}
-      \strng{bibnamehash}{96f88aab4ab40666f62eac8d920b82d2}
-      \strng{authorbibnamehash}{96f88aab4ab40666f62eac8d920b82d2}
-      \strng{authornamehash}{96f88aab4ab40666f62eac8d920b82d2}
-      \strng{authorfullhash}{96f88aab4ab40666f62eac8d920b82d2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/} (Pristupano: 19.5.2024.)}
-      \field{title}{"Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners". freeCodeCamp.org}
-    \endentry
-    \entry{LinuxCommandTest}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d80065906a00d93ef6bc2b9b1efebb34}{%
-           family={Shotts},
-           familyi={S\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{fullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{bibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorbibnamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authornamehash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \strng{authorfullhash}{d80065906a00d93ef6bc2b9b1efebb34}
-      \field{extraname}{6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://linuxcommand.org/lc3_wss0080.php} (Pristupano: 19.5.2024.)}
-      \field{title}{"Writing shell scripts - Lesson 8: Flow Control - Part 1". LinuxCommand.org}
-    \endentry
-    \entry{Geeks}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.geeksforgeeks.org/bash-scripting-introduction-to-bash-and-bash-scripting/} (Pristupano: 19.5.2024.)}
-      \field{title}{"Bash Scripting - Introduction to Bash and Bash Scripting". GeeksforGeeks}
-    \endentry
-    \entry{NETintro}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/dotnet/core/introduction} (Pristupano: 20.5.2024.)}
-      \field{title}{"Introduction to .NET - .NET". Microsoft Learn}
-    \endentry
-    \entry{GeeksNET}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.geeksforgeeks.org/introduction-to-net-framework/} (Pristupano: 20.5.2024.)}
-      \field{title}{"Introduction to .NET Framework". GeeksforGeeks}
-    \endentry
-    \entry{NETjit}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=08bd1a5b2920d4945961edaf62c9a7cd}{%
-           family={Racim},
-           familyi={R\bibinitperiod},
-           given={Benkaddour},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{08bd1a5b2920d4945961edaf62c9a7cd}
-      \strng{fullhash}{08bd1a5b2920d4945961edaf62c9a7cd}
-      \strng{bibnamehash}{08bd1a5b2920d4945961edaf62c9a7cd}
-      \strng{authorbibnamehash}{08bd1a5b2920d4945961edaf62c9a7cd}
-      \strng{authornamehash}{08bd1a5b2920d4945961edaf62c9a7cd}
-      \strng{authorfullhash}{08bd1a5b2920d4945961edaf62c9a7cd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://medium.com/@benkaddourmed54/what-is-net-202790532234} (Pristupano: 20.5.2024.)}
-      \field{title}{"What is .NET?". Medium}
-    \endentry
-    \entry{sharpcorner}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=d889418c4bddff0a04cbaf44e4f3b151}{%
-           family={Mahesh},
-           familyi={M\bibinitperiod},
-           given={Chand},
+        {{hash=b2d7eeb87c364efabf814a07aab879fa}{%
+           family={Tyler},
+           familyi={T\bibinitperiod},
+           given={Christina},
            giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{d889418c4bddff0a04cbaf44e4f3b151}
-      \strng{fullhash}{d889418c4bddff0a04cbaf44e4f3b151}
-      \strng{bibnamehash}{d889418c4bddff0a04cbaf44e4f3b151}
-      \strng{authorbibnamehash}{d889418c4bddff0a04cbaf44e4f3b151}
-      \strng{authornamehash}{d889418c4bddff0a04cbaf44e4f3b151}
-      \strng{authorfullhash}{d889418c4bddff0a04cbaf44e4f3b151}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{fullhash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{bibnamehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{authorbibnamehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{authornamehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{authorfullhash}{b2d7eeb87c364efabf814a07aab879fa}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.c-sharpcorner.com/article/what-is-net/} (Pristupano: 20.5.2024.)}
-      \field{title}{"What is .NET?". C\# Corner}
+      \field{note}{\url{https://example.com} (Pristupano: 12.8.2024.)}
+      \field{title}{ASP.NET MVC Tutorial for Beginners: What is, Architecture}
+      \field{year}{2024}
     \endentry
-    \entry{netinstall}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet8&pivots=os-linux-ubuntu-2204} (Pristupano: 21.5.2024.)}
-      \field{title}{"Install .NET on Ubuntu - .NET". Microsoft Learn}
-    \endentry
-    \entry{nettest}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/dotnet/core/get-started} (Pristupano: 21.5.2024.)}
-      \field{title}{"Get started with .NET". Microsoft Learn}
-    \endentry
-    \entry{gitscript}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=8e5eec5f7e4f4e3b62c2bcf2915d4c45}{%
-           family={Wojcieszyn},
-           familyi={W\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
-        {{hash=71b72ca35e6028b8531aceb8ce9e5d13}{%
-           family={Richter},
-           familyi={R\bibinitperiod},
-           given={Bernhard},
-           giveni={B\bibinitperiod}}}%
+    \entry{GeeksforGeeks2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
       }
-      \strng{namehash}{93050642034dbf3a8246ba438164edad}
-      \strng{fullhash}{93050642034dbf3a8246ba438164edad}
-      \strng{bibnamehash}{93050642034dbf3a8246ba438164edad}
-      \strng{authorbibnamehash}{93050642034dbf3a8246ba438164edad}
-      \strng{authornamehash}{93050642034dbf3a8246ba438164edad}
-      \strng{authorfullhash}{93050642034dbf3a8246ba438164edad}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://github.com/dotnet-script/dotnet-script} (Pristupano: 25.5.2024.)}
-      \field{title}{"dotnet-script/dotnet-script: Run C\# scripts from the .NET CLI.". GitHub}
+      \field{month}{2}
+      \field{note}{\url{https://www.geeksforgeeks.org/mvc-design-pattern/} (Pristupano: 12.8.2024.)}
+      \field{title}{MVC Design Pattern}
+      \field{year}{2024}
     \endentry
-    \entry{gitshell}{misc}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+    \entry{Smith2022}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=46e7f86b11ade65e293413c9b9884dcf}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9ecd459da6bb119b6d224b437045bd9d}{%
+           family={Brock},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{fullhash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{bibnamehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{authorbibnamehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{authornamehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{authorfullhash}{17b93dc4709da80aad18b5c6071ca356}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://github.com/dotnet-shell/Shell} (Pristupano: 25.5.2024.)}
-      \field{title}{"dotnet-shell/Shell: The C\# script compatible shell". GitHub}
-    \endentry
-    \entry{windowsdotnet}{misc}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net80} (Pristupano: 26.5.2024.)}
-      \field{title}{"Install .NET on Windows - .NET". Microsoft Learn}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-6.0} (Pristupano: 12.8.2024.)}
+      \field{title}{Views in ASP.NET Core MVC}
+      \field{year}{2022}
     \endentry
   \enddatalist
 \endrefsection
