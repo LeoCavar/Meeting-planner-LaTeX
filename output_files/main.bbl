@@ -228,6 +228,50 @@
       \field{title}{Views in ASP.NET Core MVC}
       \field{year}{2022}
     \endentry
+    \entry{Walther2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b0f837791af452d979021d3ced9f533d}{%
+           family={Walther},
+           familyi={W\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{fullhash}{b0f837791af452d979021d3ced9f533d}
+      \strng{bibnamehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{authorbibnamehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{authornamehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{authorfullhash}{b0f837791af452d979021d3ced9f533d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/controllers-and-routing/aspnet-mvc-controllers-overview-cs} (Pristupano: 12.8.2024.)}
+      \field{title}{ASP.NET MVC Controller Overview (C\#)}
+      \field{year}{2022}
+    \endentry
+    \entry{ASPNet2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b500c8393634f5303cd42de9f804aebc}{%
+           family={autori},
+           familyi={a\bibinitperiod},
+           given={Anonimni},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{fullhash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{bibnamehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{authorbibnamehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{authornamehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{authorfullhash}{b500c8393634f5303cd42de9f804aebc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0} (Pristupano: 12.8.2024.)}
+      \field{title}{Izbor između API-ja baziranih na kontrolerima i minimalnih API-ja}
+      \field{year}{2023}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

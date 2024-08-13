@@ -95,17 +95,46 @@ Unutar konteksta ASP.NET MVC projekta, model predstavlja C\# klasu koja sadrži 
 Model također može sadržavati poslovnu logiku za upravljanje podacima, iako to nije učestala praksa i često se ta uloga daje servisima.
 \subsection{View}
 Pregledi (eng. \textit{Views}) se koriste za prikazivanje podataka i korisničku interakciju. ASP.NET MVC koristi Razor stranice, sa ekstenzijom \textit{cshtml}. Razor stranice omogućavaju pisanje C\# koda unutar HTML datoteka koji služi za interaktiranje sa HTML oznakama za generiranje web sadržaja \cite{Smith2022}. Najčešće će svaki pregled imati svoj kontroler koji je odgovoran za rad s pregledima.
-\begin{itemize}
-    \item \textbf{Dijelomični pogledi} (engl. \textit{partial views}) omogućuju smanjenje dupliciranja koda upravljanjem ponovljivim dijelovima pogleda. Primjerice, dijelomični pogled je prikladan za biografiju autora na blogu koja se pojavljuje u više pogleda. 
-    
-    \item \textbf{Komponente pogleda} (engl. \textit{view components}) slične su dijelomičnim pogledima po tome što smanjuju ponavljanje koda, ali su prikladne za sadržaj pogleda koji zahtijeva izvršavanje koda na poslužitelju za generiranje web stranice.
-\end{itemize}
-\subsection{Controller}
+
+\subsection{Controllers}
+Kontroler u ASP.NET Core MVC arhitekturi služi kao posrednik između modela i prikaza. On obrađuje korisničke zahtjeve, upravlja podacima iz modela, i odlučuje koji će prikaz biti vraćen korisniku. Kontroleri su ključni dio MVC uzorka jer povezuju poslovnu logiku s korisničkim sučeljem.
+Kontroler je klasa koja obično nasljeđuje baznu klasu \texttt{Controller} i sadrži metode koje se nazivaju akcije (engl. \textit{actions}). Svaka akcija odgovara određenom korisničkom zahtjevu i vraća rezultat, kao što je prikaz (\textit{ViewResult}), JSON podaci (\textit{JsonResult}), ili redirekcija (\textit{RedirectResult}).
+Akcije također možemo opisati kao metode koje se povezivaju kad unesemo određeni URL. \cite{Walther2022}
+
 \section{ASP.NET Web API}
+ASP.NET Core nam omogućava da kreiramo web API s upotrebom kontrolera koji su usredočeni na resurse i primanje HTTP zahtjeva. Prednost kreiranja zasebnog Web API projekta je da ga može koristiti više različitih vrsta klijenta.\cite{ASPNet2023}
+U ASP.NET Core možemo imati dva pristupa kreiranja API-ja:
+\begin{itemize}
+    \item \textbf{API bazirani na kontrolerima (engl. \textit{controller-based APIs})}: U ovom pristupu, kontroleri (engl. \textit{controllers}) su klase koje nasljeđuju \texttt{ControllerBase} klasu. Ove klase koriste se za definiranje API krajnjih točaka (engl. \textit{endpoints}). Metode unutar kontrolera mapiraju se na određene HTTP zahtjeve (engl. \textit{HTTP requests}, npr. GET, POST) i vraćaju odgovore u obliku JSON-a, XML-a, ili drugih formata.
+
+    \item \textbf{Minimalni API-ji (engl. \textit{minimal APIs})}: Ovaj pristup omogućava definiranje krajnjih točaka pomoću lambda izraza (engl. \textit{lambda expressions}) ili metoda, bez potrebe za punom klasom kontrolera. Minimalni API-ji su dizajnirani za jednostavne i brze implementacije, gdje se fokusira na definiranje krajnjih točaka uz minimalno opterećenje infrastrukture.
+\end{itemize}
+Za potrebe ovog rada koristit će se API bazirani na kontrolerima zbog bolje organizacije koda u cjeline te zbog jednostavnijeg rukovanja ulaznim podacima pomoću atributa \textit{[FromBody]} i \textit{[FromQuery]} 
+
+\chapter{Praktični rad: Meeting Planner}
+\section{Uvod u projekt}
+Prije izrade projekta trebaju se definirati funckionalnosti projekta. Cilj aplikacije je dohvaćanje svih dostupnih termina koje korisnik ima u svome Google kalendaru te sinkronizacija u jedan ispis koji će organizatoru sastanka prikazati kada su dostupni svi planirani korisnici i odabrana dvorana u kojoj će se sastanak održati. 
+Na bazi toga, definiramo funckionalnosti.
+\begin{itemize}
+    \item Prijava korisnika: Korisnik se može prijaviti u sustav koristeći svoje Google podatke.
+    \item Prikaz kalendara jednog korisnika (organizator): Korisniku se prikazuje njegov osobni kalendar s pregledom svih zakazanih sastanaka u obliku tablice.
+    \item Upis termina u kalendare (kalendar organizatora i kalendar korisnika): Nakon pronalaska slobodnog termina, sustav će omogućiti organizatoru upis sastanka u svoj kalendar kao i njihove kalendare.
+    \item Pronalazak slobodnih termina: Sustav pretražuje slobodne termine za sastanak uzimajući u obzir slobodno vrijeme sudionika, odabrane dane za sastanak i dostupne lokacije.
+\end{itemize}
+Za omogućavanje integracije s Google kalendarom koristiti ćemo Google Calendar API. RESTFul API s kojim se može interaktirati pomoću HTTP poziva.
+\section{Google Workspace}
+Google Workspace nam omogućava platformu za integraciju Google Workspace alata kao što su Maps, Calendar ili Sheets. Za ovaj projekt su nam potrebni Google Workspace APIs da integriramo kalendar s našim rješenjem.
+Da možemo koristiti te servise moramo prvo stvoriti projekt u Google Cloud konzoli te omogućiti Google Calendar API za naš projekt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/google_console.png}
+    \caption{Google Cloud console (Izvor: autor)}
+    \label{fig:google_console}
+\end{figure}
+
 
 \chapter{Zaključak}
 .NET okruženje za skriptiranje u GNU/Linux naredbenom retku pruža nove mogućnosti za razvoj i automatizaciju. Kroz rad je demonstriran veći broj Bash i .NET skripti i demonstrirana je integracija .NET alata i Bash ljuske koristeći .NET alat dotnet-shell. Kroz primjere su prikazane prednosti i nedostatci oba sustava. .NET poboljšava interoperabilnost time što se skripte mogu direktno koristiti na svim operacijskim sustavima koji imaju instalirano .NET okruženje. Također, .NET pruža dodatne funkcionalnosti preko svojih biblioteka i NuGet paketa što omogućuje jednostavno razvijanje kompleksnijih skripti čime se još više mogu poboljšati radni procesi. Prednost Bash skripti je što rade na svim GNU/Linux distribucijama koje koriste Bash ljusku bez potrebe za dodatnim instalacijama i zahtjevaju manje resursa od .NET skripti čime su lakše za sustave. Da zaključim, sinergija .NET okruženja i Bash skriptnog jezika u GNU/Linux operacijskom sustavu omogućuje moćno okruženje za projekte automatizacije iz razloga što se može koristiti najbolje od oba jezika pri pisanju skripti, .NET elementi za kompleksne unaprijed pripremljene funkcionalnosti, a Bash za GNU/Linux specifične radnje ukoliko ima potrebe za njima. 
-
 
 \printbibliography[title=Popis literature]
 \addcontentsline{toc}{chapter}{Popis literature}
