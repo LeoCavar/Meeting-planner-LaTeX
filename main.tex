@@ -131,6 +131,38 @@ Da možemo koristiti te servise moramo prvo stvoriti projekt u Google Cloud konz
     \caption{Google Cloud console (Izvor: autor)}
     \label{fig:google_console}
 \end{figure}
+\section{Stvaranje projekta}
+Za stvaranje projekta prvo je potrebno stvoriti prazno rješenje (engl. \textit{Solution}), te kreirati zasebni WEB API i MVC projekt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{slike/struktura.png}
+    \caption{Rješenje MeetingPlanner (Izvor: autor)}
+    \label{fig:struktura}
+
+\end{figure}
+Za dodatnu konfiguraciju potrebno je preuzeti json datoteku koja sadrži podatke koji našoj aplikaciji omogućuju pozivanje google servisa. 
+\begin{itemize}
+    \item GoogleId (Identifikator klijenta): jedinstveni identifikator dodijeljen aplikaciji od strane Googlea. Identificira vašu aplikaciju na Googleovim poslužiteljima prilikom slanja zahtjeva, kao što su autentifikacija korisnika ili pristup API-jima.
+    \item GoogleSecret (Tajni ključ): povjerljivi ključ povezan s vašom Google aplikacijom. Koristi se zajedno s GoogleId za autentifikaciju vaše aplikacije prema Googleu.
+\end{itemize}
+\newpage
+\section{Autentifikacija}
+Kako bi korisnik aplikacije mogao pristupiti vanjskim uslugama on mora biti prijavljen, korisnik će se prijavljivati putem svojeg Google računa koristeći OAuth 2.0 protokol. Prvo je potrebno konfigurati autentifikaciju projekta u \textit{Program.cs} datoteci.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{slike/auth.png}
+    \caption{Postavljanje autentifikacije (Izvor: autor)}
+    \label{fig:autentifikacija_programcs}
+\end{figure} Kod konfigurira autentifikaciju postavljanjem kolačića za prijavu i koristeći Google za autentifikaciju korisnika, uključujući konfiguraciju za Google kalendar, pohranu OAuth tokena, i određivanje putanje za povratak korisnika nakon prijave.
+Kada je postavljena konfiguracija kreiramo login stranicu, s obzirom da koristimo Google autentifikaciju kreiramo element koji poziva akciju \textit{LoginWithGoogle}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/loginwithgoogle.png}
+    \caption{Metoda LoginWithGoogle (Izvor: autor)}
+    \label{fig:LoginWithGoogle}
+
+\end{figure}
+Metoda \textit{LoginWithGoogle} inicijalizira objekt \textit{AuthenticationProperties} s postavkom \textit{RedirectUri} koja određuje putanju na metodu \textit{Callback} nakon prijave putem Googlea. Metoda \texttt{Challenge} pokreće izazov za autentifikaciju koristeći Google kao pružatelja, preusmjeravajući korisnika na Google za prijavu ako nije već prijavljen. Nakon uspješne prijave, korisnik će biti vraćen na metodu \texttt{Callback}.
 
 
 \chapter{Zaključak}

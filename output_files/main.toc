@@ -13,7 +13,9 @@
 \contentsline {chapter}{\numberline {5}Praktični rad: Meeting Planner}{8}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Uvod u projekt}{8}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Google Workspace}{8}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Zaključak}{9}{chapter.6}%
-\contentsline {chapter}{Popis literature}{10}{chapter*.4}%
-\contentsline {chapter}{Popis slika}{11}{chapter*.5}%
-\contentsline {chapter}{Popis tablica}{12}{chapter*.6}%
+\contentsline {section}{\numberline {5.3}Stvaranje projekta}{9}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Autentifikacija}{10}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Zaključak}{11}{chapter.6}%
+\contentsline {chapter}{Popis literature}{12}{chapter*.7}%
+\contentsline {chapter}{Popis slika}{13}{chapter*.8}%
+\contentsline {chapter}{Popis tablica}{14}{chapter*.9}%
