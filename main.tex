@@ -162,7 +162,157 @@ Kada je postavljena konfiguracija kreiramo login stranicu, s obzirom da koristim
     \label{fig:LoginWithGoogle}
 
 \end{figure}
-Metoda \textit{LoginWithGoogle} inicijalizira objekt \textit{AuthenticationProperties} s postavkom \textit{RedirectUri} koja određuje putanju na metodu \textit{Callback} nakon prijave putem Googlea. Metoda \texttt{Challenge} pokreće izazov za autentifikaciju koristeći Google kao pružatelja, preusmjeravajući korisnika na Google za prijavu ako nije već prijavljen. Nakon uspješne prijave, korisnik će biti vraćen na metodu \texttt{Callback}.
+\newpage
+Metoda \textit{LoginWithGoogle} inicijalizira objekt \textit{AuthenticationProperties} s postavkom \textit{RedirectUri} koja određuje putanju na metodu \textit{Callback} nakon prijave putem Googlea. Metoda \texttt{Challenge} pokreće izazov za autentifikaciju koristeći Google kao pružatelja, preusmjeravajući korisnika na Google za prijavu ako nije već prijavljen. Nakon uspješne prijave, korisnik će biti vraćen na metodu \texttt{Callback} gdje se token sprema u sesiju što nam omogućava autorizirane API pozive.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/callbackFunction.png}
+    \caption{Metoda Callback (Izvor: autor)}
+    \label{fig:Callback}
+
+\end{figure}
+Za spremanje podataka u sesiju definira se metoda \textit{StoreAccessTokenInSession}. Metoda se nalazi u zasebnom login servisu unutar kojega se također nalazi metoda za dohvaćanje tokena za kasniju upotrebu \textit{GetAccessTokenAsync}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/storeToken.png}
+    \caption{Login servis (Izvor: autor)}
+    \label{fig:StoreAccessTokenInSession}
+
+\end{figure}
+
+
+
+
+
+
+\section{Prikaz događaja}
+Za prikaz događaja implementiramo zaseban pregled {eng.\textit{View}}. Koristiti će se mogućnost razor stranica da se upisuje C\# kod i definirat će se jednostavna provjera varijable \textit{isLoggedIn}. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{slike/calendarView.png}
+    \caption{Pregled kalendara (Izvor: autor)}
+    \label{fig:calendarView}
+
+\end{figure}
+Definira se klasa \textit{EventModel} koja sadrži naslov, vrijeme početka i vrijeme kraja događaja. Klasa služi za mapiranje događaja koje dobivamo pozivom API-ju u korisniku lako čitljiv oblik. 
+Nakon definiranja ispisa događaja, potrebno je implementirati logiku unutar kontrolera i servisa. Kontroler nam služi za obradu zahtjeva dok se sva poslovna logika i interakcija s podacima izvršava u servisu {\textit{CalendarService}}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/cControllerIndex.png}
+    \caption{Pregled kalendara kontroler (Izvor: autor)}
+    \label{fig:ctrl}
+
+\end{figure}
+Kontroler dohvaća token pomoću funkcije \textit{GetAccessTokenAsync} te poziva metodu \textit{GetCalendarEventsAsync} koristeći token da pošalje poziv API-ju te upravlja greškama koristeći try/catch metode. 
+Unutar \textit{CalendarService} metoda \textit{GetCalendarEventsAsync} stvara klijent pod imenom "API", to je klijent koji sadrži putanju na backend koji sadrži API endpointove.
+Zahtjevu se dodaje token u \textit{AuthenticationHeaderValue} da se mogu dohvatiti podaci i šalje se zahtjev na definirani endpoint "\textit{calendar/events}"
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/calendarRequest.png}
+    \caption{Slanje zahtjeva na API endpoint za dohvaćanje kalendara (Izvor: autor)}
+    \label{fig:calendarRequest}
+
+\end{figure}
+Odgovor se mapira iz JSON stringa u .NET objekt, u ovom kontekstu se pretvara u \textit{EventModel}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/calendarReturn.png}
+    \caption{Metoda za upravljanjem povratnog JSON teksta (Izvor: autor)}
+    \label{fig:calendarReturnList}
+
+\end{figure}
+Ovo je sva potrebna logika za prednji dio sustava {engl. \textit{Frontend}}. Potrebno je implementirati pozadinski dio {eng. \textit{Backend}}.
+Pozadinski dio se implementira tako što se definira \textit{ApiController} ruta koja se pozvala u metodi \textit{GetCalendarEventsAsync}. 
+Prvobitno se izvršava validacija tokena te se dohvaćaju događaji pomoću metode \textit{GetSimpleEventsAsync} i provjerava se uspješnost operacije.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/GetCalendarEventsEndpoint.png}
+    \caption{Kalendar "events" endpoint (Izvor: autor)}
+    \label{fig:GetCalendarEventsEndpoint}
+
+\end{figure}
+Metoda za dohvaćanje se sastoji od dva dijela, prvi dio je stvaranje instance \textit{CalendarService}. Ovaj servis je od GoogleAPI-ja te nam omogućava manipulaciju podacima autoriziranog korisnika unutar google kalendara.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/GetCalendarService.png}
+    \caption{Metoda za dohvaćanje instance Google kalendar servisa (Izvor: autor)}
+    \label{fig:GetCalendarService}
+
+\end{figure}
+Drugi dio procesa je dohvaćanje \textit{Events.List} resursa i mapiranje u obliku \textit{SimpleEventModel}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/GetSimpleEventAsync.png}
+    \caption{Metoda GetSimpleEventAsync (Izvor: autor)}
+    \label{fig:GetSimpleEventAsync}
+\end{figure}
+Nakon implementacije metode naša funkcionalnost je potpuna, te se kalendar vraća u obliku tablice prijavljenom korisniku.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/error.png}
+    \caption{Prikaz kalendara na web stranici (Izvor: autor)}
+    \label{fig:CalendarViewImg}
+\end{figure}
+\subsection{Protok podataka}
+
+Protok podataka u ovoj aplikaciji je jasno definiran za sve funkcionalnosti koje će se implementirati dalje u ovome radu s malim razlikama ovisno o funkcionalnosti ali uzorak će ostati isti.
+\begin{itemize}
+    \item \textbf{Klijentov zahtjev}: Korisnik putem web aplikacije odabire funkcionalnost koju želi koristiti putem korisničkoj sučelja te se šalje odgovarajući zahtjev
+    \item \textbf{Obrada zahtjeva na poslužitelju}: Poslužiteljski kontroler prima zahtjev i prosljeđuje ga odgovarajućem servisu.
+    \item \textbf{Autentifikacija i autorizacija}: Prilikom dohvaćanja podataka iz Google Calendar API-ja, aplikacija koristi OAuth 2.0 autentifikaciju. Token za pristup provjerava se i koristi za autentifikaciju zahtjeva prema Googleovim uslugama.
+    \item \textbf{Odgovor poslužitelja}: Nakon obrade podataka, poslužitelj šalje odgovor klijentu. Ovaj odgovor uključuje popis slobodnih termina za sve korisnike u traženom vremenskom periodu, koji se klijentu vraćaju u JSON formatu ili potvrdu o izmjeni i unosu podataka.
+    \item \textbf{Prikaz rezultata klijentu}: Klijentska aplikacija prima JSON odgovor i prikazuje slobodne termine korisniku u vizualno preglednom formatu, omogućujući mu da jednostavno vidi kada su svi korisnici dostupni ili se prikazuje odgovarajuća greška ovisno o odgovoru.
+\end{itemize}
+
+\section{Pronalazak slobodnih termina}
+Kako Google Calendar API ne omogućuje izravno dohvaćanje slobodnih termina, postupak pronalaska slobodnih perioda obuhvaća sljedeće korake:
+\begin{itemize}
+    \item Dohvat kalendara svih dolaznika (engl. \textit{Attendees})
+    \item Filtriranje kalendara po lokaciji
+    \item Identificiranje zauzetih termina unutar zadanog vremenskog raspona
+    \item Kombiniranje svih zauzetih termina kako bi se pronašli zajednički slobodni periodi
+    \item Oduzimanje zauzetih termina od cijelog vremenskog raspona kako bi se identificirali slobodni termini
+\end{itemize}
+
+\newpage
+Korisničko sučelje uključuje obrazac koji šalje zahtjev na \textit{calendar/get-available-times} nakon unosa podataka. Odgovor se prikazuje u tablici sa slobodnim periodima.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{slike/error.png}
+    \caption{Web sučelje za prikaz dostupnih termina (Izvor: autor)}
+    \label{fig:UserInterfaceAvailible}
+\end{figure}
+
+Funkcija \textit{GetAvailableTimesAsync} vraća popis objekata \textit{TimePeriod} koji sadrži vrijeme početka i kraja slobodnog perioda. Zahtjev uključuje token u headeru, a u tijelu se nalaze vremenski period, lokacija i email adrese korisnika. Funkcija šalje POST zahtjev na \textit{get-available-times} endpoint, koji zatim prosljeđuje zahtjev metodi \textit{GetCommonFreePeriodsWithLocation} nakon validacije tokena i zahtjeva.
+Unutar akcije \textit{GetAvailableTimes} na koju se šalje zahtjev dohvaćaju se prvo svi termini kada su korisnici zauzeti.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{slike/getfreebuisy.png}
+    \caption{Metoda \textit{GetFreeBusyInformationAsync} (Izvor: autor)}
+    \label{fig:GetFreeBusyInformationAsync}
+\end{figure}
+Nakon dohvaćanja zauzetih termina za sve korisnike, potrebno je preuzeti termine kada je dvorana zauzeta.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{slike/GetBuisyLocation.png}
+    \caption{Dohvaćanje zauzetih termina odabrane lokacije (Izvor: autor)}
+    \label{fig:GetBuisyLocation}
+\end{figure}
+Nakon preuzimanja termina lokacije imamo sve potrebne podatke, prvo je potrebno spojiti zauzete periode korisnika s zauzetim terminima dvorane, metoda \textit{Concat} omogućava da spojimo periode u jednu varijablu \textit{combinedBusyPeriods}.
+Nakon spajanja u jednu varijablu, moramo pretvoriti popis zauzetih termina u popis slobodnih termina. Implementira se metoda \textit{GetCommonFreePeriods} i kao povratna vrijednost klijentu se vraćaju svi slobodni periodi.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{slike/FreePeriods.png}
+    \caption{Metode za pretvaranje zauzetih termina u slobodne (Izvor: autor)}
+    \label{fig:FreePeriods}
+\end{figure}
+Metode \textit{GetCommonFreePeriods} i \textit{SubtractBusyPeriods} instanciraju popis \textit{TimePeriod} unutar odabranog vremenskog raspona te pomoću metode \textit{SubtractBusyPeriods} se od slobodnih vremena oduzimaju zauzeta vremena, stvarajući popis u kojemu se nalaze svi slobodni termini korisnika.
+\section{Unos sastanka}
+Kao završni dio aplikacije potrebno je omogućiti korisniku da unosi aktivnosti u kalendare korisnika. 
+
+
+
 
 
 \chapter{Zaključak}
@@ -174,7 +324,5 @@ Metoda \textit{LoginWithGoogle} inicijalizira objekt \textit{AuthenticationPrope
 \listoffigures
 \addcontentsline{toc}{chapter}{Popis slika}
 
-\listoftables
-\addcontentsline{toc}{chapter}{Popis tablica}
 
 \end{document}
