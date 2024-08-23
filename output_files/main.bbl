@@ -188,7 +188,7 @@
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://example.com} (Pristupano: 12.8.2024.)}
+      \field{note}{\url{https://example.com} (Pristupano: 12.7.2024.)}
       \field{title}{ASP.NET MVC Tutorial for Beginners: What is, Architecture}
       \field{year}{2024}
     \endentry
@@ -211,7 +211,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
-      \field{note}{\url{https://www.geeksforgeeks.org/mvc-design-pattern/} (Pristupano: 12.8.2024.)}
+      \field{note}{\url{https://www.geeksforgeeks.org/mvc-design-pattern/} (Pristupano: 12.7.2024.)}
       \field{title}{MVC Design Pattern}
       \field{year}{2024}
     \endentry
@@ -240,7 +240,7 @@
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-6.0} (Pristupano: 12.8.2024.)}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-6.0} (Pristupano: 12.7.2024.)}
       \field{title}{Views in ASP.NET Core MVC}
       \field{year}{2022}
     \endentry
@@ -264,7 +264,7 @@
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/controllers-and-routing/aspnet-mvc-controllers-overview-cs} (Pristupano: 12.8.2024.)}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/controllers-and-routing/aspnet-mvc-controllers-overview-cs} (Pristupano: 12.7.2024.)}
       \field{title}{ASP.NET MVC Controller Overview (C\#)}
       \field{year}{2022}
     \endentry
@@ -288,7 +288,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0} (Pristupano: 12.8.2024.)}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0} (Pristupano: 12.7.2024.)}
       \field{title}{Izbor između API-ja baziranih na kontrolerima i minimalnih API-ja}
       \field{year}{2023}
     \endentry
