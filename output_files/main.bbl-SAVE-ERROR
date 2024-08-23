@@ -1,0 +1,298 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{biehl2015api}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=38efedd92a48ed1cd09de1b2eb2c4af3}{%
+           family={Biehl},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CreateSpace Independent Publishing Platform}%
+      }
+      \strng{namehash}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \strng{fullhash}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \strng{fullhashraw}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \strng{bibnamehash}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \strng{authorbibnamehash}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \strng{authornamehash}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \strng{authorfullhash}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \strng{authorfullhashraw}{38efedd92a48ed1cd09de1b2eb2c4af3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781508676645}
+      \field{series}{API-University Series}
+      \field{title}{API Architecture}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://books.google.ba/books?id=6D64DwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.ba/books?id=6D64DwAAQBAJ
+      \endverb
+    \endentry
+    \entry{altexsoft}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=baac6144e7d5fa2cbcc807689fd981f6}{%
+           family={AltexSoft},
+           familyi={A\bibinitperiod},
+           given={31.5.2024},
+           giveni={3\bibinitperiod}}}%
+      }
+      \strng{namehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{fullhash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{fullhashraw}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{bibnamehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{authorbibnamehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{authornamehash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{authorfullhash}{baac6144e7d5fa2cbcc807689fd981f6}
+      \strng{authorfullhashraw}{baac6144e7d5fa2cbcc807689fd981f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.altexsoft.com/blog/what-is-api-definition-types-specifications-documentation/} (Pristupano: 31.7.2024.)}
+      \field{title}{"What is API: Definition, Types, Specifications, Documentation". altexsoft}
+    \endentry
+    \entry{Maurya2021}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=19844994620b44eb2d6029bacf4017b6}{%
+           family={Maurya},
+           familyi={M\bibinitperiod},
+           given={Richa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2f78fa3e8e3f653ab55e5b6344518858}{%
+           family={Nambiar},
+           familyi={N\bibinitperiod},
+           given={Keerthi\bibnamedelima Anil},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b8a1fd2a0d650203f4b227db1eb2f224}{%
+           family={Babbe},
+           familyi={B\bibinitperiod},
+           given={Poornima},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ce8c66d351f97d0f944ae01b0a8e198a}{%
+           family={Kalokhe},
+           familyi={K\bibinitperiod},
+           given={Jyoti\bibnamedelima Popat},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=da5ee81822a520fdb84729cdc970a822}{%
+           family={Ingle},
+           familyi={I\bibinitperiod},
+           given={Y.\bibnamedelimi S.},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e5ec36ca19e55ea480e6b4d0542d3c36}{%
+           family={Shaikh},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi F.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b9161a5e3974e287281bb54cf91a7dc}
+      \strng{fullhash}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{fullhashraw}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{bibnamehash}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{authorbibnamehash}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{authornamehash}{1b9161a5e3974e287281bb54cf91a7dc}
+      \strng{authorfullhash}{208f85f28b6c45f99a6f03dafd9c767f}
+      \strng{authorfullhashraw}{208f85f28b6c45f99a6f03dafd9c767f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.ijraset.com} (Pristupano: 9.8.2024.)}
+      \field{title}{Application of Restful APIs in IOT: A Review}
+      \field{year}{2021}
+    \endentry
+    \entry{ibm_rest_api}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.ibm.com/topics/rest-apis} (Pristupano: (1.8.2024))}
+      \field{title}{What is a REST API?}
+    \endentry
+    \entry{Microsoft2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design} (Pristupano: 1.8.2024.)}
+      \field{title}{RESTful web API design}
+      \field{year}{2023}
+    \endentry
+    \entry{Tyler2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b2d7eeb87c364efabf814a07aab879fa}{%
+           family={Tyler},
+           familyi={T\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{fullhash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{fullhashraw}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{bibnamehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{authorbibnamehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{authornamehash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{authorfullhash}{b2d7eeb87c364efabf814a07aab879fa}
+      \strng{authorfullhashraw}{b2d7eeb87c364efabf814a07aab879fa}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://example.com} (Pristupano: 12.7.2024.)}
+      \field{title}{ASP.NET MVC Tutorial for Beginners: What is, Architecture}
+      \field{year}{2024}
+    \endentry
+    \entry{GeeksforGeeks2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhashraw}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhashraw}{f1e069787ece74531d112559945c6871}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{\url{https://www.geeksforgeeks.org/mvc-design-pattern/} (Pristupano: 12.7.2024.)}
+      \field{title}{MVC Design Pattern}
+      \field{year}{2024}
+    \endentry
+    \entry{Smith2022}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=46e7f86b11ade65e293413c9b9884dcf}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9ecd459da6bb119b6d224b437045bd9d}{%
+           family={Brock},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{fullhash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{fullhashraw}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{bibnamehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{authorbibnamehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{authornamehash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{authorfullhash}{17b93dc4709da80aad18b5c6071ca356}
+      \strng{authorfullhashraw}{17b93dc4709da80aad18b5c6071ca356}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-6.0} (Pristupano: 12.7.2024.)}
+      \field{title}{Views in ASP.NET Core MVC}
+      \field{year}{2022}
+    \endentry
+    \entry{Walther2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b0f837791af452d979021d3ced9f533d}{%
+           family={Walther},
+           familyi={W\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{fullhash}{b0f837791af452d979021d3ced9f533d}
+      \strng{fullhashraw}{b0f837791af452d979021d3ced9f533d}
+      \strng{bibnamehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{authorbibnamehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{authornamehash}{b0f837791af452d979021d3ced9f533d}
+      \strng{authorfullhash}{b0f837791af452d979021d3ced9f533d}
+      \strng{authorfullhashraw}{b0f837791af452d979021d3ced9f533d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/controllers-and-routing/aspnet-mvc-controllers-overview-cs} (Pristupano: 12.7.2024.)}
+      \field{title}{ASP.NET MVC Controller Overview (C\#)}
+      \field{year}{2022}
+    \endentry
+    \entry{ASPNet2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b500c8393634f5303cd42de9f804aebc}{%
+           family={autori},
+           familyi={a\bibinitperiod},
+           given={Anonimni},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{fullhash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{fullhashraw}{b500c8393634f5303cd42de9f804aebc}
+      \strng{bibnamehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{authorbibnamehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{authornamehash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{authorfullhash}{b500c8393634f5303cd42de9f804aebc}
+      \strng{authorfullhashraw}{b500c8393634f5303cd42de9f804aebc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0} (Pristupano: 12.7.2024.)}
+      \field{title}{Izbor između API-ja baziranih na kontrolerima i minimalnih API-ja}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

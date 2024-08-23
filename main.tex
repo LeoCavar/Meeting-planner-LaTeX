@@ -24,8 +24,7 @@
 \smjer{Informacijski i poslovni sustavi}
 \titulaProfesora{Doc. Dr. sc.}
 
-\sazetak{U ovom završnom radu se obrađuje korištenje .NET tehnologija za izradu programa za dogovaranje sastanka. Kroz rad se obrađuje kratko o ASP. NET Core i ASP. NET Web API tehnologijama, kao i koncepte API-ja i HTTP metoda, Google API-ja, uključujući Google Calendar API, autentifikaciju i autorizaciju korisnika pomoću OAuth 2.0 protokola, te primjere zahtjeva za dohvaćanje i upravljanje kalendarskim događajima kroz implementaciju .NET web aplikacije 
-}
+\sazetak{U ovom završnom radu obrađuje se korištenje .NET tehnologija za izradu programa za dogovaranje sastanaka. Rad pokriva kratki pregled ASP.NET Core i ASP.NET Web API tehnologija, uz objašnjenje koncepata API-ja i HTTP metoda. Poseban naglasak stavljen je na korištenje Google API-ja, uključujući Google Calendar API, te autentifikaciju i autorizaciju korisnika pomoću OAuth 2.0 protokola. Kroz rad se također prikazuju primjeri zahtjeva za dohvaćanje i upravljanje kalendarskim događajima, uz detaljnu implementaciju .NET web aplikacije koja omogućuje dogovaranje sastanaka među korisnicima.}
 
 \kljucneRijeci{API; ASP. NET Core; .NET; C\#; ASP. NET; ; OAuth 2.0; Google Calendar; Google API;}
 
@@ -44,18 +43,18 @@ Za pisanje teksta i formatiranje ovog rada koristio se LaTeX unutar programa Vis
 
 \chapter{API}
 Kada korisnik koristi softver kao klijent, često koristi nekakvo softversko sučelje za interakciju s softverom, ali kada je potrebno da jedan softver koristi dijelove drugog softvera tada koristimo vrstu sučelja za programiranje aplikacija (engl. \textit{Application Programming Interface}) ili skraćeno API.\cite{biehl2015api}
-Ta interakcija se najčešće bazira na tome da klijent šalje HTTP zahtjev serveru na određenu lokaciju i dobivaju se nazad podaci.
-API zahtjev se sastoji od nekoliko dijelova \cite{altexsoft}
+Ta interakcija se najčešće bazira na tome da klijent šalje HTTP zahtjev serveru na određenu lokaciju i dobiva nazad podatke.
+API zahtjev se sastoji od nekoliko dijelova:
 \begin{itemize}
     \item Operacija koja se izvršava (primjer. \textit{GET, POST})
     \item Autentifikacijski parametri
     \item Odredište - URL API završne točke (engl. \textit{endpoint})
 \end{itemize}
-Poziv može sadržavati i druge parametre ali ovo su tri osnovna koja će se uvijek koristiti.
+Poziv može sadržavati i druge parametre ali ovo su tri osnovna koja će se uvijek koristiti.\cite{altexsoft}
 \section{HTTP zahtjevi}
 Kada klijent šalje zahtjev poslužitelju mora specifirati u zahtjevu koju metodu želi izvršiti, imena metoda se odnose na ono što želimo postići sa zahtjevom. \cite{Maurya2021} 
 \begin{itemize}
-    \item \textbf{GET} metoda se koristi za dohvaćanje podataka
+    \item \textbf{GET} metoda koristi se za dohvaćanje podataka
     \item \textbf{POST} - slanje i dodavanje podataka
     \item \textbf{PUT} - Ažuriranje podataka
     \item \textbf{DELETE} - brisanje resursa 
@@ -67,7 +66,7 @@ Iako najčešće koristi HTTP protokol on nije nužno vezan za njega.\cite{Micro
 \begin{itemize}
     \item \textbf{Jedinstveno sučelje} - API dizajn mora biti konzistentan i predvidljiv, s pristupom resursima putem standardnih HTTP metoda kao što su GET, POST, PUT i DELETE.
     
-    \item \textbf{Razdvajanje klijenta i servera} - Klijent i server su neovisni, gdje server ne čuva informacije o stanju klijenta između zahtjeva, a klijent nema direktan pristup serverovim podatcima.
+    \item \textbf{Razdvajanje klijenta i servera} - Klijent i server su neovisni, gdje server ne čuva informacije o stanju klijenta između zahtjeva, a klijent nema direktan pristup podacima na serveru.
     
     \item \textbf{Bezustanje (engl. \textit{Stateless})} - Svaki zahtjev od klijenta prema serveru mora sadržavati sve potrebne informacije za obradu, bez potrebe za čuvanjem stanja na serveru.
     
@@ -75,7 +74,7 @@ Iako najčešće koristi HTTP protokol on nije nužno vezan za njega.\cite{Micro
     
     \item \textbf{Sustav slojeva} - Slojevita arhitektura omogućuje umetanje posrednika između klijenta i servera, dodajući funkcionalnosti poput keširanja ili sigurnosnih provjera.
     
-    \item \textbf{Kôd na zahtjev (opcionalno)} - Klijent može preuzeti i izvršiti kod od servera radi proširenja funkcionalnosti aplikacije. 
+    \item \textbf{Kod na zahtjev (opcionalno)} - Klijent može preuzeti i izvršiti kod od servera radi proširenja funkcionalnosti aplikacije. 
 \end{itemize}
 
 \chapter{ASP.NET Core}
@@ -113,8 +112,8 @@ Za potrebe ovog rada koristit će se API bazirani na kontrolerima zbog bolje org
 
 \chapter{Praktični rad: Meeting Planner}
 \section{Uvod u projekt}
-Prije izrade projekta trebaju se definirati funckionalnosti projekta. Cilj aplikacije je dohvaćanje svih dostupnih termina koje korisnik ima u svome Google kalendaru te sinkronizacija u jedan ispis koji će organizatoru sastanka prikazati kada su dostupni svi planirani korisnici i odabrana dvorana u kojoj će se sastanak održati. 
-Na bazi toga, definiramo funckionalnosti.
+Prije izrade projekta trebaju se definirati funckionalnosti projekta. Cilj aplikacije je dohvatiti sve dostupne termine koje korisnik ima u svome Google kalendaru te sinkronizacija u jedan ispis koji će organizatoru sastanka prikazati kada su dostupni svi planirani korisnici i odabrana dvorana u kojoj će se sastanak održati. 
+Na bazi toga, definiramo funkcionalnosti.
 \begin{itemize}
     \item Prijava korisnika: Korisnik se može prijaviti u sustav koristeći svoje Google podatke.
     \item Prikaz kalendara jednog korisnika (organizator): Korisniku se prikazuje njegov osobni kalendar s pregledom svih zakazanih sastanaka u obliku tablice.
@@ -186,7 +185,7 @@ Za spremanje podataka u sesiju definira se metoda \textit{StoreAccessTokenInSess
 
 
 \section{Prikaz događaja}
-Za prikaz događaja implementiramo zaseban pregled {eng.\textit{View}}. Koristiti će se mogućnost razor stranica da se upisuje C\# kod i definirat će se jednostavna provjera varijable \textit{isLoggedIn}. 
+Za prikaz događaja implementiramo zaseban pregled {eng. \textit{View}}. Koristiti će se mogućnost razor stranica da se upisuje C\# kod i definirat će se jednostavna provjera varijable \textit{isLoggedIn}. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{slike/calendarView.png}
