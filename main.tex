@@ -309,15 +309,26 @@ Nakon spajanja u jednu varijablu, moramo pretvoriti popis zauzetih termina u pop
 \end{figure}
 Metode \textit{GetCommonFreePeriods} i \textit{SubtractBusyPeriods} instanciraju popis \textit{TimePeriod} unutar odabranog vremenskog raspona te pomoću metode \textit{SubtractBusyPeriods} se od slobodnih vremena oduzimaju zauzeta vremena, stvarajući popis u kojemu se nalaze svi slobodni termini korisnika.
 \section{Unos sastanka}
-Kao završni dio aplikacije potrebno je omogućiti korisniku da unosi aktivnosti u kalendare korisnika. 
-
+Kao završni dio aplikacije potrebno je omogućiti korisniku da unosi aktivnosti u kalendare korisnika. Prvo je potrebno kreirati sučelje za unos, korisnik može unositi opis, lokaciju sastanka, opis , vremenski period aktivnosti, vremensku zonu i goste sastanka.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/insertMeeting.png}
+    \caption{Sučelje za unos sastanka (Izvor: autor)}
+    \label{fig:InsertMeeting}
+\end{figure}
+Potrebno je poslati POST zahtjev s svim parametrima, uneseni podaci se mapiraju u klasu \textit{InsertEventModel} te se šalju na \textit{calendar/events} endpoint. Stvara se novi \textit{Event} objekt u kalendaru organizatora, te se na taj događaj dodaju članovi.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/createEventForAllUsers.png}
+    \caption{Implementacija unosa događaja u kalendare korisnika (Izvor: autor)}
+    \label{fig:createEventForAllUsers}
+\end{figure}
 
 
 
 
 \chapter{Zaključak}
-.NET okruženje za skriptiranje u GNU/Linux naredbenom retku pruža nove mogućnosti za razvoj i automatizaciju. Kroz rad je demonstriran veći broj Bash i .NET skripti i demonstrirana je integracija .NET alata i Bash ljuske koristeći .NET alat dotnet-shell. Kroz primjere su prikazane prednosti i nedostatci oba sustava. .NET poboljšava interoperabilnost time što se skripte mogu direktno koristiti na svim operacijskim sustavima koji imaju instalirano .NET okruženje. Također, .NET pruža dodatne funkcionalnosti preko svojih biblioteka i NuGet paketa što omogućuje jednostavno razvijanje kompleksnijih skripti čime se još više mogu poboljšati radni procesi. Prednost Bash skripti je što rade na svim GNU/Linux distribucijama koje koriste Bash ljusku bez potrebe za dodatnim instalacijama i zahtjevaju manje resursa od .NET skripti čime su lakše za sustave. Da zaključim, sinergija .NET okruženja i Bash skriptnog jezika u GNU/Linux operacijskom sustavu omogućuje moćno okruženje za projekte automatizacije iz razloga što se može koristiti najbolje od oba jezika pri pisanju skripti, .NET elementi za kompleksne unaprijed pripremljene funkcionalnosti, a Bash za GNU/Linux specifične radnje ukoliko ima potrebe za njima. 
-
+Zaključno, ovaj rad prikazuje proces izrade aplikacije za planiranje sastanaka korištenjem Google Calendar API-ja, razvijene u ASP.NET Core tehnologiji. Kroz detaljno objašnjenje, prikazane su glavne funkcionalnosti aplikacije kao što su autentifikacija korisnika, dohvaćanje događaja iz Google kalendara te prikaz i manipulacija tim događajima. Rad se također osvrće na tehničke aspekte implementacije poput uporabe RESTful API-ja i MVC arhitekture, čime se naglašava važnost modularnosti i razdvajanja odgovornosti u softverskom razvoju. Korištenje Google Workspace API-ja omogućilo je integraciju vanjskih servisa. Aplikacija razvijena u sklopu ovog rada pokazuje kako se napredne tehnike web razvoja mogu iskoristiti za rješavanje konkretnih poslovnih izazova u kontekstu organizacije sastanaka.
 \printbibliography[title=Popis literature]
 \addcontentsline{toc}{chapter}{Popis literature}
 
