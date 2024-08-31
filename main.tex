@@ -38,8 +38,6 @@
 \chapter{Uvod}
 U ovom radu ćemo se usredotočiti na izradu programa za dogovaranje sastanaka kroz upotrebu Google API-ja, koji nam omogućava interakciju s iznimno popularnim Google kalendarom. Realizirat ćemo program koristeći ASP.NET Core i Razor stranice za izradu front-end sučelja te upravljanje podacima, dok će ASP.NET Web API služiti za primanje HTTP zahtjeva i komuniciranje s Google servisima za manipuliranje događajima.
 
-\chapter{Metode i tehnike rada}
-Za pisanje teksta i formatiranje ovog rada koristio se LaTeX unutar programa Visual Studio Code. Za izradu praktičnog dijela korišten je Visual Studio 2022 i JetBrains Rider.
 
 \chapter{API}
 Kada korisnik koristi softver kao klijent, često koristi nekakvo softversko sučelje za interakciju s softverom, ali kada je potrebno da jedan softver koristi dijelove drugog softvera tada koristimo vrstu sučelja za programiranje aplikacija (engl. \textit{Application Programming Interface}) ili skraćeno API.\cite{biehl2015api}
@@ -110,7 +108,7 @@ U ASP.NET Core možemo imati dva pristupa kreiranja API-ja:
 \end{itemize}
 Za potrebe ovog rada koristit će se API bazirani na kontrolerima zbog bolje organizacije koda u cjeline te zbog jednostavnijeg rukovanja ulaznim podacima pomoću atributa \textit{[FromBody]} i \textit{[FromQuery]} 
 
-\chapter{Praktični rad: Meeting Planner}
+\chapter{Izrada Meeting Planner aplikacije}
 \section{Uvod u projekt}
 Prije izrade projekta trebaju se definirati funckionalnosti projekta. Cilj aplikacije je dohvatiti sve dostupne termine koje korisnik ima u svome Google kalendaru te sinkronizacija u jedan ispis koji će organizatoru sastanka prikazati kada su dostupni svi planirani korisnici i odabrana dvorana u kojoj će se sastanak održati. 
 Na bazi toga, definiramo funkcionalnosti.

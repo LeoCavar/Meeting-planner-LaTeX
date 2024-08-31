@@ -1,0 +1,16 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'output_files/main.blg'
+[62] biber:340> INFO - === Sat Aug 31, 2024, 17:38:58
+[74] Biber.pm:419> INFO - Reading 'output_files/main.bcf'
+[125] Biber.pm:979> INFO - Found 10 citekeys in bib section 0
+[144] Biber.pm:4419> INFO - Processing section 0
+[155] Biber.pm:4610> INFO - Looking for bibtex file 'lib.bib' for section 0
+[156] bibtex.pm:1713> INFO - LaTeX decoding ...
+[162] bibtex.pm:1519> INFO - Found BibTeX data source 'lib.bib'
+[235] UCollate.pm:68> INFO - Overriding locale 'hr-HR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[235] UCollate.pm:68> INFO - Overriding locale 'hr-HR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[235] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'hr-HR'
+[244] bbl.pm:660> INFO - Writing 'output_files/main.bbl' with encoding 'UTF-8'
+[248] bbl.pm:763> INFO - Output to output_files/main.bbl
+[249] Biber.pm:131> WARN - legacy month field 'February' in entry 'GeeksforGeeks2024' is not an integer - this will probably not sort properly.
+[249] Biber.pm:133> INFO - WARNINGS: 1
