@@ -18,6 +18,6 @@
 \contentsline {subsection}{\numberline {4.5.1}Protok podataka}{15}{subsection.4.5.1}%
 \contentsline {section}{\numberline {4.6}Pronalazak slobodnih termina}{15}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Unos sastanka}{18}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Zaključak}{19}{chapter.5}%
-\contentsline {chapter}{Popis literature}{20}{chapter*.23}%
-\contentsline {chapter}{Popis slika}{21}{chapter*.24}%
+\contentsline {chapter}{\numberline {5}Zaključak}{20}{chapter.5}%
+\contentsline {chapter}{Popis literature}{21}{chapter*.23}%
+\contentsline {chapter}{Popis slika}{22}{chapter*.24}%

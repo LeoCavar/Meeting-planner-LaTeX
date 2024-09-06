@@ -100,12 +100,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
@@ -191,8 +191,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
