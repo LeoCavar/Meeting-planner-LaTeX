@@ -37,6 +37,24 @@
 \pagestyle{plain}
 \chapter{Uvod}
 U ovom radu ćemo se usredotočiti na izradu programa za dogovaranje sastanaka kroz upotrebu Google API-ja, koji nam omogućava interakciju s iznimno popularnim Google kalendarom. Realizirat ćemo program koristeći ASP.NET Core i Razor stranice za izradu front-end sučelja te upravljanje podacima, dok će ASP.NET Web API služiti za primanje HTTP zahtjeva i komuniciranje s Google servisima za manipuliranje događajima.
+\chapter{Problemska domena pronalaska termina sastanaka}
+
+U današnjem poslovnom okruženju učinkovito upravljanje vremenom od ključne je važnosti za organizaciju i koordinaciju timova, sastanaka i događanja. S obzirom na sve veći broj sastanaka i obaveza, pronalazak zajedničkog slobodnog vremena za više sudionika predstavlja izazov, osobito u organizacijama s velikim brojem zaposlenika ili suradnicima na različitim lokacijama. Ovaj problem postaje još složeniji kada se u obzir uzmu raspoloživi resursi poput dvorana, tehničke opreme ili vremena dostupnosti pojedinaca.
+
+Pronalaženje slobodnih termina uključuje nekoliko ključnih aspekata:
+\begin{itemize}
+    \item \textbf{Dostupnost sudionika}: Svaki sudionik ima vlastiti raspored koji uključuje radno vrijeme, obaveze i osobno vrijeme. Usklađivanje tih rasporeda može biti zahtjevno, pogotovo kada se radi o većem broju sudionika.
+    \item \textbf{Raspoloživost resursa}: Pored sudionika, potrebno je uzeti u obzir dostupnost resursa poput prostorija za sastanke ili tehničke opreme, koji također mogu imati ograničenu dostupnost.
+\end{itemize}
+
+
+Uspješno rješavanje ovog problema ključno je za povećanje produktivnosti i smanjenje vremena potrebnog za dogovaranje sastanaka. Neefikasno upravljanje vremenom može rezultirati propuštenim prilikama, nezadovoljstvom zaposlenika te povećanim troškovima rada. S obzirom na to, mnoge organizacije nastoje automatizirati ovaj proces korištenjem digitalnih alata za zakazivanje sastanaka.
+
+\section{Pregled postojećih rješenja}
+
+Jedno od najpoznatijih rješenja za organizaciju sastanaka je \textbf{Microsoft Outlook}, posebno za korisnike koji koriste Microsoft 365 ili Microsoft Exchange račune. Outlook omogućuje planiranje sastanaka pomoću alata poput \textit{Scheduling Assistant} i \textit{Room Finder}. Ovi alati pomažu u pronalasku slobodnog vremena ne samo za sudionike sastanka, već i za raspoložive resurse, kao što su dvorane za sastanke.
+\textit{Scheduling Assistant} omogućuje korisnicima pregled dostupnih termina sudionika te automatski predlaže najbolje vrijeme za sastanak prema njihovim zauzetim i slobodnim terminima. Uz to, \textit{Room Finder} olakšava pronalazak slobodnih prostorija, ovisno o postavkama unutar Microsoft 365 ili Exchange okruženja.
+Iako je Outlook vrlo moćno rješenje, njegova upotreba veže korisnike na Microsoftov ekosustav, što znači da organizacije koje ne koriste Microsoft 365 ili Exchange ne mogu u potpunosti iskoristiti sve funkcionalnosti ovog alata. Osim toga, velik dio tržišta koristi \textit{Google Calendar}, koji je mnogo pristupačniji i popularniji među korisnicima, osobito u manjim organizacijama i među individualnim korisnicima. Stoga, iako Outlook nudi napredne funkcionalnosti, njegov utjecaj je ograničen na specifičnu skupinu korisnika, dok je \textit{Google Calendar} prisutniji na globalnom tržištu.
 
 
 \chapter{API}
