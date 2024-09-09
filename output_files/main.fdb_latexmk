@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber output_files/main"] 1725118738 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1725884710.44037 0
-  "./lib.bib" 1725118542.3436 2417 f0ad1d18c3a08b6ac89049c954657ccd ""
-  "output_files/main.bcf" 1725884710.33995 107807 1054c037b0bbfbbcca9a41ee6fee27b0 "pdflatex"
+["biber output_files/main"] 1725909515.06402 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1725909527.76186 0
+  "lib.bib" 1725909297.11073 2638 f90bf11bc4e547acb266e9a28bf948f9 ""
+  "output_files/main.bcf" 1725909527.69778 108182 7f8fe1045c70a9b31643107d2193c4c9 "pdflatex"
   (generated)
   "output_files/main.bbl"
   "output_files/main.blg"
   (rewritten before read)
-["pdflatex"] 1725884709.22579 "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" "output_files/main.pdf" "main" 1725884710.4407 0
+["pdflatex"] 1725909526.85218 "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" "output_files/main.pdf" "main" 1725909527.76212 0
   "/etc/texmf/web2c/texmf.cnf" 1712688412.88776 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" 1725884709.00491 26843 cdd2b9e6f320215aab729c3174542438 ""
+  "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" 1725909526.67473 30216 9df7d800e4881a6aa3e603e48fc81de6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -167,13 +167,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1725550890.83081 168054 c8928d7306e61dbf9bb950060320aa5b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725550911 7454154 56e4eb8296b078a732dc0d9fd8d9b20a ""
   "foi.cls" 1723205285.44147 8223 8246e196d5cd82dbd936822d61235306 ""
-  "main.tex" 1725884709.00491 26843 cdd2b9e6f320215aab729c3174542438 ""
-  "output_files/main.aux" 1725884710.33595 10913 4b7c043a2a3580e39ebe4d2c32dc5f77 "pdflatex"
-  "output_files/main.bbl" 1725118739.02494 11808 8cfd6a03a959c6f99d9f4f339bf50750 "biber output_files/main"
-  "output_files/main.lof" 1725884710.34095 2839 6289a3bcc69f27b63d2aa1a763f20796 "pdflatex"
-  "output_files/main.out" 1725884710.33895 3656 56e122975f2ebe7e470a7173e4cc7763 "pdflatex"
-  "output_files/main.run.xml" 1725884710.34095 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
-  "output_files/main.toc" 1725884710.34095 1830 54bcd917c9c1670a41ec3309e3419383 "pdflatex"
+  "main.tex" 1725909526.67473 30216 9df7d800e4881a6aa3e603e48fc81de6 ""
+  "output_files/main.aux" 1725909527.69478 12024 17ff1d515360f5870cf6c2cd2aaea93e "pdflatex"
+  "output_files/main.bbl" 1725909515.58915 12204 1a8c8c04ea1014525fffa6c964046388 "biber output_files/main"
+  "output_files/main.lof" 1725909527.69878 2861 4d00238aa4a42a4dac8754eeec7d4b8f "pdflatex"
+  "output_files/main.out" 1725909527.69678 4755 f99d8acb880135dd561436e4be32af38 "pdflatex"
+  "output_files/main.run.xml" 1725909527.69878 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
+  "output_files/main.toc" 1725909527.69878 2223 a33519dfcd654a0e15228a2d40184579 "pdflatex"
   "slike/FreePeriods.png" 1725640767.09895 74179 8c3ddc2070aabcc1c8d2885143fec61f ""
   "slike/GetBuisyLocation.png" 1725640702.03592 74812 0cf80c50d663ffef49915d9633428891 ""
   "slike/GetCalendarEventsEndpoint.png" 1725640401.65577 39182 02acf0c9e6676b59fb46c6f3fda994f4 ""

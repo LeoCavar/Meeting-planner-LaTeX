@@ -56,7 +56,38 @@ Jedno od najpoznatijih rješenja za organizaciju sastanaka je \textbf{Microsoft 
 \textit{Scheduling Assistant} omogućuje korisnicima pregled dostupnih termina sudionika te automatski predlaže najbolje vrijeme za sastanak prema njihovim zauzetim i slobodnim terminima. Uz to, \textit{Room Finder} olakšava pronalazak slobodnih prostorija, ovisno o postavkama unutar Microsoft 365 ili Exchange okruženja.
 Iako je Outlook vrlo moćno rješenje, njegova upotreba veže korisnike na Microsoftov ekosustav, što znači da organizacije koje ne koriste Microsoft 365 ili Exchange ne mogu u potpunosti iskoristiti sve funkcionalnosti ovog alata. Osim toga, velik dio tržišta koristi \textit{Google Calendar}, koji je mnogo pristupačniji i popularniji među korisnicima, osobito u manjim organizacijama i među individualnim korisnicima. Stoga, iako Outlook nudi napredne funkcionalnosti, njegov utjecaj je ograničen na specifičnu skupinu korisnika, dok je \textit{Google Calendar} prisutniji na globalnom tržištu.
 
+\chapter{Google Cloud projekt}
 
+Kako bi se koristili \textit{Google Workspace API}-ji i razvijale aplikacije koje koriste Google servise, potrebno je postaviti projekt unutar \textit{Google Cloud Console}-a. Google Cloud projekt pruža osnovu za kreiranje, omogućavanje i korištenje svih Google Cloud servisa, uključujući upravljanje API-ima, omogućavanje naplate, dodavanje suradnika i upravljanje dopuštenjima. Kreiranje projekta unutar Google Cloud-a ključan je korak u integraciji aplikacija s Google Workspace servisima, jer omogućuje autentifikaciju i autorizaciju korisnika te sigurno upravljanje podacima \cite{GoogleWorkspace2024}.
+
+\section{Proces kreiranja Google Cloud projekta}
+
+Kreiranje Google Cloud projekta započinje prijavom u \textit{Google Cloud Console} i kreiranjem novog projekta. Proces uključuje sljedeće korake:
+\begin{itemize}
+    \item U \textit{Google Cloud Console}, potrebno je otići na \textit{IAM \& Admin} te odabrati opciju \textit{Create a Project}.
+    \item U polju \textit{Project Name}, unosi se opisni naziv projekta koji jasno definira njegovu svrhu.
+    \item Po potrebi, moguće je urediti \textit{Project ID}, no taj ID se ne može mijenjati nakon kreiranja projekta.
+    \item Nakon postavljanja imena i ID-a, odabire se lokacija projekta klikom na opciju \textit{Browse} te odabirom odgovarajuće lokacije.
+    \item Klikom na \textit{Create}, projekt se kreira unutar nekoliko minuta, a korisnik se preusmjerava na \textit{Dashboard} stranicu unutar \textit{Google Cloud Console}-a.
+\end{itemize}
+
+Ovaj proces stvara osnovnu strukturu projekta, unutar koje se može omogućiti pristup različitim Google API-ima, postaviti naplata te dodijeliti suradnike i potrebne uloge \cite{GoogleWorkspace2024}.
+
+\section{Omogućavanje API-ja unutar Google Cloud projekta}
+
+Jedan od ključnih koraka nakon kreiranja projekta je omogućavanje relevantnih API-ja koji će se koristiti u aplikaciji. Primjerice, za rad s \textit{Google Calendar API}-jem, potrebno je omogućiti taj API unutar projekta. Proces uključuje sljedeće korake:
+\begin{itemize}
+    \item Unutar \textit{Google Cloud Console}-a, korisnik odabire \textit{APIs \& Services}, zatim \textit{Library}.
+    \item U pretraživaču API-ja, potrebno je potražiti \textit{Google Calendar API} i kliknuti na \textit{Enable} kako bi se omogućila integracija s aplikacijom.
+\end{itemize}
+
+Omogućavanje API-ja otvara pristup API pozivima koji omogućuju interakciju s Googleovim servisima, kao što je dohvaćanje, kreiranje i upravljanje događajima unutar Google kalendara \cite{GoogleWorkspace2024}.
+
+\section{Postavljanje naplate i upravljanje korisnicima}
+
+Ovisno o vrstama API-ja koje aplikacija koristi, može biti potrebno omogućiti naplatu za Google Cloud projekt. To uključuje povezivanje projekta s računom za naplatu, koji prati korištenje API-ja te osigurava da se premašene kvote pravilno naplate. U \textit{Billing} odjeljku unutar \textit{Google Cloud Console}-a, korisnik može odabrati opciju \textit{Billing \& My Projects} te odabrati odgovarajući račun za naplatu \cite{GoogleWorkspace2024}.
+
+Dodatno, Google Cloud projekt omogućuje dodavanje suradnika i postavljanje različitih uloga za upravljanje projektom. Unutar \textit{IAM \& Admin} postavki, mogu se dodati korisnici s različitim razinama pristupa.\cite{GoogleWorkspace2024}
 \chapter{API}
 Kada korisnik koristi softver kao klijent, često koristi nekakvo softversko sučelje za interakciju s softverom, ali kada je potrebno da jedan softver koristi dijelove drugog softvera tada koristimo vrstu sučelja za programiranje aplikacija (engl. \textit{Application Programming Interface}) ili skraćeno API.\cite{biehl2015api}
 Ta interakcija se najčešće bazira na tome da klijent šalje HTTP zahtjev serveru na određenu lokaciju i dobiva nazad podatke.
