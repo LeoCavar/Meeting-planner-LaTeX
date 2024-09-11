@@ -21,13 +21,13 @@
 \contentsline {subsection}{\numberline {6.2.1}Struktura frontend-a}{10}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Struktura backend-a}{11}{subsection.6.2.2}%
 \contentsline {section}{\numberline {6.3}Google Workspace}{12}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Stvaranje projekta}{13}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Autentifikacija}{14}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Prikaz događaja}{16}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Protok podataka}{20}{subsection.6.6.1}%
-\contentsline {section}{\numberline {6.7}Pronalazak slobodnih termina}{20}{section.6.7}%
-\contentsline {section}{\numberline {6.8}Unos sastanka}{23}{section.6.8}%
-\contentsline {chapter}{\numberline {7}Demonstracija korištenja aplikacije}{25}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Zaključak}{28}{chapter.8}%
-\contentsline {chapter}{Popis literature}{29}{chapter*.32}%
-\contentsline {chapter}{Popis slika}{31}{chapter*.33}%
+\contentsline {section}{\numberline {6.4}Stvaranje projekta}{14}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Autentifikacija}{15}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Prikaz događaja}{17}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Protok podataka}{21}{subsection.6.6.1}%
+\contentsline {section}{\numberline {6.7}Pronalazak slobodnih termina}{21}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Unos sastanka}{24}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Demonstracija korištenja aplikacije}{26}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Zaključak}{29}{chapter.8}%
+\contentsline {chapter}{Popis literature}{30}{chapter*.35}%
+\contentsline {chapter}{Popis slika}{32}{chapter*.36}%

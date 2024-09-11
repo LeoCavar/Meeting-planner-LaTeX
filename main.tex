@@ -220,9 +220,29 @@ Da možemo koristiti te servise moramo prvo stvoriti projekt u Google Cloud konz
     \caption{Google Cloud console (Izvor: autor)}
     \label{fig:google_console}
 \end{figure}
-Potrebno je imati aktivni Google email račun, te se prijaviti u \textit{Google Cloud Console}. 
+Potrebno je imati aktivni Google email račun, te se prijaviti u \textit{Google Cloud Console}. Kreiranje projekta je dosta intuitivno, najbitniji korak je omogućiti google calendar API
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/enabledGoogleCalendarAPI.png}
+    \caption{Omogućavanje Google Calendar API (Izvor: autor)}
+    \label{fig:enabledGoogleCalendarAPI}
+\end{figure}
 
+Generira se tajna klijenta koji nam je potreban da naša aplikacija može slati zahtjeve Google API-ju.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/additionalINfo.png}
+    \caption{Informacije o projektu MeetingPlanner (Izvor: autor)}
+    \label{fig:additionalINfo}
+\end{figure}
 
+Za proces razvoja aplikacije potrebno je dodati \textit{TestUsers} koji se mogu prijavljivati u našu aplikaciju
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/TestUSers.png}
+    \caption{Informacije o projektu MeetingPlanner (Izvor: autor)}
+    \label{fig:TestUsers}
+\end{figure}
 
 \section{Stvaranje projekta}
 Za stvaranje projekta prvo je potrebno stvoriti prazno rješenje (engl. \textit{Solution}), te kreirati zasebni WEB API i MVC projekt.

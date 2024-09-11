@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber output_files/main"] 0 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1726063482.1398 -1
+["biber output_files/main"] 0 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1726064118.16039 -1
   "lib.bib" 1725909297.11073 2638 f90bf11bc4e547acb266e9a28bf948f9 ""
-  "output_files/main.bcf" 1726063482.05256 108182 7f8fe1045c70a9b31643107d2193c4c9 "pdflatex"
+  "output_files/main.bcf" 1726064118.0585 108182 7f8fe1045c70a9b31643107d2193c4c9 "pdflatex"
   (generated)
   "output_files/main.bbl"
   "output_files/main.blg"
   (rewritten before read)
-["pdflatex"] 1726063480.24581 "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" "output_files/main.pdf" "main" 1726063482.14017 0
+["pdflatex"] 1726064116.21675 "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" "output_files/main.pdf" "main" 1726064118.16072 0
   "/etc/texmf/web2c/texmf.cnf" 1712688412.88776 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" 1726063478.05831 35683 81aff964ec4cd6bca6c6d25e1fad6ffb ""
+  "/home/leo/Desktop/Meeting-planner-LaTeX/main.tex" 1726064115.39141 36632 1098c3cf2640cfe998bd9e5b45482e0d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -167,13 +167,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1725550890.83081 168054 c8928d7306e61dbf9bb950060320aa5b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1725550911 7454154 56e4eb8296b078a732dc0d9fd8d9b20a ""
   "foi.cls" 1723205285.44147 8223 8246e196d5cd82dbd936822d61235306 ""
-  "main.tex" 1726063478.05831 35683 81aff964ec4cd6bca6c6d25e1fad6ffb ""
-  "output_files/main.aux" 1726063482.04856 14982 c2949d8659c94ad8baf0b3db128609f7 "pdflatex"
+  "main.tex" 1726064115.39141 36632 1098c3cf2640cfe998bd9e5b45482e0d ""
+  "output_files/main.aux" 1726064118.0535 15846 31f7b5c0eca777895467ded8a3bdc941 "pdflatex"
   "output_files/main.bbl" 1725909515.58915 12204 1a8c8c04ea1014525fffa6c964046388 "biber output_files/main"
-  "output_files/main.lof" 1726063482.05356 3965 91a6905980fcdee969d5bf333d35c829 "pdflatex"
-  "output_files/main.out" 1726063482.05156 5546 09e0fc28ec599c572f8cebe7ccf9c803 "pdflatex"
-  "output_files/main.run.xml" 1726063482.05356 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
-  "output_files/main.toc" 1726063482.05356 2574 9554708198e4ffbbdfd789f762c8501e "pdflatex"
+  "output_files/main.lof" 1726064118.0585 4360 bed712c9da466f62a7c372147f8e1a2c "pdflatex"
+  "output_files/main.out" 1726064118.0565 5546 4fa41da8572029850bff50e8ad63142b "pdflatex"
+  "output_files/main.run.xml" 1726064118.0585 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
+  "output_files/main.toc" 1726064118.0585 2574 e4f0241deca09c0241f4d70eedc18860 "pdflatex"
   "slike/FreePeriods.png" 1725640767.09895 74179 8c3ddc2070aabcc1c8d2885143fec61f ""
   "slike/GetBuisyLocation.png" 1725640702.03592 74812 0cf80c50d663ffef49915d9633428891 ""
   "slike/GetCalendarEventsEndpoint.png" 1725640401.65577 39182 02acf0c9e6676b59fb46c6f3fda994f4 ""
@@ -182,6 +182,8 @@
   "slike/MVC_project.jpeg" 1725639643.50658 24944 21c5614b3413318a509844dc2d541420 ""
   "slike/MeetingPlannerAPI_ClassUML.png" 1726043747.21462 199071 eef659c952d67f7c330b86f19011194f ""
   "slike/MeetingPlannerFrontend_ClassUML.png" 1726062872.95708 195807 88aef016ce56756adaa29b87c2496083 ""
+  "slike/TestUSers.png" 1726064098.80589 12064 677a92bc295da2bd8dc7d9ac358fee15 ""
+  "slike/additionalINfo.png" 1726063852.54597 29202 b1c1de4db126dac80d1fc9add3124b20 ""
   "slike/appUsage1.png" 1726062901.71451 30133 db64ed25ad93f171783ec6c1639302f3 ""
   "slike/appUsage2.png" 1726062901.71451 7024 80c63a16c8cb7561f201755d6cb9a1c9 ""
   "slike/appUsage3.png" 1726062901.71451 12568 f4496b7022873905cf9f5577da9551e0 ""
@@ -197,6 +199,7 @@
   "slike/calendarView.png" 1725640200.97868 42630 1cb80901fb47ff77da7e37a80f902c53 ""
   "slike/callbackFunction.png" 1725640067.41864 48964 06ae0cf50c1e2f0fef54ebe111b694df ""
   "slike/createEventForAllUsers.png" 1725640940.13605 60826 6cd7d62410e485807f1f43cbbf9a0375 ""
+  "slike/enabledGoogleCalendarAPI.png" 1726063715.04923 64378 ce79f05dc0a3887825ee91e5ec9bbe88 ""
   "slike/getfreebuisy.png" 1725640602.98687 68974 4766e52e940820297428165d5d8ddc8f ""
   "slike/google_console.png" 1725639801.24758 172100 8cf5cf60e6658c4d0d4f60091b19a457 ""
   "slike/insertMeeting.png" 1725640905.43703 35846 991ffd4d7ec528b11577a8e9cdadf149 ""
