@@ -17,13 +17,17 @@
 \contentsline {section}{\numberline {5.2}ASP.NET Web API}{8}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Izrada Meeting Planner aplikacije}{10}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Uvod u projekt}{10}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Google Workspace}{10}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Stvaranje projekta}{11}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Autentifikacija}{12}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Prikaz događaja}{14}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Protok podataka}{18}{subsection.6.5.1}%
-\contentsline {section}{\numberline {6.6}Pronalazak slobodnih termina}{18}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Unos sastanka}{21}{section.6.7}%
-\contentsline {chapter}{\numberline {7}Zaključak}{23}{chapter.7}%
-\contentsline {chapter}{Popis literature}{24}{chapter*.23}%
-\contentsline {chapter}{Popis slika}{25}{chapter*.24}%
+\contentsline {section}{\numberline {6.2}Dizajn rješenja}{10}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Struktura frontend-a}{10}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Struktura backend-a}{11}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Google Workspace}{12}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Stvaranje projekta}{13}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Autentifikacija}{14}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Prikaz događaja}{16}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Protok podataka}{20}{subsection.6.6.1}%
+\contentsline {section}{\numberline {6.7}Pronalazak slobodnih termina}{20}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Unos sastanka}{23}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Demonstracija korištenja aplikacije}{25}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Zaključak}{28}{chapter.8}%
+\contentsline {chapter}{Popis literature}{29}{chapter*.32}%
+\contentsline {chapter}{Popis slika}{31}{chapter*.33}%

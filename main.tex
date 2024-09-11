@@ -168,6 +168,49 @@ Na bazi toga, definiramo funkcionalnosti.
     \item Pronalazak slobodnih termina: Sustav pretražuje slobodne termine za sastanak uzimajući u obzir slobodno vrijeme sudionika, odabrane dane za sastanak i dostupne lokacije.
 \end{itemize}
 Za omogućavanje integracije s Google kalendarom koristiti ćemo Google Calendar API. RESTFul API s kojim se može interaktirati pomoću HTTP poziva.
+\section{Dizajn rješenja}
+
+U ovoj sekciji opisujemo dizajn rješenja za aplikaciju \textit{MeetingPlanner}, koja se sastoji od frontend i backend komponenti. UML class dijagrami koji prate ovaj opis ilustriraju strukturu ključnih klasa i njihovu međusobnu povezanost.
+
+\subsection{Struktura frontend-a}
+
+Na slici \ref{fig:frontend-uml} prikazan je class dijagram za frontend dio aplikacije \textit{MeetingPlanner}. Ovaj dio aplikacije uključuje logiku za dohvaćanje slobodnih termina, autentifikaciju korisnika putem Google usluga, te rad s kalendarima korisnika.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/MeetingPlannerFrontend_ClassUML.png}
+    \caption{Class dijagram frontend komponente}
+    \label{fig:frontend-uml}
+\end{figure}
+
+Na dijagramu vidimo sljedeće glavne klase i njihove odnose:
+\begin{itemize}
+    \item \texttt{AvailableTermsController} koristi \texttt{AvailabilityService} kako bi dohvaćao slobodne termine korisnika. Ova klasa je odgovorna za primanje zahtjeva od korisnika i prikaz raspoloživih termina.
+    \item \texttt{LoginController} i \texttt{LoginService} rješavaju autentifikaciju korisnika koristeći Google OAuth 2.0. \texttt{LoginService} je odgovoran za dobivanje pristupnog tokena i njegovo spremanje u sesiju.
+    \item \texttt{CalendarController} i \texttt{CalendarService} omogućuju interakciju s Google kalendarom korisnika, uključujući kreiranje i dohvaćanje događaja.
+    \item Modeli kao što su \texttt{FreeBusyViewModel}, \texttt{AvailabilityRequestModel}, i \texttt{InsertEventModel} definiraju strukturu podataka koja se koristi za prikaz informacija o zauzetim terminima, slanje zahtjeva i kreiranje događaja.
+\end{itemize}
+
+\subsection{Struktura backend-a}
+
+Backend rješenje je prikazano na slici \ref{fig:backend-uml}, koja uključuje ključno poslovno logiku za rad s Google Calendar API-em i korisničkim autentifikacijskim tokovima.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/MeetingPlannerAPI_ClassUML.png}
+    \caption{Class dijagram backend komponente}
+    \label{fig:backend-uml}
+\end{figure}
+
+Na dijagramu vidimo sljedeće klase i njihove funkcionalnosti:
+\begin{itemize}
+    \item \texttt{CalendarController} je glavni kontroler koji koristi \texttt{AvailabilityService} za dohvaćanje slobodnih termina iz Google kalendara, kao i za kreiranje novih događaja.
+    \item \texttt{AvailabilityService} koristi \texttt{IGoogleCalendarService} kako bi obavljao složene operacije nad kalendarima korisnika, poput dohvaćanja zauzetih termina i kombiniranja slobodnih perioda.
+    \item \texttt{GoogleCalendarService} implementira stvarnu komunikaciju s Google Calendar API-em, obavljajući pozive za dohvaćanje i ažuriranje događaja.
+    \item Modeli kao što su \texttt{InsertEventModel}, \texttt{SimpleEventModel}, i \texttt{AvailabilityRequestModel} definiraju strukturu podataka potrebnu za komunikaciju s API-em, kao i za spremanje informacija o događajima.
+\end{itemize}
+
+
 \section{Google Workspace}
 Google Workspace nam omogućava platformu za integraciju Google Workspace alata kao što su Maps, Calendar ili Sheets. Za ovaj projekt su nam potrebni Google Workspace APIs da integriramo kalendar s našim rješenjem.
 Da možemo koristiti te servise moramo prvo stvoriti projekt u Google Cloud konzoli te omogućiti Google Calendar API za naš projekt.
@@ -177,6 +220,10 @@ Da možemo koristiti te servise moramo prvo stvoriti projekt u Google Cloud konz
     \caption{Google Cloud console (Izvor: autor)}
     \label{fig:google_console}
 \end{figure}
+Potrebno je imati aktivni Google email račun, te se prijaviti u \textit{Google Cloud Console}. 
+
+
+
 \section{Stvaranje projekta}
 Za stvaranje projekta prvo je potrebno stvoriti prazno rješenje (engl. \textit{Solution}), te kreirati zasebni WEB API i MVC projekt.
 \begin{figure}[H]
@@ -370,8 +417,56 @@ Potrebno je poslati POST zahtjev s svim parametrima, uneseni podaci se mapiraju 
     \label{fig:createEventForAllUsers}
 \end{figure}
 
-
-
+\chapter{Demonstracija korištenja aplikacije}
+Kada korisnik dođe na stranicu prvo se prezentira poruka pozdrava i navigacija.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/appUsage1.png}
+    \caption{Početna stranica (Izvor: autor)}
+    \label{fig:startPageUI}
+\end{figure}
+Prije nego što može koristiti funkcionalnosti aplikacije korisnik se mora prijaviti sa Google računom.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/appUsage2.png}
+    \caption{Login stranica (Izvor: autor)}
+    \label{fig:loginUI}
+\end{figure}
+Kada ode na stranicu \textit{Calendar} korisniku se prikazuju njegovi događaji u kalendaru
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/appUsage3.png}
+    \caption{Kalendar prijavljenog korisnika (Izvor: autor)}
+    \label{fig:userCalendarUI}
+\end{figure}
+Korisnik uzima u obzir svoje termine te provjerava kalendare korisnika. Unosi podatke o korisniku za kojeg se provjerava termin te se automatski ulogirani korisnik dodaje u provjeru i dobiva povratnu informaciju o slobodnim terminima.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/appUsage4.png}
+    \caption{Provjera dostupnosti korisnika (Izvor: autor)}
+    \label{fig:createEventForAllUsers}
+\end{figure}
+Uvidom u kalendar gostiju sastanka korisnik ima opciju dodati novi sastanak u kalendare korisnika. Korisnik unosi odgovarajuće podatke te unosi sastanak u kalendare svih korisnika.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/appUsage5.png}
+    \caption{Korisničko sučelje za unos sastanka (Izvor: autor)}
+    \label{fig:InputMEetingUI}
+\end{figure}
+Korisniku se daje odgovarajuća poruka ako je sastanak uspješno unesen.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/appUsage6.png}
+    \caption{Potvrda o unosu sastanka (Izvor: autor)}
+    \label{fig:meetingconfirmPOpUp}
+\end{figure}
+Kada gosti sastanka otvore svoj google kalendar vide sastanak koji smo unjeli u njegov kalendar te je taj događaj prisutan i u kalendaru organizatora.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/appUsage7.png}
+    \caption{Google kalendar gosta sastanka (Izvor: autor)}
+    \label{fig:GCUserUI}
+\end{figure}
 
 \chapter{Zaključak}
 Zaključno, ovaj rad prikazuje proces izrade aplikacije za planiranje sastanaka korištenjem Google Calendar API-ja, razvijene u ASP.NET Core tehnologiji. Kroz detaljno objašnjenje, prikazane su glavne funkcionalnosti aplikacije kao što su autentifikacija korisnika, dohvaćanje događaja iz Google kalendara te prikaz i manipulacija tim događajima. Rad se također osvrće na tehničke aspekte implementacije poput uporabe RESTful API-ja i MVC arhitekture, čime se naglašava važnost modularnosti i razdvajanja odgovornosti u softverskom razvoju. Korištenje Google Workspace API-ja omogućilo je integraciju vanjskih servisa. Aplikacija razvijena u sklopu ovog rada pokazuje kako se napredne tehnike web razvoja mogu iskoristiti za rješavanje konkretnih poslovnih izazova u kontekstu organizacije sastanaka.
