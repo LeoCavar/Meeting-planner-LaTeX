@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 13:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1114,7 +1114,7 @@ Poglavlje 6.
 [29
 
 ]
-Overfull \hbox (1.24867pt too wide) in paragraph at lines 535--535
+Overfull \hbox (1.24867pt too wide) in paragraph at lines 544--544
 \T1/phv/m/n/10.95 Plat-form, 2015., \T1/phv/m/sc/10.95 isbn\T1/phv/m/n/10.95 : 9781508676645. adresa: []$\T1/pcr/m/n/10.95 https : / / books . google . ba / books ?
  []
 
@@ -1158,10 +1158,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  81i,12n,95p,1436b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on output_files/main.pdf (39 pages, 1619516 bytes).
+Output written on output_files/main.pdf (39 pages, 1620931 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 479 compressed objects within 5 object streams
+ 581 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
  122 named destinations out of 1000 (max. 500000)
  462 words of extra memory for PDF output out of 10000 (max. 10000000)
 
