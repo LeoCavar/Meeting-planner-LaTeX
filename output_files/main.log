@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1034,20 +1034,20 @@ Package pdftex.def Info: slike/GetBuisyLocation.png  used on input line 452.
 
 
 [22 <./slike/timesAvaileble.png> <./slike/getfreebuisy.png (PNG copy)>]
-<slike/FreePeriods.png, id=394, 599.23875pt x 630.85687pt>
+<slike/FreePeriods.png, id=394, 706.13812pt x 577.40718pt>
 File: slike/FreePeriods.png Graphic file (type png)
 <use slike/FreePeriods.png>
 Package pdftex.def Info: slike/FreePeriods.png  used on input line 460.
-(pdftex.def)             Requested size: 273.14923pt x 287.56976pt.
+(pdftex.def)             Requested size: 364.19667pt x 297.80414pt.
 
 
-[23 <./slike/GetBuisyLocation.png (PNG copy)> <./slike/FreePeriods.png (PNG copy)>]
-<slike/insertMeeting.png, id=401, 545.78906pt x 587.94656pt>
+[23 <./slike/GetBuisyLocation.png (PNG copy)> <./slike/FreePeriods.png>]
+<slike/insertMeeting.png, id=402, 545.78906pt x 587.94656pt>
 File: slike/insertMeeting.png Graphic file (type png)
 <use slike/insertMeeting.png>
 Package pdftex.def Info: slike/insertMeeting.png  used on input line 469.
 (pdftex.def)             Requested size: 364.19667pt x 392.32526pt.
-<slike/createEventForAllUsers.png, id=402, 694.09312pt x 414.79968pt>
+<slike/createEventForAllUsers.png, id=403, 694.09312pt x 414.79968pt>
 File: slike/createEventForAllUsers.png Graphic file (type png)
 <use slike/createEventForAllUsers.png>
 Package pdftex.def Info: slike/createEventForAllUsers.png  used on input line 476.
@@ -1058,17 +1058,17 @@ Package pdftex.def Info: slike/createEventForAllUsers.png  used on input line 47
 
 [25 <./slike/createEventForAllUsers.png (PNG copy)>]
 Poglavlje 5.
-<slike/appUsage1.png, id=414, 1444.64719pt x 703.12688pt>
+<slike/appUsage1.png, id=415, 1444.64719pt x 703.12688pt>
 File: slike/appUsage1.png Graphic file (type png)
 <use slike/appUsage1.png>
 Package pdftex.def Info: slike/appUsage1.png  used on input line 485.
 (pdftex.def)             Requested size: 364.19667pt x 177.25113pt.
-<slike/appUsage2.png, id=415, 487.06969pt x 408.77719pt>
+<slike/appUsage2.png, id=416, 487.06969pt x 408.77719pt>
 File: slike/appUsage2.png Graphic file (type png)
 <use slike/appUsage2.png>
 Package pdftex.def Info: slike/appUsage2.png  used on input line 492.
 (pdftex.def)             Requested size: 364.19667pt x 305.65276pt.
-<slike/appUsage3.png, id=416, 1086.30844pt x 271.76532pt>
+<slike/appUsage3.png, id=417, 1086.30844pt x 271.76532pt>
 File: slike/appUsage3.png Graphic file (type png)
 <use slike/appUsage3.png>
 Package pdftex.def Info: slike/appUsage3.png  used on input line 499.
@@ -1078,17 +1078,17 @@ Package pdftex.def Info: slike/appUsage3.png  used on input line 499.
 [26
 
  <./slike/appUsage1.png> <./slike/appUsage2.png>]
-<slike/appUsage4.png, id=425, 1047.16219pt x 435.12563pt>
+<slike/appUsage4.png, id=426, 1047.16219pt x 435.12563pt>
 File: slike/appUsage4.png Graphic file (type png)
 <use slike/appUsage4.png>
 Package pdftex.def Info: slike/appUsage4.png  used on input line 506.
 (pdftex.def)             Requested size: 364.19667pt x 151.33353pt.
-<slike/appUsage5.png, id=426, 1035.87pt x 627.84563pt>
+<slike/appUsage5.png, id=427, 1035.87pt x 627.84563pt>
 File: slike/appUsage5.png Graphic file (type png)
 <use slike/appUsage5.png>
 Package pdftex.def Info: slike/appUsage5.png  used on input line 513.
 (pdftex.def)             Requested size: 364.19667pt x 220.74559pt.
-<slike/appUsage6.png, id=427, 386.94562pt x 166.37157pt>
+<slike/appUsage6.png, id=428, 386.94562pt x 166.37157pt>
 File: slike/appUsage6.png Graphic file (type png)
 <use slike/appUsage6.png>
 Package pdftex.def Info: slike/appUsage6.png  used on input line 520.
@@ -1096,7 +1096,7 @@ Package pdftex.def Info: slike/appUsage6.png  used on input line 520.
 
 
 [27 <./slike/appUsage3.png> <./slike/appUsage4.png> <./slike/appUsage5.png>]
-<slike/appUsage7.png, id=438, 267.24844pt x 255.95625pt>
+<slike/appUsage7.png, id=439, 267.24844pt x 255.95625pt>
 File: slike/appUsage7.png Graphic file (type png)
 <use slike/appUsage7.png>
 Package pdftex.def Info: slike/appUsage7.png  used on input line 527.
@@ -1150,9 +1150,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  81i,12n,95p,1436b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on output_files/main.pdf (39 pages, 1625917 bytes).
+Output written on output_files/main.pdf (39 pages, 1629290 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
+ 582 PDF objects out of 1000 (max. 8388607)
  480 compressed objects within 5 object streams
  122 named destinations out of 1000 (max. 500000)
  462 words of extra memory for PDF output out of 10000 (max. 10000000)
