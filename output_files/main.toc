@@ -2,33 +2,37 @@
 \contentsline {chapter}{\numberline {1}Uvod}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Problem pronalaska slobodnog termina za sastanke}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Pregled postojećih rješenja}{2}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Tehnologije za razvoj rješenja}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Google Cloud projekt}{3}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Proces kreiranja Google Cloud projekta}{3}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Omogućavanje API-ja unutar Google Cloud projekta}{3}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Postavljanje naplate i upravljanje korisnicima}{4}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}API}{4}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}HTTP zahtjevi}{4}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}RESTFul API}{5}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}ASP.NET Core}{5}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}ASP.NET MVC}{5}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Model}{6}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}View}{6}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Controllers}{6}{subsubsection.3.3.1.3}%
-\contentsline {subsection}{\numberline {3.3.2}ASP.NET Web API}{6}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Izrada Meeting Planner aplikacije}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Uvod u projekt}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Dizajn rješenja}{8}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Struktura klijentskog dijela aplikacije}{8}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Struktura poslužiteljskog dijela}{9}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Google Workspace}{10}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Stvaranje projekta}{12}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Autentifikacija}{13}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Prikaz događaja}{15}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Protok podataka}{19}{subsection.4.6.1}%
-\contentsline {section}{\numberline {4.7}Pronalazak slobodnih termina}{19}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Unos sastanka}{22}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Demonstracija korištenja aplikacije}{24}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zaključak}{27}{chapter.6}%
-\contentsline {chapter}{Popis literature}{28}{chapter*.35}%
-\contentsline {chapter}{Popis slika}{30}{chapter*.36}%
+\contentsline {subsection}{\numberline {2.1.1}Osnovni koncepti povezani s domenom}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Izazovi u pronalasku zajedničkih slobodnih termina}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Relevantni algoritmi za pronalazak zajedničkih termina}{3}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Postojeće biblioteke, okviri i komponente}{4}{subsection.2.1.4}%
+\contentsline {chapter}{\numberline {3}Tehnologije za razvoj rješenja}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Google Cloud projekt}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Proces kreiranja Google Cloud projekta}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Omogućavanje API-ja unutar Google Cloud projekta}{5}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Postavljanje naplate i upravljanje korisnicima}{6}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}API}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}HTTP zahtjevi}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}RESTFul API}{7}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}ASP.NET Core}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}ASP.NET MVC}{7}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Model}{8}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}View}{8}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Controllers}{8}{subsubsection.3.3.1.3}%
+\contentsline {subsection}{\numberline {3.3.2}ASP.NET Web API}{8}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Izrada Meeting Planner aplikacije}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Uvod u projekt}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Dizajn rješenja}{10}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Struktura klijentskog dijela aplikacije}{10}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Struktura poslužiteljskog dijela}{11}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Google Workspace}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Stvaranje projekta}{14}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Autentifikacija}{15}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Prikaz događaja}{17}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Protok podataka}{21}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Pronalazak slobodnih termina}{21}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Unos sastanka}{24}{section.4.9}%
+\contentsline {chapter}{\numberline {5}Demonstracija korištenja aplikacije}{26}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Zaključak}{29}{chapter.6}%
+\contentsline {chapter}{Popis literature}{31}{chapter*.35}%
+\contentsline {chapter}{Popis slika}{33}{chapter*.36}%

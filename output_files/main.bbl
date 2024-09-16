@@ -19,9 +19,17 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{GoogleWorkspace2024}{misc}{}{}
+    \entry{GreedyAlgorithms2024}{misc}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.geeksforgeeks.org/greedy-algorithms/} (Pristupano: 16.9.2024.)}
+      \field{title}{Greedy Algorithms}
+      \field{year}{2024}
+    \endentry
+    \entry{GoogleWorkspace2024}{misc}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://developers.google.com/workspace/guides/create-project} (Pristupano: 6.9.2024.)}
       \field{title}{Create a Google Cloud project}
@@ -46,8 +54,8 @@
       \strng{authornamehash}{38efedd92a48ed1cd09de1b2eb2c4af3}
       \strng{authorfullhash}{38efedd92a48ed1cd09de1b2eb2c4af3}
       \strng{authorfullhashraw}{38efedd92a48ed1cd09de1b2eb2c4af3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9781508676645}
@@ -77,8 +85,8 @@
       \strng{authornamehash}{baac6144e7d5fa2cbcc807689fd981f6}
       \strng{authorfullhash}{baac6144e7d5fa2cbcc807689fd981f6}
       \strng{authorfullhashraw}{baac6144e7d5fa2cbcc807689fd981f6}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://www.altexsoft.com/blog/what-is-api-definition-types-specifications-documentation/} (Pristupano: 31.7.2024.)}
@@ -125,8 +133,8 @@
       \strng{authornamehash}{1b9161a5e3974e287281bb54cf91a7dc}
       \strng{authorfullhash}{208f85f28b6c45f99a6f03dafd9c767f}
       \strng{authorfullhashraw}{208f85f28b6c45f99a6f03dafd9c767f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://www.ijraset.com} (Pristupano: 9.8.2024.)}
@@ -147,8 +155,8 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://www.ibm.com/topics/rest-apis} (Pristupano: (1.8.2024))}

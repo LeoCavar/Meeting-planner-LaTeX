@@ -2,39 +2,39 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Prikaz MVC u ASP.NET MVC projektu (Izvor: autor)}}{6}{figure.caption.2}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Prikaz MVC u ASP.NET MVC projektu (Izvor: autor)}}{8}{figure.caption.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2}{\ignorespaces Class dijagram klijentskog dijela aplikacije}}{9}{figure.caption.3}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Class dijagram poslužiteljske komponente}}{10}{figure.caption.4}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Google Cloud console (Izvor: autor)}}{11}{figure.caption.5}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Omogućavanje Google Calendar API (Izvor: autor)}}{11}{figure.caption.6}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Informacije o projektu MeetingPlanner (Izvor: autor)}}{11}{figure.caption.7}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Informacije o projektu MeetingPlanner (Izvor: autor)}}{12}{figure.caption.8}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Rješenje MeetingPlanner (Izvor: autor)}}{12}{figure.caption.9}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Postavljanje autentifikacije (Izvor: autor)}}{13}{figure.caption.10}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Metoda LoginWithGoogle (Izvor: autor)}}{13}{figure.caption.11}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Metoda Callback (Izvor: autor)}}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Login servis (Izvor: autor)}}{14}{figure.caption.13}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Pregled kalendara (Izvor: autor)}}{15}{figure.caption.14}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Pregled kalendara kontroler (Izvor: autor)}}{16}{figure.caption.15}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Slanje zahtjeva na API krajnja točku za dohvaćanje kalendara (Izvor: autor)}}{16}{figure.caption.16}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Metoda za upravljanjem povratnog JSON teksta (Izvor: autor)}}{17}{figure.caption.17}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Kalendar "events" krajnja točka (Izvor: autor)}}{17}{figure.caption.18}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Metoda za dohvaćanje instance Google kalendar servisa (Izvor: autor)}}{18}{figure.caption.19}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Metoda GetSimpleEventAsync (Izvor: autor)}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Prikaz kalendara na web stranici (Izvor: autor)}}{19}{figure.caption.21}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Web sučelje za prikaz dostupnih termina (Izvor: autor)}}{20}{figure.caption.22}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Metoda \textit {GetFreeBusyInformationAsync} (Izvor: autor)}}{20}{figure.caption.23}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Dohvaćanje zauzetih termina odabrane lokacije (Izvor: autor)}}{21}{figure.caption.24}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Metode za pretvaranje zauzetih termina u slobodne (Izvor: autor)}}{21}{figure.caption.25}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Sučelje za unos sastanka (Izvor: autor)}}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Implementacija unosa događaja u kalendare korisnika (Izvor: autor)}}{23}{figure.caption.27}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Class dijagram klijentskog dijela aplikacije}}{11}{figure.caption.3}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Class dijagram poslužiteljske komponente}}{12}{figure.caption.4}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Google Cloud console (Izvor: autor)}}{13}{figure.caption.5}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Omogućavanje Google Calendar API (Izvor: autor)}}{13}{figure.caption.6}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Informacije o projektu MeetingPlanner (Izvor: autor)}}{13}{figure.caption.7}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Informacije o projektu MeetingPlanner (Izvor: autor)}}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Rješenje MeetingPlanner (Izvor: autor)}}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Postavljanje autentifikacije (Izvor: autor)}}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Metoda LoginWithGoogle (Izvor: autor)}}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Metoda Callback (Izvor: autor)}}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Login servis (Izvor: autor)}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Pregled kalendara (Izvor: autor)}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Pregled kalendara kontroler (Izvor: autor)}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Slanje zahtjeva na API krajnja točku za dohvaćanje kalendara (Izvor: autor)}}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Metoda za upravljanjem povratnog JSON teksta (Izvor: autor)}}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Kalendar "events" krajnja točka (Izvor: autor)}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Metoda za dohvaćanje instance Google kalendar servisa (Izvor: autor)}}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Metoda GetSimpleEventAsync (Izvor: autor)}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Prikaz kalendara na web stranici (Izvor: autor)}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Web sučelje za prikaz dostupnih termina (Izvor: autor)}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Metoda \textit {GetFreeBusyInformationAsync} (Izvor: autor)}}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Dohvaćanje zauzetih termina odabrane lokacije (Izvor: autor)}}{23}{figure.caption.24}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Metode za pretvaranje zauzetih termina u slobodne (Izvor: autor)}}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Sučelje za unos sastanka (Izvor: autor)}}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Implementacija unosa događaja u kalendare korisnika (Izvor: autor)}}{25}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {27}{\ignorespaces Početna stranica (Izvor: autor)}}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Login stranica (Izvor: autor)}}{24}{figure.caption.29}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Kalendar prijavljenog korisnika (Izvor: autor)}}{25}{figure.caption.30}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Provjera dostupnosti korisnika (Izvor: autor)}}{25}{figure.caption.31}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Korisničko sučelje za unos sastanka (Izvor: autor)}}{25}{figure.caption.32}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Potvrda o unosu sastanka (Izvor: autor)}}{26}{figure.caption.33}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Google kalendar gosta sastanka (Izvor: autor)}}{26}{figure.caption.34}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Početna stranica (Izvor: autor)}}{26}{figure.caption.28}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Login stranica (Izvor: autor)}}{26}{figure.caption.29}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Kalendar prijavljenog korisnika (Izvor: autor)}}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Provjera dostupnosti korisnika (Izvor: autor)}}{27}{figure.caption.31}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Korisničko sučelje za unos sastanka (Izvor: autor)}}{27}{figure.caption.32}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Potvrda o unosu sastanka (Izvor: autor)}}{28}{figure.caption.33}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Google kalendar gosta sastanka (Izvor: autor)}}{28}{figure.caption.34}%
 \addvspace {10\p@ }

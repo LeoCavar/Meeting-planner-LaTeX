@@ -50,13 +50,52 @@ Pronalaženje slobodnih termina uključuje nekoliko ključnih aspekata:
 \end{itemize}
 
 
-Uspješno rješavanje ovog problema ključno je za povećanje produktivnosti i smanjenje vremena potrebnog za dogovaranje sastanaka. Neefikasno upravljanje vremenom može rezultirati propuštenim prilikama, nezadovoljstvom zaposlenika te povećanim troškovima rada. S obzirom na to, mnoge organizacije nastoje automatizirati ovaj proces korištenjem digitalnih alata za zakazivanje sastanaka.
+Uspješno rješavanje ovog problema ključno je za povećanje produktivnosti i smanjenje vremena potrebnog za dogovaranje sastanaka. Neefikasno upravljanje vremenom može rezultirati propuštenim prilikama, nezadovoljstvom zaposlenika te povećanim troškovima rada.
 
 \section{Pregled postojećih rješenja}
 
-Jedno od najpoznatijih rješenja za organizaciju sastanaka je \textbf{Microsoft Outlook}, posebno za korisnike koji koriste Microsoft 365 ili Microsoft Exchange račune. Outlook omogućuje planiranje sastanaka pomoću alata poput \textit{Scheduling Assistant} i \textit{Room Finder}. Ovi alati pomažu u pronalasku slobodnog vremena ne samo za sudionike sastanka, već i za raspoložive resurse, kao što su dvorane za sastanke.
-\textit{Scheduling Assistant} omogućuje korisnicima pregled dostupnih termina sudionika te automatski predlaže najbolje vrijeme za sastanak prema njihovim zauzetim i slobodnim terminima. Uz to, \textit{Room Finder} olakšava pronalazak slobodnih prostorija, ovisno o postavkama unutar Microsoft 365 ili Exchange okruženja.
-Iako je Outlook vrlo moćno rješenje, njegova upotreba veže korisnike na Microsoftov ekosustav, što znači da organizacije koje ne koriste Microsoft 365 ili Exchange ne mogu u potpunosti iskoristiti sve funkcionalnosti ovog alata. Osim toga, velik dio tržišta koristi \textit{Google Calendar}, koji je mnogo pristupačniji i popularniji među korisnicima, osobito u manjim organizacijama i među individualnim korisnicima. Stoga, iako Outlook nudi napredne funkcionalnosti, njegov utjecaj je ograničen na specifičnu skupinu korisnika, dok je \textit{Google Calendar} prisutniji na globalnom tržištu.
+Jedno od najpoznatijih rješenja za organizaciju sastanaka je \textbf{Microsoft Outlook}, posebno za korisnike koji koriste Microsoft 365 ili Microsoft Exchange račune. Outlook omogućuje planiranje sastanaka pomoću alata poput \textit{Scheduling Assistant} i \textit{Room Finder}. Ovi alati pomažu u pronalasku slobodnog vremena ne samo za sudionike sastanka, već i za raspoložive resurse, kao što su dvorane za sastanke. \textit{Scheduling Assistant} omogućuje korisnicima pregled dostupnih termina sudionika te automatski predlaže najbolje vrijeme za sastanak prema njihovim zauzetim i slobodnim terminima. Uz to, \textit{Room Finder} olakšava pronalazak slobodnih prostorija, ovisno o postavkama unutar Microsoft 365 ili Exchange okruženja. Iako je Outlook vrlo moćno rješenje, njegova upotreba veže korisnike na Microsoftov ekosustav, što znači da organizacije koje ne koriste Microsoft 365 ili Exchange ne mogu u potpunosti iskoristiti sve funkcionalnosti ovog alata. Osim toga, velik dio tržišta koristi \textit{Google Calendar}, koji je mnogo pristupačniji i popularniji među korisnicima, osobito u manjim organizacijama i među individualnim korisnicima. Stoga, iako Outlook nudi napredne funkcionalnosti, njegov utjecaj je ograničen na specifičnu skupinu korisnika, dok je \textit{Google Calendar} prisutniji na globalnom tržištu.
+\newpage
+\subsection{Osnovni koncepti povezani s domenom}
+
+U domeni organizacije sastanaka i upravljanja vremenom, ključni koncepti uključuju:
+
+\begin{itemize}
+    \item \textbf{Upravljanje kalendarom i događajima}: U osnovi, rješenja za upravljanje sastancima koriste digitalne kalendare kako bi omogućili korisnicima zakazivanje i praćenje događaja, upravljanje pozivnicama i sinkronizaciju s vanjskim servisima.
+    \item \textbf{Pronalaženje slobodnih termina}: Jedan od glavnih izazova u domeni jest pronalazak zajedničkih slobodnih termina među više korisnika, osobito kada korisnici koriste različite vremenske zone ili kalendarske platforme.
+    \item \textbf{Vremenske zone i sinkronizacija}: Različite vremenske zone predstavljaju dodatni izazov prilikom zakazivanja sastanaka, jer je potrebno osigurati točnu sinkronizaciju između kalendara.
+\end{itemize}
+
+\subsection{Izazovi u pronalasku zajedničkih slobodnih termina}
+
+Pronalaženje zajedničkih slobodnih termina za više sudionika nije trivijalan problem, osobito kada postoji veći broj korisnika ili kada sudionici dolaze iz različitih organizacija ili koriste različite kalendarske servise. Glavni izazovi uključuju:
+
+\begin{itemize}
+    \item \textbf{Različiti kalendarski servisi}: Korisnici mogu koristiti različite servise, poput Google Calendar, Microsoft Outlook ili Apple Calendar, što otežava sinkronizaciju između kalendara.
+    \item \textbf{Vremenske zone}: S obzirom na globalnu prirodu rada, sudionici sastanka mogu biti u različitim vremenskim zonama, što povećava kompleksnost prilikom pronalaska zajedničkih slobodnih termina.
+    \item \textbf{Autorizacija i sigurnost}: Svaki korisnik mora omogućiti pristup svom kalendaru putem autorizacijskih mehanizama kao što su OAuth 2.0, što dodaje složenost upravljanja sigurnošću i privatnošću podataka.
+\end{itemize}
+
+\subsection{Relevantni algoritmi za pronalazak zajedničkih termina}
+
+Postoji nekoliko relevantnih algoritama koji se mogu koristiti za optimizaciju pronalaska sastanka u našem rješenju:
+
+\begin{itemize}
+    \item \textbf{Interval scheduling algoritmi}: Ovi algoritmi fokusiraju se na pronalaženje maksimalnog broja nepreklapajućih vremenskih intervala među sudionicima. Korisni su kada je potrebno optimizirati raspored, omogućujući učinkovitije korištenje vremena i resursa. Oni pomažu u odabiru najboljih intervala koji ne prelaze jedan u drugi, čime se minimizira nepotrebno preklapanje.
+    \item \textbf{Line sweeping algoritmi}: Ovaj algoritam koristi tehniku pretraživanja kroz vremensku os pomoću događaja poput slobodnih i zauzetih termina. Ideja je pomaknuti "crtu" kroz vremensku os i bilježiti događaje kako bi se pronašli slobodni intervali. Line sweeping algoritmi su korisni za analizu složenih rasporeda i identificiranje dostupnih vremenskih perioda kroz učinkovito upravljanje događajima \cite{GreedyAlgorithms2024}.
+\end{itemize}
+
+\subsection{Postojeće biblioteke, okviri i komponente}
+
+Uz gotova rješenja poput Microsoft Outlooka, postoje mnoge biblioteke i okviri koji mogu pomoći u razvoju rješenja za zakazivanje sastanaka:
+
+\begin{itemize}
+    \item \textbf{Microsoft Graph API}: Ovaj API omogućava integraciju s Microsoft 365 i Exchange servisima, uključujući kalendare, što je alternativa Google API-ju.
+    \item \textbf{FullCalendar}: Front-end JavaScript biblioteka koja omogućuje vizualizaciju kalendara u web aplikacijama i lako se integrira s backend sustavima.
+    \item \textbf{DHTMLX Scheduler}: Komponenta za kreiranje prilagodljivih kalendara koja podržava različite rasporede i može se integrirati s raznim backend rješenjima.
+\end{itemize}
+
+Većina ovih rješenja se bazira na korisničkom sučelju te nam nisu korisna za izradu aplikacije u .NET-u ako želimo komunicirati s Google kalendarom.
 \chapter{Tehnologije za razvoj rješenja}
 \section{Google Cloud projekt}
 
@@ -368,7 +407,7 @@ Nakon implementacije metode naša funkcionalnost je potpuna, te se kalendar vra�
     \caption{Prikaz kalendara na web stranici (Izvor: autor)}
     \label{fig:CalendarViewImg}
 \end{figure}
-\subsection{Protok podataka}
+\section{Protok podataka}
 
 Protok podataka u ovoj aplikaciji je jasno definiran za sve funkcionalnosti koje će se implementirati dalje u ovome radu s malim razlikama ovisno o funkcionalnosti ali uzorak će ostati isti.
 \begin{itemize}
