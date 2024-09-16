@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,11 +687,7 @@ Package csquotes Info: Redefining alias 'default' -> 'croatian'.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 31.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-) (output_files/main.aux
-
-LaTeX Warning: Label `fig:createEventForAllUsers' multiply defined.
-
-)
+) (output_files/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -1020,11 +1016,11 @@ Package pdftex.def Info: slike/calendarEvents.png  used on input line 406.
 [20 <./slike/GetCalendarService.png (PNG copy)> <./slike/GetSimpleEventAsync.png (PNG copy)>]
 
 [21 <./slike/calendarEvents.png>]
-<slike/timesAvaileble.png, id=384, 1001.24063pt x 416.30531pt>
+<slike/timesAvaileble.png, id=384, 1010.27437pt x 432.86719pt>
 File: slike/timesAvaileble.png Graphic file (type png)
 <use slike/timesAvaileble.png>
 Package pdftex.def Info: slike/timesAvaileble.png  used on input line 436.
-(pdftex.def)             Requested size: 318.66948pt x 132.49625pt.
+(pdftex.def)             Requested size: 318.66948pt x 136.53882pt.
 <slike/getfreebuisy.png, id=385, 846.16125pt x 402.00188pt>
 File: slike/getfreebuisy.png Graphic file (type png)
 <use slike/getfreebuisy.png>
@@ -1082,16 +1078,16 @@ Package pdftex.def Info: slike/appUsage3.png  used on input line 499.
 [26
 
  <./slike/appUsage1.png> <./slike/appUsage2.png>]
-<slike/appUsage4.png, id=425, 1005.7575pt x 431.36156pt>
+<slike/appUsage4.png, id=425, 1047.16219pt x 435.12563pt>
 File: slike/appUsage4.png Graphic file (type png)
 <use slike/appUsage4.png>
 Package pdftex.def Info: slike/appUsage4.png  used on input line 506.
-(pdftex.def)             Requested size: 364.19667pt x 156.19836pt.
-<slike/appUsage5.png, id=426, 1011.02719pt x 596.98032pt>
+(pdftex.def)             Requested size: 364.19667pt x 151.33353pt.
+<slike/appUsage5.png, id=426, 1035.87pt x 627.84563pt>
 File: slike/appUsage5.png Graphic file (type png)
 <use slike/appUsage5.png>
 Package pdftex.def Info: slike/appUsage5.png  used on input line 513.
-(pdftex.def)             Requested size: 364.19667pt x 215.04938pt.
+(pdftex.def)             Requested size: 364.19667pt x 220.74559pt.
 <slike/appUsage6.png, id=427, 386.94562pt x 166.37157pt>
 File: slike/appUsage6.png Graphic file (type png)
 <use slike/appUsage6.png>
@@ -1100,11 +1096,11 @@ Package pdftex.def Info: slike/appUsage6.png  used on input line 520.
 
 
 [27 <./slike/appUsage3.png> <./slike/appUsage4.png> <./slike/appUsage5.png>]
-<slike/appUsage7.png, id=438, 1220.30907pt x 425.33907pt>
+<slike/appUsage7.png, id=438, 267.24844pt x 255.95625pt>
 File: slike/appUsage7.png Graphic file (type png)
 <use slike/appUsage7.png>
 Package pdftex.def Info: slike/appUsage7.png  used on input line 527.
-(pdftex.def)             Requested size: 364.19667pt x 126.9407pt.
+(pdftex.def)             Requested size: 364.19667pt x 348.84575pt.
 
 
 [28 <./slike/appUsage6.png> <./slike/appUsage7.png>]
@@ -1139,10 +1135,6 @@ Overfull \hbox (1.24867pt too wide) in paragraph at lines 544--544
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CC5CD8A8A92988BFDBC729E0A14D2C48;7518.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1150,15 +1142,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24835 strings out of 473579
- 430713 string characters out of 5732264
+ 24836 strings out of 473579
+ 430742 string characters out of 5732264
  1942960 words of memory out of 5000000
- 47279 multiletter control sequences out of 15000+600000
+ 47280 multiletter control sequences out of 15000+600000
  608870 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,12n,95p,1436b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on output_files/main.pdf (39 pages, 1620931 bytes).
+Output written on output_files/main.pdf (39 pages, 1625917 bytes).
 PDF statistics:
  581 PDF objects out of 1000 (max. 8388607)
  480 compressed objects within 5 object streams
