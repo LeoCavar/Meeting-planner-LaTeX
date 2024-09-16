@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {4.7}Protok podataka}{21}{section.4.7}%
 \contentsline {section}{\numberline {4.8}Pronalazak slobodnih termina}{21}{section.4.8}%
 \contentsline {section}{\numberline {4.9}Unos sastanka}{24}{section.4.9}%
-\contentsline {chapter}{\numberline {5}Demonstracija korištenja aplikacije}{26}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zaključak}{29}{chapter.6}%
+\contentsline {section}{\numberline {4.10}Demonstracija korištenja aplikacije}{25}{section.4.10}%
+\contentsline {chapter}{\numberline {5}Zaključak}{29}{chapter.5}%
 \contentsline {chapter}{Popis literature}{31}{chapter*.35}%
 \contentsline {chapter}{Popis slika}{33}{chapter*.36}%
