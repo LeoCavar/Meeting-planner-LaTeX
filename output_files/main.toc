@@ -34,5 +34,5 @@
 \contentsline {section}{\numberline {4.9}Unos sastanka}{25}{section.4.9}%
 \contentsline {section}{\numberline {4.10}Demonstracija korištenja aplikacije}{26}{section.4.10}%
 \contentsline {chapter}{\numberline {5}Zaključak}{30}{chapter.5}%
-\contentsline {chapter}{Popis literature}{32}{chapter*.37}%
-\contentsline {chapter}{Popis slika}{34}{chapter*.38}%
+\contentsline {chapter}{Popis literature}{31}{chapter*.37}%
+\contentsline {chapter}{Popis slika}{33}{chapter*.38}%

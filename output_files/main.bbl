@@ -58,8 +58,6 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9781508676645}
-      \field{series}{API-University Series}
       \field{title}{API Architecture}
       \field{year}{2015}
       \verb{urlraw}
@@ -285,24 +283,8 @@
       \field{year}{2022}
     \endentry
     \entry{ASPNet2023}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=b500c8393634f5303cd42de9f804aebc}{%
-           family={autori},
-           familyi={a\bibinitperiod},
-           given={Anonimni},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b500c8393634f5303cd42de9f804aebc}
-      \strng{fullhash}{b500c8393634f5303cd42de9f804aebc}
-      \strng{fullhashraw}{b500c8393634f5303cd42de9f804aebc}
-      \strng{bibnamehash}{b500c8393634f5303cd42de9f804aebc}
-      \strng{authorbibnamehash}{b500c8393634f5303cd42de9f804aebc}
-      \strng{authornamehash}{b500c8393634f5303cd42de9f804aebc}
-      \strng{authorfullhash}{b500c8393634f5303cd42de9f804aebc}
-      \strng{authorfullhashraw}{b500c8393634f5303cd42de9f804aebc}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0} (Pristupano: 12.7.2024.)}
       \field{title}{Izbor između API-ja baziranih na kontrolerima i minimalnih API-ja}

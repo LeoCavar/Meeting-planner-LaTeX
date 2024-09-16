@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1122,19 +1122,12 @@ Poglavlje 5.
 [30
 
 ]
-Overfull \hbox (1.24867pt too wide) in paragraph at lines 554--554
-\T1/phv/m/n/10.95 Plat-form, 2015., \T1/phv/m/sc/10.95 isbn\T1/phv/m/n/10.95 : 9781508676645. adresa: []$\T1/pcr/m/n/10.95 https : / / books . google . ba / books ?
- []
-
-
 
 [31
 
-]
+] (output_files/main.lof
 
-[32] (output_files/main.lof
-
-[33
+[32
 
 ])
 \tf@lof=\write7
@@ -1142,7 +1135,7 @@ Overfull \hbox (1.24867pt too wide) in paragraph at lines 554--554
 
 
 
-[34] (output_files/main.aux)
+[33] (output_files/main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -1154,18 +1147,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24855 strings out of 473579
- 431357 string characters out of 5732264
+ 24850 strings out of 473579
+ 431310 string characters out of 5732264
  1942960 words of memory out of 5000000
- 47296 multiletter control sequences out of 15000+600000
- 608870 words of font info for 87 fonts, out of 8000000 for 9000
+ 47294 multiletter control sequences out of 15000+600000
+ 603702 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,12n,95p,1436b,2239s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on output_files/main.pdf (40 pages, 1765995 bytes).
+Output written on output_files/main.pdf (39 pages, 1765764 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
- 487 compressed objects within 5 object streams
- 125 named destinations out of 1000 (max. 500000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
  472 words of extra memory for PDF output out of 10000 (max. 10000000)
 
