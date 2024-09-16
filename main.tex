@@ -172,11 +172,11 @@ Na bazi toga, definiramo funkcionalnosti.
 Za omogućavanje integracije s Google kalendarom koristiti ćemo Google Calendar API. RESTFul API s kojim se može komunicirati pomoću HTTP poziva.
 \section{Dizajn rješenja}
 
-U ovoj sekciji opisujemo dizajn rješenja za aplikaciju \textit{MeetingPlanner}, koja se sastoji od klijentskih i poslužiteljskih komponenti. UML class dijagrami koji prate ovaj opis ilustriraju strukturu ključnih klasa i njihovu međusobnu povezanost.
+U ovoj sekciji opisujemo dizajn rješenja za aplikaciju \textit{MeetingPlanner}, koja se sastoji od klijentskih {engl. \textit{Frontend}} i poslužiteljskih {engl. \textit{Backend}} komponenti. UML class dijagrami koji prate ovaj opis ilustriraju strukturu ključnih klasa i njihovu međusobnu povezanost.
 
 \subsection{Struktura klijentskog dijela aplikacije}
 
-Na slici \ref{fig:frontend-uml} prikazan je class dijagram za frontend dio aplikacije \textit{MeetingPlanner}. Ovaj dio aplikacije uključuje logiku za dohvaćanje slobodnih termina, autentifikaciju korisnika putem Google usluga, te rad s kalendarima korisnika.
+Na slici \ref{fig:frontend-uml} prikazan je class dijagram za klijentski dio dio aplikacije \textit{MeetingPlanner}. Ovaj dio aplikacije uključuje logiku za dohvaćanje slobodnih termina, autentifikaciju korisnika putem Google usluga, te rad s kalendarima korisnika.
 
 \begin{figure}[H]
     \centering
@@ -195,12 +195,12 @@ Na dijagramu vidimo sljedeće glavne klase i njihove odnose:
 
 \subsection{Struktura poslužiteljskog dijela}
 
-Backend rješenje je prikazano na slici \ref{fig:backend-uml}, koja uključuje ključno poslovno logiku za rad s Google Calendar API-em i korisničkim autentifikacijskim tokovima.
+Poslužiteljsko rješenje je prikazano na slici \ref{fig:backend-uml}, koja uključuje ključno poslovno logiku za rad s Google Calendar API-em i korisničkim autentifikacijskim tokovima.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{slike/MeetingPlannerAPI_ClassUML.png}
-    \caption{Class dijagram backend komponente}
+    \caption{Class dijagram poslužiteljske komponente}
     \label{fig:backend-uml}
 \end{figure}
 
@@ -336,8 +336,8 @@ Odgovor se mapira iz JSON stringa u .NET objekt, u ovom kontekstu se pretvara u 
     \label{fig:calendarReturnList}
 
 \end{figure}
-Ovo je sva potrebna logika za klijentski dio sustava {engl. \textit{Frontend}}. Potrebno je implementirati poslužiteljski dio {eng. \textit{Backend}}.
-Pozadinski dio se implementira tako što se definira \textit{ApiController} ruta koja se pozvala u metodi \textit{GetCalendarEventsAsync}. 
+Ovo je sva potrebna logika za klijentski dio sustava. Potrebno je implementirati poslužiteljski dio.
+Poslužiteljski dio se implementira tako što se definira \textit{ApiController} ruta koja se pozvala u metodi \textit{GetCalendarEventsAsync}. 
 Prvobitno se izvršava validacija tokena te se dohvaćaju događaji pomoću metode \textit{GetSimpleEventsAsync} i provjerava se uspješnost operacije.
 \begin{figure}[H]
     \centering
