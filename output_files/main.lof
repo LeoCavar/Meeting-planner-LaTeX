@@ -23,17 +23,19 @@
 \contentsline {figure}{\numberline {18}{\ignorespaces Metoda za dohvaćanje instance Google kalendar servisa (Izvor: autor)}}{20}{figure.caption.19}%
 \contentsline {figure}{\numberline {19}{\ignorespaces Metoda GetSimpleEventAsync (Izvor: autor)}}{20}{figure.caption.20}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Prikaz kalendara na web stranici (Izvor: autor)}}{21}{figure.caption.21}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Web sučelje za prikaz dostupnih termina (Izvor: autor)}}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Metoda \textit {GetFreeBusyInformationAsync} (Izvor: autor)}}{22}{figure.caption.23}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Dohvaćanje zauzetih termina odabrane lokacije (Izvor: autor)}}{23}{figure.caption.24}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Metode za pretvaranje zauzetih termina u slobodne (Izvor: autor)}}{23}{figure.caption.25}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Sučelje za unos sastanka (Izvor: autor)}}{24}{figure.caption.26}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Implementacija unosa događaja u kalendare korisnika (Izvor: autor)}}{25}{figure.caption.27}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Početna stranica (Izvor: autor)}}{25}{figure.caption.28}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Login stranica (Izvor: autor)}}{26}{figure.caption.29}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Kalendar prijavljenog korisnika (Izvor: autor)}}{26}{figure.caption.30}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Provjera dostupnosti korisnika (Izvor: autor)}}{27}{figure.caption.31}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Korisničko sučelje za unos sastanka (Izvor: autor)}}{27}{figure.caption.32}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Potvrda o unosu sastanka (Izvor: autor)}}{28}{figure.caption.33}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Stvoreni događaj u kalendaru korisnika (Izvor: autor)}}{28}{figure.caption.34}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Prikaz slijeda protoka podataka (Izvor: autor)}}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Web sučelje za prikaz dostupnih termina (Izvor: autor)}}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Metoda \textit {GetFreeBusyInformationAsync} (Izvor: autor)}}{23}{figure.caption.24}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Dohvaćanje zauzetih termina odabrane lokacije (Izvor: autor)}}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Metode za pretvaranje zauzetih termina u slobodne (Izvor: autor)}}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Dijagram slijeda pronalaska slobodnog termina (Izvor: autor)}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Sučelje za unos sastanka (Izvor: autor)}}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Implementacija unosa događaja u kalendare korisnika (Izvor: autor)}}{26}{figure.caption.29}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Početna stranica (Izvor: autor)}}{26}{figure.caption.30}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Login stranica (Izvor: autor)}}{27}{figure.caption.31}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Kalendar prijavljenog korisnika (Izvor: autor)}}{27}{figure.caption.32}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Provjera dostupnosti korisnika (Izvor: autor)}}{28}{figure.caption.33}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Korisničko sučelje za unos sastanka (Izvor: autor)}}{28}{figure.caption.34}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Potvrda o unosu sastanka (Izvor: autor)}}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Stvoreni događaj u kalendaru korisnika (Izvor: autor)}}{29}{figure.caption.36}%
 \addvspace {10\p@ }

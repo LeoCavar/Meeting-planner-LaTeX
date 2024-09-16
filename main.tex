@@ -417,7 +417,12 @@ Protok podataka u ovoj aplikaciji je jasno definiran za sve funkcionalnosti koje
     \item \textbf{Odgovor poslužitelja}: Nakon obrade podataka, poslužitelj šalje odgovor klijentu. Ovaj odgovor uključuje popis slobodnih termina za sve korisnike u traženom vremenskom periodu, koji se klijentu vraćaju u JSON formatu ili potvrdu o izmjeni i unosu podataka.
     \item \textbf{Prikaz rezultata klijentu}: Klijentska aplikacija prima JSON odgovor i prikazuje slobodne termine korisniku u vizualno preglednom formatu, omogućujući mu da jednostavno vidi kada su svi korisnici dostupni ili se prikazuje odgovarajuća greška ovisno o odgovoru.
 \end{itemize}
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{slike/protokPodataka.png}
+    \caption{Prikaz slijeda protoka podataka  (Izvor: autor)}
+    \label{fig:protokPodataka}
+\end{figure}
 \section{Pronalazak slobodnih termina}
 Kako Google Calendar API ne omogućuje izravno dohvaćanje slobodnih termina, postupak pronalaska slobodnih perioda obuhvaća sljedeće korake:
 \begin{itemize}
@@ -428,7 +433,6 @@ Kako Google Calendar API ne omogućuje izravno dohvaćanje slobodnih termina, po
     \item Oduzimanje zauzetih termina od cijelog vremenskog raspona kako bi se identificirali slobodni termini
 \end{itemize}
 
-\newpage
 Korisničko sučelje uključuje obrazac koji šalje zahtjev na \textit{calendar/get-available-times} nakon unosa podataka. Odgovor se prikazuje u tablici sa slobodnim periodima.
 
 \begin{figure}[H]
@@ -462,6 +466,12 @@ Nakon spajanja u jednu varijablu, moramo pretvoriti popis zauzetih termina u pop
     \label{fig:FreePeriods}
 \end{figure}
 Metode \textit{GetCommonFreePeriods} i \textit{SubtractBusyPeriods} instanciraju popis \textit{TimePeriod} unutar odabranog vremenskog raspona te pomoću metode \textit{SubtractBusyPeriods} se od slobodnih vremena oduzimaju zauzeta vremena, stvarajući popis u kojemu se nalaze svi slobodni termini korisnika.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{slike/dijagramSlijedaFreePeriods.png}
+    \caption{Dijagram slijeda pronalaska slobodnog termina (Izvor: autor)}
+    \label{fig:dijagramSlijedaFreePeriods}
+\end{figure}
 \section{Unos sastanka}
 Kao završni dio aplikacije potrebno je omogućiti korisniku da unosi aktivnosti u kalendare korisnika. Prvo je potrebno kreirati sučelje za unos, korisnik može unositi opis, lokaciju sastanka, opis , vremenski period aktivnosti, vremensku zonu i goste sastanka.
 \begin{figure}[H]

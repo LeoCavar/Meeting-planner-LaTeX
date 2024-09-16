@@ -442,6 +442,11 @@ INPUT ./slike/calendarEvents.png
 INPUT ./slike/calendarEvents.png
 INPUT ./slike/calendarEvents.png
 INPUT ./slike/calendarEvents.png
+INPUT ./slike/protokPodataka.png
+INPUT ./slike/protokPodataka.png
+INPUT ./slike/protokPodataka.png
+INPUT ./slike/protokPodataka.png
+INPUT ./slike/protokPodataka.png
 INPUT ./slike/timesAvaileble.png
 INPUT ./slike/timesAvaileble.png
 INPUT ./slike/timesAvaileble.png
@@ -462,6 +467,11 @@ INPUT ./slike/FreePeriods.png
 INPUT ./slike/FreePeriods.png
 INPUT ./slike/FreePeriods.png
 INPUT ./slike/FreePeriods.png
+INPUT ./slike/dijagramSlijedaFreePeriods.png
+INPUT ./slike/dijagramSlijedaFreePeriods.png
+INPUT ./slike/dijagramSlijedaFreePeriods.png
+INPUT ./slike/dijagramSlijedaFreePeriods.png
+INPUT ./slike/dijagramSlijedaFreePeriods.png
 INPUT ./slike/insertMeeting.png
 INPUT ./slike/insertMeeting.png
 INPUT ./slike/insertMeeting.png
