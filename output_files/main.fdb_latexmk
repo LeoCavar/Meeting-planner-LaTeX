@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber output_files/main"] 1726494198.46583 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1726494656.42052 0
+["biber output_files/main"] 1726494198.46583 "output_files/main.bcf" "output_files/main.bbl" "output_files/main" 1726494909.98297 0
   "lib.bib" 1726494236 2792 55f5c101e0f192f0823a03a15930e5ef ""
-  "output_files/main.bcf" 1726494656 109047 54c1623c0f3816086fdbb1ffb8e1eb90 "pdflatex"
+  "output_files/main.bcf" 1726494909 109047 54c1623c0f3816086fdbb1ffb8e1eb90 "pdflatex"
   (generated)
   "output_files/main.bbl"
   "output_files/main.blg"
   (rewritten before read)
-["pdflatex"] 1726494653.40105 "c:/Users/Leo/Desktop/lcavar21_rad/main.tex" "output_files/main.pdf" "main" 1726494656.42134 0
-  "c:/Users/Leo/Desktop/lcavar21_rad/main.tex" 1726494649 46059 185881040cb6f79a89098902d64816c2 ""
+["pdflatex"] 1726494906.9624 "c:/Users/Leo/Desktop/lcavar21_rad/main.tex" "output_files/main.pdf" "main" 1726494909.98391 0
+  "c:/Users/Leo/Desktop/lcavar21_rad/main.tex" 1726494902 46077 8cf0092eaa531a88518925aa0b00c555 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1722942896 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1722943338 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1722942609 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -165,13 +165,13 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1722948139 8239312 791f10e9814951aa465ce2bb134dac0e ""
   "c:/texlive/2024/texmf.cnf" 1722947776 713 e69b156964470283e0530f5060668171 ""
   "foi.cls" 1722951606 8223 8246e196d5cd82dbd936822d61235306 ""
-  "main.tex" 1726494649 46059 185881040cb6f79a89098902d64816c2 ""
-  "output_files/main.aux" 1726494656 17580 d1d912247a73b5cf40a264066e5134ba "pdflatex"
+  "main.tex" 1726494902 46077 8cf0092eaa531a88518925aa0b00c555 ""
+  "output_files/main.aux" 1726494909 17616 0d3cf1751de2e5fd15a5785cfcff3a7e "pdflatex"
   "output_files/main.bbl" 1726494204 13307 7ec7ce3e6b686647bb85416b486ec9a2 "biber output_files/main"
-  "output_files/main.lof" 1726494656 4609 88eee3f9d13e16716dc83343a86937c6 "pdflatex"
-  "output_files/main.out" 1726494656 7758 21922e8eca61eada99fd9706a084353a "pdflatex"
-  "output_files/main.run.xml" 1726494656 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
-  "output_files/main.toc" 1726494656 3361 3c9600de16e808b87bccff7b1b3d1bd7 "pdflatex"
+  "output_files/main.lof" 1726494909 4627 c4feed9eccca4cf2660b80817fba2a0e "pdflatex"
+  "output_files/main.out" 1726494909 7758 21922e8eca61eada99fd9706a084353a "pdflatex"
+  "output_files/main.run.xml" 1726494909 2396 5663fc0893968c2a36cf7e9783586cb1 "pdflatex"
+  "output_files/main.toc" 1726494909 3361 3c9600de16e808b87bccff7b1b3d1bd7 "pdflatex"
   "slike/FreePeriods.png" 1726490530 91226 44f77956f7445779468476019ec9505e ""
   "slike/GetBuisyLocation.png" 1726062666 74812 3449ab2f0343178edfa5cc8ddbbf32ce ""
   "slike/GetCalendarEventsEndpoint.png" 1726483375 41041 c952cd2968fc1cec041403a235817251 ""
