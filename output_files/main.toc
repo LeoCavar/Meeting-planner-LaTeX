@@ -22,17 +22,18 @@
 \contentsline {subsection}{\numberline {3.3.2}ASP.NET Web API}{8}{subsection.3.3.2}%
 \contentsline {chapter}{\numberline {4}Izrada Meeting Planner aplikacije}{10}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Uvod u projekt}{10}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Dizajn rješenja}{10}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Struktura klijentskog dijela aplikacije}{10}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Struktura poslužiteljskog dijela}{11}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.1.1}Nefunkcionalni zahtjevi}{10}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Dizajn rješenja}{11}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Struktura klijentskog dijela aplikacije}{11}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Struktura poslužiteljskog dijela}{12}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Google Workspace}{12}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Stvaranje projekta}{14}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Autentifikacija}{15}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Prikaz događaja}{17}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Protok podataka}{21}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Pronalazak slobodnih termina}{22}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Unos sastanka}{25}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Demonstracija korištenja aplikacije}{26}{section.4.10}%
-\contentsline {chapter}{\numberline {5}Zaključak}{30}{chapter.5}%
-\contentsline {chapter}{Popis literature}{31}{chapter*.37}%
-\contentsline {chapter}{Popis slika}{33}{chapter*.38}%
+\contentsline {section}{\numberline {4.5}Autentifikacija}{16}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Prikaz događaja}{18}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Protok podataka}{22}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Pronalazak slobodnih termina}{23}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Unos sastanka}{26}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Demonstracija korištenja aplikacije}{27}{section.4.10}%
+\contentsline {chapter}{\numberline {5}Zaključak}{31}{chapter.5}%
+\contentsline {chapter}{Popis literature}{32}{chapter*.37}%
+\contentsline {chapter}{Popis slika}{34}{chapter*.38}%

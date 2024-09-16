@@ -200,15 +200,26 @@ Za potrebe ovog rada koristit će se API bazirani na kontrolerima zbog bolje org
 
 \chapter{Izrada Meeting Planner aplikacije}
 \section{Uvod u projekt}
-Prije izrade projekta trebaju se definirati funckionalnosti projekta. Cilj aplikacije je dohvatiti sve dostupne termine koje korisnik ima u svome Google kalendaru te sinkronizacija u jedan ispis koji će organizatoru sastanka prikazati kada su dostupni svi planirani korisnici i odabrana dvorana u kojoj će se sastanak održati. 
+Prije izrade projekta trebaju se definirati funkcionalnosti projekta. Cilj aplikacije je dohvatiti sve dostupne termine koje korisnik ima u svome Google kalendaru te sinkronizacija u jedan ispis koji će organizatoru sastanka prikazati kada su dostupni svi planirani korisnici i odabrana dvorana u kojoj će se sastanak održati. 
+
 Na bazi toga, definiramo funkcionalnosti.
 \begin{itemize}
     \item Prijava korisnika: Korisnik se može prijaviti u sustav koristeći svoje Google podatke.
     \item Prikaz kalendara jednog korisnika (organizator): Korisniku se prikazuje njegov osobni kalendar s pregledom svih zakazanih sastanaka u obliku tablice.
-    \item Upis termina u kalendare (kalendar organizatora i kalendar korisnika): Nakon pronalaska slobodnog termina, sustav će omogućiti organizatoru upis sastanka u svoj kalendar kao i njihove kalendare.
-    \item Pronalazak slobodnih termina: Sustav pretražuje slobodne termine za sastanak uzimajući u obzir slobodno vrijeme sudionika, odabrane dane za sastanak i dostupne lokacije.
+    \item Upis termina u kalendare (kalendar organizatora i kalendar korisnika): Nakon pronalaska slobodnog termina, sustav će omogućiti organizatoru upis sastanka u svoj kalendar kao i u kalendare svih sudionika.
+    \item Pronalazak slobodnih termina: Sustav pretražuje slobodne termine za sastanak uzimajući u obzir slobodno vrijeme svih sudionika, odabrane dane za sastanak i dostupne lokacije.
 \end{itemize}
-Za omogućavanje integracije s Google kalendarom koristiti ćemo Google Calendar API. RESTFul API s kojim se može komunicirati pomoću HTTP poziva.
+
+Za omogućavanje integracije s Google kalendarom koristit ćemo Google Calendar API, RESTful API s kojim se može komunicirati pomoću HTTP poziva.
+
+\subsection{Nefunkcionalni zahtjevi}
+\begin{itemize}
+    \item Intuitivno sučelje: Sučelje mora biti intuitivno za korisnike, s jasnim navigacijskim opcijama. Sve funkcionalnosti trebaju biti lako dostupne i razumljive bez potrebe za dodatnim uputama.
+    \item Preglednost: Sučelje treba biti pregledno, s jasnim prikazom informacija. Tablice i prikazi kalendara trebaju biti dobro organizirani i lako čitljivi. Vizualni elementi trebaju biti usklađeni s modernim dizajnerskim smjernicama za poboljšanje korisničkog iskustva.
+    \item Sigurnost i privatnost: Podaci korisnika trebaju biti zaštićeni prema najboljim praksama u industriji. Sustav treba koristiti sigurne metode za autentifikaciju i autorizaciju (npr., OAuth 2.0). Osjetljivi podaci (kao što su podaci o sastancima) trebaju biti šifrirani i pohranjeni sigurno.
+    \item Performanse: Sustav treba biti sposoban za brzu obradu zahtjeva i prikaz informacija u realnom vremenu. Korištenje API-ja treba biti optimizirano kako bi se smanjilo vrijeme čekanja i poboljšala učinkovitost.
+    \item Kompatibilnost: Aplikacija treba biti kompatibilna sa svim modernim preglednicima. Sučelje treba biti responzivno i prilagodljivo različitim veličinama ekrana i uređajima.
+\end{itemize}
 \section{Dizajn rješenja}
 
 U ovoj sekciji opisujemo dizajn rješenja za aplikaciju \textit{MeetingPlanner}, koja se sastoji od klijentskih {engl. \textit{Frontend}} i poslužiteljskih {engl. \textit{Backend}} komponenti. UML class dijagrami koji prate ovaj opis ilustriraju strukturu ključnih klasa i njihovu međusobnu povezanost.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.6)  16 SEP 2024 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -855,7 +855,7 @@ Poglavlje 3.
 [6]
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 159.
-<slike/MVC_project.jpeg, id=261, 237.13594pt x 395.22656pt>
+<slike/MVC_project.jpeg, id=266, 237.13594pt x 395.22656pt>
 File: slike/MVC_project.jpeg Graphic file (type jpg)
 <use slike/MVC_project.jpeg>
 Package pdftex.def Info: slike/MVC_project.jpeg  used on input line 175.
@@ -876,258 +876,262 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 
 [9]
 Poglavlje 4.
-<slike/MeetingPlannerFrontend_ClassUML.png, id=289, 2346.7675pt x 812.03375pt>
-File: slike/MeetingPlannerFrontend_ClassUML.png Graphic file (type png)
-<use slike/MeetingPlannerFrontend_ClassUML.png>
-Package pdftex.def Info: slike/MeetingPlannerFrontend_ClassUML.png  used on input line 222.
-(pdftex.def)             Requested size: 455.24411pt x 157.52196pt.
 
 
 [10
 
 ]
-Overfull \hbox (47.74701pt too wide) in paragraph at lines 232--233
+<slike/MeetingPlannerFrontend_ClassUML.png, id=299, 2346.7675pt x 812.03375pt>
+File: slike/MeetingPlannerFrontend_ClassUML.png Graphic file (type png)
+<use slike/MeetingPlannerFrontend_ClassUML.png>
+Package pdftex.def Info: slike/MeetingPlannerFrontend_ClassUML.png  used on input line 233.
+(pdftex.def)             Requested size: 455.24411pt x 157.52196pt.
+
+Overfull \hbox (47.74701pt too wide) in paragraph at lines 243--244
 []\T1/phv/m/n/10.95 Modeli kao ²to su \T1/pcr/m/n/10.95 FreeBusyViewModel\T1/phv/m/n/10.95 , \T1/pcr/m/n/10.95 AvailabilityRequestModel\T1/phv/m/n/10.95 , i \T1/pcr/m/n/10.95 InsertEventModel
  []
 
-<slike/MeetingPlannerAPI_ClassUML.png, id=298, 1681.28125pt x 1195.46625pt>
-File: slike/MeetingPlannerAPI_ClassUML.png Graphic file (type png)
-<use slike/MeetingPlannerAPI_ClassUML.png>
-Package pdftex.def Info: slike/MeetingPlannerAPI_ClassUML.png  used on input line 241.
-(pdftex.def)             Requested size: 364.19667pt x 258.95381pt.
 
 
 [11 <./slike/MeetingPlannerFrontend_ClassUML.png>]
-Overfull \hbox (41.17702pt too wide) in paragraph at lines 251--252
+<slike/MeetingPlannerAPI_ClassUML.png, id=308, 1681.28125pt x 1195.46625pt>
+File: slike/MeetingPlannerAPI_ClassUML.png Graphic file (type png)
+<use slike/MeetingPlannerAPI_ClassUML.png>
+Package pdftex.def Info: slike/MeetingPlannerAPI_ClassUML.png  used on input line 252.
+(pdftex.def)             Requested size: 364.19667pt x 258.95381pt.
+
+Overfull \hbox (41.17702pt too wide) in paragraph at lines 262--263
 []\T1/phv/m/n/10.95 Modeli kao ²to su \T1/pcr/m/n/10.95 InsertEventModel\T1/phv/m/n/10.95 , \T1/pcr/m/n/10.95 SimpleEventModel\T1/phv/m/n/10.95 , i \T1/pcr/m/n/10.95 AvailabilityRequestModel
  []
 
-<slike/google_console.png, id=305, 1412.27625pt x 641.39626pt>
+<slike/google_console.png, id=309, 1412.27625pt x 641.39626pt>
 File: slike/google_console.png Graphic file (type png)
 <use slike/google_console.png>
-Package pdftex.def Info: slike/google_console.png  used on input line 260.
+Package pdftex.def Info: slike/google_console.png  used on input line 271.
 (pdftex.def)             Requested size: 409.71692pt x 186.07845pt.
 
 
 [12 <./slike/MeetingPlannerAPI_ClassUML.png (PNG copy)>]
-<slike/enabledGoogleCalendarAPI.png, id=310, 1214.28656pt x 462.22687pt>
+<slike/enabledGoogleCalendarAPI.png, id=315, 1214.28656pt x 462.22687pt>
 File: slike/enabledGoogleCalendarAPI.png Graphic file (type png)
 <use slike/enabledGoogleCalendarAPI.png>
-Package pdftex.def Info: slike/enabledGoogleCalendarAPI.png  used on input line 267.
+Package pdftex.def Info: slike/enabledGoogleCalendarAPI.png  used on input line 278.
 (pdftex.def)             Requested size: 364.19667pt x 138.63387pt.
-<slike/additionalINfo.png, id=311, 633.11531pt x 310.91156pt>
+<slike/additionalINfo.png, id=316, 633.11531pt x 310.91156pt>
 File: slike/additionalINfo.png Graphic file (type png)
 <use slike/additionalINfo.png>
-Package pdftex.def Info: slike/additionalINfo.png  used on input line 275.
+Package pdftex.def Info: slike/additionalINfo.png  used on input line 286.
 (pdftex.def)             Requested size: 364.19667pt x 178.8534pt.
-<slike/TestUSers.png, id=312, 408.02437pt x 173.14688pt>
+
+
+[13 <./slike/google_console.png (PNG copy)> <./slike/enabledGoogleCalendarAPI.png (PNG copy)>]
+<slike/TestUSers.png, id=324, 408.02437pt x 173.14688pt>
 File: slike/TestUSers.png Graphic file (type png)
 <use slike/TestUSers.png>
-Package pdftex.def Info: slike/TestUSers.png  used on input line 283.
+Package pdftex.def Info: slike/TestUSers.png  used on input line 294.
 (pdftex.def)             Requested size: 364.19667pt x 154.55466pt.
-
-
-[13 <./slike/google_console.png (PNG copy)> <./slike/enabledGoogleCalendarAPI.png (PNG copy)> <./slike/additionalINfo.png (PNG copy)>]
-<slike/struktura.png, id=321, 246.1697pt x 54.2025pt>
+<slike/struktura.png, id=325, 246.1697pt x 54.2025pt>
 File: slike/struktura.png Graphic file (type png)
 <use slike/struktura.png>
-Package pdftex.def Info: slike/struktura.png  used on input line 292.
+Package pdftex.def Info: slike/struktura.png  used on input line 303.
 (pdftex.def)             Requested size: 273.14923pt x 60.14563pt.
 
 
-[14 <./slike/TestUSers.png (PNG copy)> <./slike/struktura.png (PNG copy)>]
-<slike/auth.png, id=328, 605.26125pt x 446.41782pt>
+[14 <./slike/additionalINfo.png (PNG copy)> <./slike/TestUSers.png (PNG copy)> <./slike/struktura.png (PNG copy)>]
+
+[15]
+<slike/auth.png, id=337, 605.26125pt x 446.41782pt>
 File: slike/auth.png Graphic file (type png)
 <use slike/auth.png>
-Package pdftex.def Info: slike/auth.png  used on input line 307.
+Package pdftex.def Info: slike/auth.png  used on input line 318.
 (pdftex.def)             Requested size: 318.66948pt x 235.0404pt.
-<slike/loginwithgoogle.png, id=329, 576.65437pt x 134.00063pt>
+<slike/loginwithgoogle.png, id=338, 576.65437pt x 134.00063pt>
 File: slike/loginwithgoogle.png Graphic file (type png)
 <use slike/loginwithgoogle.png>
-Package pdftex.def Info: slike/loginwithgoogle.png  used on input line 314.
+Package pdftex.def Info: slike/loginwithgoogle.png  used on input line 325.
 (pdftex.def)             Requested size: 409.71692pt x 95.21265pt.
 
 
-[15 <./slike/auth.png (PNG copy)> <./slike/loginwithgoogle.png (PNG copy)>]
-<slike/callbackFunction.png, id=336, 562.35094pt x 269.50688pt>
+[16 <./slike/auth.png (PNG copy)> <./slike/loginwithgoogle.png (PNG copy)>]
+<slike/callbackFunction.png, id=345, 562.35094pt x 269.50688pt>
 File: slike/callbackFunction.png Graphic file (type png)
 <use slike/callbackFunction.png>
-Package pdftex.def Info: slike/callbackFunction.png  used on input line 323.
+Package pdftex.def Info: slike/callbackFunction.png  used on input line 334.
 (pdftex.def)             Requested size: 409.71692pt x 196.35593pt.
-<slike/storeToken.png, id=337, 708.39656pt x 411.78844pt>
+<slike/storeToken.png, id=346, 708.39656pt x 411.78844pt>
 File: slike/storeToken.png Graphic file (type png)
 <use slike/storeToken.png>
-Package pdftex.def Info: slike/storeToken.png  used on input line 331.
+Package pdftex.def Info: slike/storeToken.png  used on input line 342.
 (pdftex.def)             Requested size: 409.71692pt x 238.1714pt.
-<slike/calendarView.png, id=338, 347.04657pt x 536.75531pt>
+<slike/calendarView.png, id=347, 347.04657pt x 536.75531pt>
 File: slike/calendarView.png Graphic file (type png)
 <use slike/calendarView.png>
-Package pdftex.def Info: slike/calendarView.png  used on input line 346.
+Package pdftex.def Info: slike/calendarView.png  used on input line 357.
 (pdftex.def)             Requested size: 273.14923pt x 422.47589pt.
 
 
-[16 <./slike/callbackFunction.png (PNG copy)> <./slike/storeToken.png (PNG copy)>]
-<slike/cControllerIndex.png, id=345, 455.45157pt x 444.15938pt>
+[17 <./slike/callbackFunction.png (PNG copy)> <./slike/storeToken.png (PNG copy)>]
+<slike/cControllerIndex.png, id=354, 455.45157pt x 444.15938pt>
 File: slike/cControllerIndex.png Graphic file (type png)
 <use slike/cControllerIndex.png>
-Package pdftex.def Info: slike/cControllerIndex.png  used on input line 355.
+Package pdftex.def Info: slike/cControllerIndex.png  used on input line 366.
 (pdftex.def)             Requested size: 409.71692pt x 399.56352pt.
 
 
-[17 <./slike/calendarView.png (PNG copy)>]
-<slike/calendarRequest.png, id=351, 559.33969pt x 63.98906pt>
+[18 <./slike/calendarView.png (PNG copy)>]
+<slike/calendarRequest.png, id=360, 559.33969pt x 63.98906pt>
 File: slike/calendarRequest.png Graphic file (type png)
 <use slike/calendarRequest.png>
-Package pdftex.def Info: slike/calendarRequest.png  used on input line 365.
+Package pdftex.def Info: slike/calendarRequest.png  used on input line 376.
 (pdftex.def)             Requested size: 409.71692pt x 46.87369pt.
-<slike/calendarReturn.png, id=352, 410.2828pt x 159.59625pt>
+<slike/calendarReturn.png, id=361, 410.2828pt x 159.59625pt>
 File: slike/calendarReturn.png Graphic file (type png)
 <use slike/calendarReturn.png>
-Package pdftex.def Info: slike/calendarReturn.png  used on input line 373.
+Package pdftex.def Info: slike/calendarReturn.png  used on input line 384.
 (pdftex.def)             Requested size: 409.71692pt x 159.37422pt.
 
 
-[18 <./slike/cControllerIndex.png (PNG copy)> <./slike/calendarRequest.png (PNG copy)>]
-<slike/GetCalendarEventsEndpoint.png, id=359, 590.95781pt x 309.40594pt>
+[19 <./slike/cControllerIndex.png (PNG copy)> <./slike/calendarRequest.png (PNG copy)>]
+<slike/GetCalendarEventsEndpoint.png, id=369, 590.95781pt x 309.40594pt>
 File: slike/GetCalendarEventsEndpoint.png Graphic file (type png)
 <use slike/GetCalendarEventsEndpoint.png>
-Package pdftex.def Info: slike/GetCalendarEventsEndpoint.png  used on input line 383.
+Package pdftex.def Info: slike/GetCalendarEventsEndpoint.png  used on input line 394.
 (pdftex.def)             Requested size: 409.71692pt x 214.51953pt.
-<slike/GetCalendarService.png, id=360, 418.56375pt x 271.76532pt>
+<slike/GetCalendarService.png, id=370, 418.56375pt x 271.76532pt>
 File: slike/GetCalendarService.png Graphic file (type png)
 <use slike/GetCalendarService.png>
-Package pdftex.def Info: slike/GetCalendarService.png  used on input line 391.
+Package pdftex.def Info: slike/GetCalendarService.png  used on input line 402.
 (pdftex.def)             Requested size: 409.71692pt x 266.02132pt.
 
 
-[19 <./slike/calendarReturn.png (PNG copy)> <./slike/GetCalendarEventsEndpoint.png>]
-<slike/GetSimpleEventAsync.png, id=369, 587.19376pt x 448.67625pt>
+[20 <./slike/calendarReturn.png (PNG copy)> <./slike/GetCalendarEventsEndpoint.png>]
+<slike/GetSimpleEventAsync.png, id=378, 587.19376pt x 448.67625pt>
 File: slike/GetSimpleEventAsync.png Graphic file (type png)
 <use slike/GetSimpleEventAsync.png>
-Package pdftex.def Info: slike/GetSimpleEventAsync.png  used on input line 399.
+Package pdftex.def Info: slike/GetSimpleEventAsync.png  used on input line 410.
 (pdftex.def)             Requested size: 364.19667pt x 278.2791pt.
-<slike/calendarEvents.png, id=370, 1443.89438pt x 280.04625pt>
+<slike/calendarEvents.png, id=379, 1443.89438pt x 280.04625pt>
 File: slike/calendarEvents.png Graphic file (type png)
 <use slike/calendarEvents.png>
-Package pdftex.def Info: slike/calendarEvents.png  used on input line 406.
+Package pdftex.def Info: slike/calendarEvents.png  used on input line 417.
 (pdftex.def)             Requested size: 364.19667pt x 70.63525pt.
 
 
-[20 <./slike/GetCalendarService.png (PNG copy)> <./slike/GetSimpleEventAsync.png (PNG copy)>]
-<slike/protokPodataka.png, id=377, 1041.8925pt x 415.5525pt>
+[21 <./slike/GetCalendarService.png (PNG copy)> <./slike/GetSimpleEventAsync.png (PNG copy)>]
+<slike/protokPodataka.png, id=386, 1041.8925pt x 415.5525pt>
 File: slike/protokPodataka.png Graphic file (type png)
 <use slike/protokPodataka.png>
-Package pdftex.def Info: slike/protokPodataka.png  used on input line 422.
+Package pdftex.def Info: slike/protokPodataka.png  used on input line 433.
 (pdftex.def)             Requested size: 364.19667pt x 145.25533pt.
 
 
-[21 <./slike/calendarEvents.png> <./slike/protokPodataka.png (PNG copy)>]
-<slike/timesAvaileble.png, id=385, 1010.27437pt x 432.86719pt>
+[22 <./slike/calendarEvents.png> <./slike/protokPodataka.png (PNG copy)>]
+<slike/timesAvaileble.png, id=394, 1010.27437pt x 432.86719pt>
 File: slike/timesAvaileble.png Graphic file (type png)
 <use slike/timesAvaileble.png>
-Package pdftex.def Info: slike/timesAvaileble.png  used on input line 440.
+Package pdftex.def Info: slike/timesAvaileble.png  used on input line 451.
 (pdftex.def)             Requested size: 318.66948pt x 136.53882pt.
-<slike/getfreebuisy.png, id=386, 846.16125pt x 402.00188pt>
+<slike/getfreebuisy.png, id=395, 846.16125pt x 402.00188pt>
 File: slike/getfreebuisy.png Graphic file (type png)
 <use slike/getfreebuisy.png>
-Package pdftex.def Info: slike/getfreebuisy.png  used on input line 449.
+Package pdftex.def Info: slike/getfreebuisy.png  used on input line 460.
 (pdftex.def)             Requested size: 318.66948pt x 151.3944pt.
 
 
-[22 <./slike/timesAvaileble.png>]
-<slike/GetBuisyLocation.png, id=393, 740.0147pt x 532.23843pt>
+[23 <./slike/timesAvaileble.png>]
+<slike/GetBuisyLocation.png, id=402, 740.0147pt x 532.23843pt>
 File: slike/GetBuisyLocation.png Graphic file (type png)
 <use slike/GetBuisyLocation.png>
-Package pdftex.def Info: slike/GetBuisyLocation.png  used on input line 456.
+Package pdftex.def Info: slike/GetBuisyLocation.png  used on input line 467.
 (pdftex.def)             Requested size: 318.66948pt x 229.19916pt.
-<slike/FreePeriods.png, id=394, 706.13812pt x 577.40718pt>
+<slike/FreePeriods.png, id=403, 706.13812pt x 577.40718pt>
 File: slike/FreePeriods.png Graphic file (type png)
 <use slike/FreePeriods.png>
-Package pdftex.def Info: slike/FreePeriods.png  used on input line 464.
+Package pdftex.def Info: slike/FreePeriods.png  used on input line 475.
 (pdftex.def)             Requested size: 364.19667pt x 297.80414pt.
 
 
-[23 <./slike/getfreebuisy.png (PNG copy)> <./slike/GetBuisyLocation.png (PNG copy)>]
-<slike/dijagramSlijedaFreePeriods.png, id=401, 1936.23375pt x 847.165pt>
+[24 <./slike/getfreebuisy.png (PNG copy)> <./slike/GetBuisyLocation.png (PNG copy)>]
+<slike/dijagramSlijedaFreePeriods.png, id=410, 1936.23375pt x 847.165pt>
 File: slike/dijagramSlijedaFreePeriods.png Graphic file (type png)
 <use slike/dijagramSlijedaFreePeriods.png>
-Package pdftex.def Info: slike/dijagramSlijedaFreePeriods.png  used on input line 471.
+Package pdftex.def Info: slike/dijagramSlijedaFreePeriods.png  used on input line 482.
 (pdftex.def)             Requested size: 409.71692pt x 179.25427pt.
-<slike/insertMeeting.png, id=402, 545.78906pt x 587.94656pt>
+<slike/insertMeeting.png, id=411, 545.78906pt x 587.94656pt>
 File: slike/insertMeeting.png Graphic file (type png)
 <use slike/insertMeeting.png>
-Package pdftex.def Info: slike/insertMeeting.png  used on input line 479.
+Package pdftex.def Info: slike/insertMeeting.png  used on input line 490.
 (pdftex.def)             Requested size: 364.19667pt x 392.32526pt.
 
 
-[24 <./slike/FreePeriods.png> <./slike/dijagramSlijedaFreePeriods.png (PNG copy)>]
-<slike/createEventForAllUsers.png, id=410, 694.09312pt x 414.79968pt>
+[25 <./slike/FreePeriods.png> <./slike/dijagramSlijedaFreePeriods.png (PNG copy)>]
+<slike/createEventForAllUsers.png, id=420, 694.09312pt x 414.79968pt>
 File: slike/createEventForAllUsers.png Graphic file (type png)
 <use slike/createEventForAllUsers.png>
-Package pdftex.def Info: slike/createEventForAllUsers.png  used on input line 486.
+Package pdftex.def Info: slike/createEventForAllUsers.png  used on input line 497.
 (pdftex.def)             Requested size: 364.19667pt x 217.65283pt.
 
 
-[25 <./slike/insertMeeting.png (PNG copy)>]
-<slike/appUsage1.png, id=417, 1444.64719pt x 703.12688pt>
+[26 <./slike/insertMeeting.png (PNG copy)>]
+<slike/appUsage1.png, id=426, 1444.64719pt x 703.12688pt>
 File: slike/appUsage1.png Graphic file (type png)
 <use slike/appUsage1.png>
-Package pdftex.def Info: slike/appUsage1.png  used on input line 495.
+Package pdftex.def Info: slike/appUsage1.png  used on input line 506.
 (pdftex.def)             Requested size: 364.19667pt x 177.25113pt.
-<slike/appUsage2.png, id=418, 487.06969pt x 408.77719pt>
+<slike/appUsage2.png, id=427, 487.06969pt x 408.77719pt>
 File: slike/appUsage2.png Graphic file (type png)
 <use slike/appUsage2.png>
-Package pdftex.def Info: slike/appUsage2.png  used on input line 502.
+Package pdftex.def Info: slike/appUsage2.png  used on input line 513.
 (pdftex.def)             Requested size: 364.19667pt x 305.65276pt.
 
 
-[26 <./slike/createEventForAllUsers.png (PNG copy)> <./slike/appUsage1.png>]
-<slike/appUsage3.png, id=426, 1086.30844pt x 271.76532pt>
+[27 <./slike/createEventForAllUsers.png (PNG copy)> <./slike/appUsage1.png>]
+<slike/appUsage3.png, id=435, 1086.30844pt x 271.76532pt>
 File: slike/appUsage3.png Graphic file (type png)
 <use slike/appUsage3.png>
-Package pdftex.def Info: slike/appUsage3.png  used on input line 509.
+Package pdftex.def Info: slike/appUsage3.png  used on input line 520.
 (pdftex.def)             Requested size: 364.19667pt x 91.11346pt.
-<slike/appUsage4.png, id=427, 1047.16219pt x 435.12563pt>
+<slike/appUsage4.png, id=436, 1047.16219pt x 435.12563pt>
 File: slike/appUsage4.png Graphic file (type png)
 <use slike/appUsage4.png>
-Package pdftex.def Info: slike/appUsage4.png  used on input line 516.
+Package pdftex.def Info: slike/appUsage4.png  used on input line 527.
 (pdftex.def)             Requested size: 364.19667pt x 151.33353pt.
 
 
-[27 <./slike/appUsage2.png> <./slike/appUsage3.png>]
-<slike/appUsage5.png, id=436, 1035.87pt x 627.84563pt>
+[28 <./slike/appUsage2.png> <./slike/appUsage3.png>]
+<slike/appUsage5.png, id=446, 1035.87pt x 627.84563pt>
 File: slike/appUsage5.png Graphic file (type png)
 <use slike/appUsage5.png>
-Package pdftex.def Info: slike/appUsage5.png  used on input line 523.
+Package pdftex.def Info: slike/appUsage5.png  used on input line 534.
 (pdftex.def)             Requested size: 364.19667pt x 220.74559pt.
-<slike/appUsage6.png, id=437, 386.94562pt x 166.37157pt>
+<slike/appUsage6.png, id=447, 386.94562pt x 166.37157pt>
 File: slike/appUsage6.png Graphic file (type png)
 <use slike/appUsage6.png>
-Package pdftex.def Info: slike/appUsage6.png  used on input line 530.
+Package pdftex.def Info: slike/appUsage6.png  used on input line 541.
 (pdftex.def)             Requested size: 364.19667pt x 156.59236pt.
 
 
-[28 <./slike/appUsage4.png> <./slike/appUsage5.png>]
-<slike/appUsage7.png, id=447, 267.24844pt x 255.95625pt>
+[29 <./slike/appUsage4.png> <./slike/appUsage5.png>]
+<slike/appUsage7.png, id=456, 267.24844pt x 255.95625pt>
 File: slike/appUsage7.png Graphic file (type png)
 <use slike/appUsage7.png>
-Package pdftex.def Info: slike/appUsage7.png  used on input line 537.
+Package pdftex.def Info: slike/appUsage7.png  used on input line 548.
 (pdftex.def)             Requested size: 364.19667pt x 348.84575pt.
 
 
-[29 <./slike/appUsage6.png> <./slike/appUsage7.png>]
+[30 <./slike/appUsage6.png> <./slike/appUsage7.png>]
 Poglavlje 5.
 
 
-[30
+[31
 
 ]
 
-[31
+[32
 
 ] (output_files/main.lof
 
-[32
+[33
 
 ])
 \tf@lof=\write7
@@ -1135,30 +1139,30 @@ Poglavlje 5.
 
 
 
-[33] (output_files/main.aux)
+[34] (output_files/main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A169B543D3115792139B2F8B9B6137BF;7545.
+(rerunfilecheck)             Checksum: 21922E8ECA61EADA99FD9706A084353A;7758.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24850 strings out of 473579
- 431310 string characters out of 5732264
+ 24853 strings out of 473579
+ 431351 string characters out of 5732264
  1942960 words of memory out of 5000000
- 47294 multiletter control sequences out of 15000+600000
+ 47295 multiletter control sequences out of 15000+600000
  603702 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 81i,12n,95p,1436b,2239s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,12n,95p,1436b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on output_files/main.pdf (39 pages, 1765764 bytes).
+Output written on output_files/main.pdf (40 pages, 1767227 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 482 compressed objects within 5 object streams
- 124 named destinations out of 1000 (max. 500000)
- 472 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 594 PDF objects out of 1000 (max. 8388607)
+ 490 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 480 words of extra memory for PDF output out of 10000 (max. 10000000)
 
