@@ -38,7 +38,7 @@
 \chapter{Uvod}
 U ovom radu ćemo se usredotočiti na izradu programa za dogovaranje sastanaka kroz upotrebu Google API-ja, koji nam omogućava interakciju s iznimno popularnim Google kalendarom. Realizirat ćemo program koristeći ASP.NET Core i Razor stranice za izradu front-end sučelja te upravljanje podacima, dok će ASP.NET Web API služiti za primanje HTTP zahtjeva i komuniciranje s Google servisima za manipuliranje događajima.
 
-\chapter{Problemska domena pronalaska termina sastanaka}
+\chapter{Problem pronalaska slobodnog termina za sastanke}
 
 U današnjem poslovnom okruženju učinkovito upravljanje vremenom od ključne je važnosti za organizaciju i koordinaciju timova, sastanaka i događanja. S obzirom na sve veći broj sastanaka i obaveza, pronalazak zajedničkog slobodnog vremena za više sudionika predstavlja izazov, osobito u organizacijama s velikim brojem zaposlenika ili suradnicima na različitim lokacijama. Ovaj problem postaje još složeniji kada se u obzir uzmu raspoloživi resursi poput dvorana, tehničke opreme ili vremena dostupnosti pojedinaca.
 
@@ -56,12 +56,12 @@ Uspješno rješavanje ovog problema ključno je za povećanje produktivnosti i s
 Jedno od najpoznatijih rješenja za organizaciju sastanaka je \textbf{Microsoft Outlook}, posebno za korisnike koji koriste Microsoft 365 ili Microsoft Exchange račune. Outlook omogućuje planiranje sastanaka pomoću alata poput \textit{Scheduling Assistant} i \textit{Room Finder}. Ovi alati pomažu u pronalasku slobodnog vremena ne samo za sudionike sastanka, već i za raspoložive resurse, kao što su dvorane za sastanke.
 \textit{Scheduling Assistant} omogućuje korisnicima pregled dostupnih termina sudionika te automatski predlaže najbolje vrijeme za sastanak prema njihovim zauzetim i slobodnim terminima. Uz to, \textit{Room Finder} olakšava pronalazak slobodnih prostorija, ovisno o postavkama unutar Microsoft 365 ili Exchange okruženja.
 Iako je Outlook vrlo moćno rješenje, njegova upotreba veže korisnike na Microsoftov ekosustav, što znači da organizacije koje ne koriste Microsoft 365 ili Exchange ne mogu u potpunosti iskoristiti sve funkcionalnosti ovog alata. Osim toga, velik dio tržišta koristi \textit{Google Calendar}, koji je mnogo pristupačniji i popularniji među korisnicima, osobito u manjim organizacijama i među individualnim korisnicima. Stoga, iako Outlook nudi napredne funkcionalnosti, njegov utjecaj je ograničen na specifičnu skupinu korisnika, dok je \textit{Google Calendar} prisutniji na globalnom tržištu.
-
-\chapter{Google Cloud projekt}
+\chapter{Tehnologije za razvoj rješenja}
+\section{Google Cloud projekt}
 
 Kako bi se koristili \textit{Google Workspace API}-ji i razvijale aplikacije koje koriste Google servise, potrebno je postaviti projekt unutar \textit{Google Cloud Console}-a. Google Cloud projekt pruža osnovu za kreiranje, omogućavanje i korištenje svih Google Cloud servisa, uključujući upravljanje API-ima, omogućavanje naplate, dodavanje suradnika i upravljanje dopuštenjima. Kreiranje projekta unutar Google Cloud-a ključan je korak u integraciji aplikacija s Google Workspace servisima, jer omogućuje autentifikaciju i autorizaciju korisnika te sigurno upravljanje podacima \cite{GoogleWorkspace2024}.
 
-\section{Proces kreiranja Google Cloud projekta}
+\subsection{Proces kreiranja Google Cloud projekta}
 
 Kreiranje Google Cloud projekta započinje prijavom u \textit{Google Cloud Console} i kreiranjem novog projekta. Proces uključuje sljedeće korake:
 \begin{itemize}
@@ -74,7 +74,7 @@ Kreiranje Google Cloud projekta započinje prijavom u \textit{Google Cloud Conso
 
 Ovaj proces stvara osnovnu strukturu projekta, unutar koje se može omogućiti pristup različitim Google API-ima, postaviti naplata te dodijeliti suradnike i potrebne uloge \cite{GoogleWorkspace2024}.
 
-\section{Omogućavanje API-ja unutar Google Cloud projekta}
+\subsection{Omogućavanje API-ja unutar Google Cloud projekta}
 
 Jedan od ključnih koraka nakon kreiranja projekta je omogućavanje relevantnih API-ja koji će se koristiti u aplikaciji. Primjerice, za rad s \textit{Google Calendar API}-jem, potrebno je omogućiti taj API unutar projekta. Proces uključuje sljedeće korake:
 \begin{itemize}
@@ -84,23 +84,23 @@ Jedan od ključnih koraka nakon kreiranja projekta je omogućavanje relevantnih 
 
 Omogućavanje API-ja otvara pristup API pozivima koji omogućuju interakciju s Googleovim servisima, kao što je dohvaćanje, kreiranje i upravljanje događajima unutar Google kalendara \cite{GoogleWorkspace2024}.
 
-\section{Postavljanje naplate i upravljanje korisnicima}
+\subsection{Postavljanje naplate i upravljanje korisnicima}
 
 Ovisno o vrstama API-ja koje aplikacija koristi, može biti potrebno omogućiti naplatu za Google Cloud projekt. To uključuje povezivanje projekta s računom za naplatu, koji prati korištenje API-ja te osigurava da se premašene kvote pravilno naplate. U \textit{Billing} odjeljku unutar \textit{Google Cloud Console}-a, korisnik može odabrati opciju \textit{Billing \& My Projects} te odabrati odgovarajući račun za naplatu \cite{GoogleWorkspace2024}.
 
-Dodatno, Google Cloud projekt omogućuje dodavanje suradnika i postavljanje različitih uloga za upravljanje projektom. Unutar \textit{IAM \& Admin} postavki, mogu se dodati korisnici s različitim razinama pristupa.\cite{GoogleWorkspace2024}
-\chapter{API}
-Kada korisnik koristi softver kao klijent, često koristi nekakvo softversko sučelje za interakciju s softverom, ali kada je potrebno da jedan softver koristi dijelove drugog softvera tada koristimo vrstu sučelja za programiranje aplikacija (engl. \textit{Application Programming Interface}) ili skraćeno API.\cite{biehl2015api}
+Dodatno, Google Cloud projekt omogućuje dodavanje suradnika i postavljanje različitih uloga za upravljanje projektom. Unutar \textit{IAM \& Admin} postavki, mogu se dodati korisnici s različitim razinama pristupa \cite{GoogleWorkspace2024}.
+\section{API}
+Kada korisnik koristi softver kao klijent, često koristi nekakvo softversko sučelje za interakciju s softverom, ali kada je potrebno da jedan softver koristi dijelove drugog softvera tada koristimo vrstu sučelja za programiranje aplikacija (engl. \textit{Application Programming Interface}) ili skraćeno API \cite{biehl2015api}.
 Ta interakcija se najčešće bazira na tome da klijent šalje HTTP zahtjev serveru na određenu lokaciju i dobiva nazad podatke.
 API zahtjev se sastoji od nekoliko dijelova:
 \begin{itemize}
     \item Operacija koja se izvršava (primjer. \textit{GET, POST})
     \item Autentifikacijski parametri
-    \item Odredište - URL API završne točke (engl. \textit{endpoint})
+    \item Odredište - URL API krajnja točke (engl. \textit{endpoint})
 \end{itemize}
-Poziv može sadržavati i druge parametre ali ovo su tri osnovna koja će se uvijek koristiti.\cite{altexsoft}
-\section{HTTP zahtjevi}
-Kada klijent šalje zahtjev poslužitelju mora specifirati u zahtjevu koju metodu želi izvršiti, imena metoda se odnose na ono što želimo postići sa zahtjevom. \cite{Maurya2021} 
+Poziv može sadržavati i druge parametre ali ovo su tri osnovna koja će se uvijek koristiti \cite{altexsoft}.
+\subsection{HTTP zahtjevi}
+Kada klijent šalje zahtjev poslužitelju mora specifirati u zahtjevu koju metodu želi izvršiti, imena metoda se odnose na ono što želimo postići sa zahtjevom \cite{Maurya2021}. 
 \begin{itemize}
     \item \textbf{GET} metoda koristi se za dohvaćanje podataka
     \item \textbf{POST} - slanje i dodavanje podataka
@@ -108,15 +108,15 @@ Kada klijent šalje zahtjev poslužitelju mora specifirati u zahtjevu koju metod
     \item \textbf{DELETE} - brisanje resursa 
 \end{itemize}
 
-\section{RESTFul API}
-RESTFul API je vrsta API-ja koja prati REST \textit(eng. {representational state transfer}) principe dizajna, može biti u bilo kojem jeziku i može koristiti bilo koju vrstu podataka \cite{ibm_rest_api}.
-Iako najčešće koristi HTTP protokol on nije nužno vezan za njega.\cite{Microsoft2023}
+\subsection{RESTFul API}
+RESTFul API je vrsta API-ja koja prati REST \textit(eng. {representational state transfer}) principe dizajna. RESTFul API može biti u bilo kojem jeziku i može koristiti bilo koju vrstu podataka \cite{ibm_rest_api}.
+Iako najčešće koristi HTTP protokol on nije nužno vezan za njega \cite{Microsoft2023}. Osnovne smjernice RESTFul pristupa su:
 \begin{itemize}
     \item \textbf{Jedinstveno sučelje} - API dizajn mora biti konzistentan i predvidljiv, s pristupom resursima putem standardnih HTTP metoda kao što su GET, POST, PUT i DELETE.
     
     \item \textbf{Razdvajanje klijenta i servera} - Klijent i server su neovisni, gdje server ne čuva informacije o stanju klijenta između zahtjeva, a klijent nema direktan pristup podacima na serveru.
     
-    \item \textbf{Bezustanje (engl. \textit{Stateless})} - Svaki zahtjev od klijenta prema serveru mora sadržavati sve potrebne informacije za obradu, bez potrebe za čuvanjem stanja na serveru.
+    \item \textbf{Bez stanja (engl. \textit{Stateless})} - Svaki zahtjev od klijenta prema serveru mora sadržavati sve potrebne informacije za obradu, bez potrebe za čuvanjem stanja na serveru.
     
     \item \textbf{Keširanje} - Resursi se mogu keširati kako bi se smanjilo opterećenje servera i omogućilo ponovnu upotrebu već preuzetih podataka.
     
@@ -125,31 +125,31 @@ Iako najčešće koristi HTTP protokol on nije nužno vezan za njega.\cite{Micro
     \item \textbf{Kod na zahtjev (opcionalno)} - Klijent može preuzeti i izvršiti kod od servera radi proširenja funkcionalnosti aplikacije. 
 \end{itemize}
 
-\chapter{ASP.NET Core}
-\section{ASP.NET MVC}
+\section{ASP.NET Core}
+\subsection{ASP.NET MVC}
 ASP.NET MVC je framework koji se bazira na MVC (engl. \textit{Model-View-Controller}) arhitekturi, izgrađen je na .NET platformi i koristi se za izradu web aplikacija \cite{Tyler2024}.
 Kao što ime glasi, MVC arhitektura se sastoji od modela, pregleda (eng. \textit{View}) i kontrolera (eng. \textit{Controller}). Ovaj oblik dizajna prati prvi princip SOLID metoda, razdvajanja odgovornosti (eng. \textit{Seperation of concerns}).
-MVC omogućava ponovnu upotrebljivost, i zbog podjele na 3 glavne komponente olakšava održavanje koda. \cite{GeeksforGeeks2024}
+MVC omogućava ponovnu upotrebljivost, i zbog podjele na 3 glavne komponente olakšava održavanje koda \cite{GeeksforGeeks2024}.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{slike/MVC_project.jpeg}
+    \includegraphics[width=0.2\textwidth]{slike/MVC_project.jpeg}
     \caption{Prikaz MVC u ASP.NET MVC projektu (Izvor: autor)}
     \label{fig:mvc_projekt}
 \end{figure}
 
-\subsection{Model}
-Unutar konteksta ASP.NET MVC projekta, model predstavlja C\# klasu koja sadrži svojstva za spremanje podataka kojima upravljamo. Model je neovisan o korisničkom sučelju ali često će postojati pregled (engl. textit{View}) koji odgovara za prikaz i upravljanje modelom.
+\subsubsection{Model}
+Unutar konteksta ASP.NET MVC projekta, model predstavlja C\# klasu koja sadrži svojstva za spremanje podataka kojima upravljamo. Model je neovisan o korisničkom sučelju ali često će postojati pregled (engl. \textit{View}) koji odgovara za prikaz i upravljanje modelom.
 Model također može sadržavati poslovnu logiku za upravljanje podacima, iako to nije učestala praksa i često se ta uloga daje servisima.
-\subsection{View}
+\subsubsection{View}
 Pregledi (eng. \textit{Views}) se koriste za prikazivanje podataka i korisničku interakciju. ASP.NET MVC koristi Razor stranice, sa ekstenzijom \textit{cshtml}. Razor stranice omogućavaju pisanje C\# koda unutar HTML datoteka koji služi za interaktiranje sa HTML oznakama za generiranje web sadržaja \cite{Smith2022}. Najčešće će svaki pregled imati svoj kontroler koji je odgovoran za rad s pregledima.
 
-\subsection{Controllers}
+\subsubsection{Controllers}
 Kontroler u ASP.NET Core MVC arhitekturi služi kao posrednik između modela i prikaza. On obrađuje korisničke zahtjeve, upravlja podacima iz modela, i odlučuje koji će prikaz biti vraćen korisniku. Kontroleri su ključni dio MVC uzorka jer povezuju poslovnu logiku s korisničkim sučeljem.
 Kontroler je klasa koja obično nasljeđuje baznu klasu \texttt{Controller} i sadrži metode koje se nazivaju akcije (engl. \textit{actions}). Svaka akcija odgovara određenom korisničkom zahtjevu i vraća rezultat, kao što je prikaz (\textit{ViewResult}), JSON podaci (\textit{JsonResult}), ili redirekcija (\textit{RedirectResult}).
-Akcije također možemo opisati kao metode koje se povezivaju kad unesemo određeni URL. \cite{Walther2022}
+Akcije također možemo opisati kao metode koje se povezivaju kad unesemo određeni URL \cite{Walther2022}.
 
-\section{ASP.NET Web API}
-ASP.NET Core nam omogućava da kreiramo web API s upotrebom kontrolera koji su usredočeni na resurse i primanje HTTP zahtjeva. Prednost kreiranja zasebnog Web API projekta je da ga može koristiti više različitih vrsta klijenta.\cite{ASPNet2023}
+\subsection{ASP.NET Web API}
+ASP.NET Core nam omogućava da kreiramo web API s upotrebom kontrolera koji su usredočeni na resurse i primanje HTTP zahtjeva. Prednost kreiranja zasebnog Web API projekta je da ga može koristiti više različitih vrsta klijenta \cite{ASPNet2023}.
 U ASP.NET Core možemo imati dva pristupa kreiranja API-ja:
 \begin{itemize}
     \item \textbf{API bazirani na kontrolerima (engl. \textit{controller-based APIs})}: U ovom pristupu, kontroleri (engl. \textit{controllers}) su klase koje nasljeđuju \texttt{ControllerBase} klasu. Ove klase koriste se za definiranje API krajnjih točaka (engl. \textit{endpoints}). Metode unutar kontrolera mapiraju se na određene HTTP zahtjeve (engl. \textit{HTTP requests}, npr. GET, POST) i vraćaju odgovore u obliku JSON-a, XML-a, ili drugih formata.
@@ -168,19 +168,19 @@ Na bazi toga, definiramo funkcionalnosti.
     \item Upis termina u kalendare (kalendar organizatora i kalendar korisnika): Nakon pronalaska slobodnog termina, sustav će omogućiti organizatoru upis sastanka u svoj kalendar kao i njihove kalendare.
     \item Pronalazak slobodnih termina: Sustav pretražuje slobodne termine za sastanak uzimajući u obzir slobodno vrijeme sudionika, odabrane dane za sastanak i dostupne lokacije.
 \end{itemize}
-Za omogućavanje integracije s Google kalendarom koristiti ćemo Google Calendar API. RESTFul API s kojim se može interaktirati pomoću HTTP poziva.
+Za omogućavanje integracije s Google kalendarom koristiti ćemo Google Calendar API. RESTFul API s kojim se može komunicirati pomoću HTTP poziva.
 \section{Dizajn rješenja}
 
-U ovoj sekciji opisujemo dizajn rješenja za aplikaciju \textit{MeetingPlanner}, koja se sastoji od frontend i backend komponenti. UML class dijagrami koji prate ovaj opis ilustriraju strukturu ključnih klasa i njihovu međusobnu povezanost.
+U ovoj sekciji opisujemo dizajn rješenja za aplikaciju \textit{MeetingPlanner}, koja se sastoji od klijentskih i poslužiteljskih komponenti. UML class dijagrami koji prate ovaj opis ilustriraju strukturu ključnih klasa i njihovu međusobnu povezanost.
 
-\subsection{Struktura frontend-a}
+\subsection{Struktura klijentskog dijela aplikacije}
 
 Na slici \ref{fig:frontend-uml} prikazan je class dijagram za frontend dio aplikacije \textit{MeetingPlanner}. Ovaj dio aplikacije uključuje logiku za dohvaćanje slobodnih termina, autentifikaciju korisnika putem Google usluga, te rad s kalendarima korisnika.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{slike/MeetingPlannerFrontend_ClassUML.png}
-    \caption{Class dijagram frontend komponente}
+    \includegraphics[width=1\textwidth]{slike/MeetingPlannerFrontend_ClassUML.png}
+    \caption{Class dijagram klijentskog dijela aplikacije}
     \label{fig:frontend-uml}
 \end{figure}
 
@@ -192,7 +192,7 @@ Na dijagramu vidimo sljedeće glavne klase i njihove odnose:
     \item Modeli kao što su \texttt{FreeBusyViewModel}, \texttt{AvailabilityRequestModel}, i \texttt{InsertEventModel} definiraju strukturu podataka koja se koristi za prikaz informacija o zauzetim terminima, slanje zahtjeva i kreiranje događaja.
 \end{itemize}
 
-\subsection{Struktura backend-a}
+\subsection{Struktura poslužiteljskog dijela}
 
 Backend rješenje je prikazano na slici \ref{fig:backend-uml}, koja uključuje ključno poslovno logiku za rad s Google Calendar API-em i korisničkim autentifikacijskim tokovima.
 
@@ -207,7 +207,7 @@ Na dijagramu vidimo sljedeće klase i njihove funkcionalnosti:
 \begin{itemize}
     \item \texttt{CalendarController} je glavni kontroler koji koristi \texttt{AvailabilityService} za dohvaćanje slobodnih termina iz Google kalendara, kao i za kreiranje novih događaja.
     \item \texttt{AvailabilityService} koristi \texttt{IGoogleCalendarService} kako bi obavljao složene operacije nad kalendarima korisnika, poput dohvaćanja zauzetih termina i kombiniranja slobodnih perioda.
-    \item \texttt{GoogleCalendarService} implementira stvarnu komunikaciju s Google Calendar API-em, obavljajući pozive za dohvaćanje i ažuriranje događaja.
+    \item \texttt{GoogleCalendarService} implementira stvarnu komunikaciju s Google Calendar API-jem, obavljajući pozive za dohvaćanje i ažuriranje događaja.
     \item Modeli kao što su \texttt{InsertEventModel}, \texttt{SimpleEventModel}, i \texttt{AvailabilityRequestModel} definiraju strukturu podataka potrebnu za komunikaciju s API-em, kao i za spremanje informacija o događajima.
 \end{itemize}
 
@@ -318,12 +318,12 @@ Nakon definiranja ispisa događaja, potrebno je implementirati logiku unutar kon
 
 \end{figure}
 Kontroler dohvaća token pomoću funkcije \textit{GetAccessTokenAsync} te poziva metodu \textit{GetCalendarEventsAsync} koristeći token da pošalje poziv API-ju te upravlja greškama koristeći try/catch metode. 
-Unutar \textit{CalendarService} metoda \textit{GetCalendarEventsAsync} stvara klijent pod imenom "API", to je klijent koji sadrži putanju na backend koji sadrži API endpointove.
-Zahtjevu se dodaje token u \textit{AuthenticationHeaderValue} da se mogu dohvatiti podaci i šalje se zahtjev na definirani endpoint "\textit{calendar/events}"
+Unutar \textit{CalendarService} metoda \textit{GetCalendarEventsAsync} stvara klijent pod imenom "API", to je klijent koji sadrži putanju na poslužitelja koji sadrži API krajnja točke.
+Zahtjevu se dodaje token u \textit{AuthenticationHeaderValue} da se mogu dohvatiti podaci i šalje se zahtjev na definiranu krajnja točku "\textit{calendar/events}".
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{slike/calendarRequest.png}
-    \caption{Slanje zahtjeva na API endpoint za dohvaćanje kalendara (Izvor: autor)}
+    \caption{Slanje zahtjeva na API krajnja točku za dohvaćanje kalendara (Izvor: autor)}
     \label{fig:calendarRequest}
 
 \end{figure}
@@ -335,13 +335,13 @@ Odgovor se mapira iz JSON stringa u .NET objekt, u ovom kontekstu se pretvara u 
     \label{fig:calendarReturnList}
 
 \end{figure}
-Ovo je sva potrebna logika za prednji dio sustava {engl. \textit{Frontend}}. Potrebno je implementirati pozadinski dio {eng. \textit{Backend}}.
+Ovo je sva potrebna logika za klijentski dio sustava {engl. \textit{Frontend}}. Potrebno je implementirati poslužiteljski dio {eng. \textit{Backend}}.
 Pozadinski dio se implementira tako što se definira \textit{ApiController} ruta koja se pozvala u metodi \textit{GetCalendarEventsAsync}. 
 Prvobitno se izvršava validacija tokena te se dohvaćaju događaji pomoću metode \textit{GetSimpleEventsAsync} i provjerava se uspješnost operacije.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{slike/GetCalendarEventsEndpoint.png}
-    \caption{Kalendar "events" endpoint (Izvor: autor)}
+    \caption{Kalendar "events" krajnja točka (Izvor: autor)}
     \label{fig:GetCalendarEventsEndpoint}
 
 \end{figure}
@@ -398,7 +398,7 @@ Korisničko sučelje uključuje obrazac koji šalje zahtjev na \textit{calendar/
     \label{fig:UserInterfaceAvailible}
 \end{figure}
 
-Funkcija \textit{GetAvailableTimesAsync} vraća popis objekata \textit{TimePeriod} koji sadrži vrijeme početka i kraja slobodnog perioda. Zahtjev uključuje token u headeru, a u tijelu se nalaze vremenski period, lokacija i email adrese korisnika. Funkcija šalje POST zahtjev na \textit{get-available-times} endpoint, koji zatim prosljeđuje zahtjev metodi \textit{GetCommonFreePeriodsWithLocation} nakon validacije tokena i zahtjeva.
+Funkcija \textit{GetAvailableTimesAsync} vraća popis objekata \textit{TimePeriod} koji sadrži vrijeme početka i kraja slobodnog perioda. Zahtjev uključuje token u headeru, a u tijelu se nalaze vremenski period, lokacija i email adrese korisnika. Funkcija šalje POST zahtjev na \textit{get-available-times} krajnju točku, koji zatim prosljeđuje zahtjev metodi \textit{GetCommonFreePeriodsWithLocation} nakon validacije tokena i zahtjeva.
 Unutar akcije \textit{GetAvailableTimes} na koju se šalje zahtjev dohvaćaju se prvo svi termini kada su korisnici zauzeti.
 \begin{figure}[H]
     \centering
@@ -430,7 +430,7 @@ Kao završni dio aplikacije potrebno je omogućiti korisniku da unosi aktivnosti
     \caption{Sučelje za unos sastanka (Izvor: autor)}
     \label{fig:InsertMeeting}
 \end{figure}
-Potrebno je poslati POST zahtjev s svim parametrima, uneseni podaci se mapiraju u klasu \textit{InsertEventModel} te se šalju na \textit{calendar/events} endpoint. Stvara se novi \textit{Event} objekt u kalendaru organizatora, te se na taj događaj dodaju članovi.
+Potrebno je poslati POST zahtjev s svim parametrima, uneseni podaci se mapiraju u klasu \textit{InsertEventModel} te se šalju na \textit{calendar/events} krajnju točku. Stvara se novi \textit{Event} objekt u kalendaru organizatora, te se na taj događaj dodaju članovi.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{slike/createEventForAllUsers.png}
